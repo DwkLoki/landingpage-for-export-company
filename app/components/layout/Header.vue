@@ -1,8 +1,14 @@
 <script setup>
 import mainLogo from "~/assets/images/main-logo.png";
 
+const route = useRoute();
 const { locale, locales, setLocale } = useI18n();
 const logoError = ref(false);
+
+const isHomePage = computed(() => {
+    const p = route.path;
+    return p === '/' || /^\/(en|id|zh)\/?$/.test(p);
+});
 const language = computed({
     get: () => locale.value,
     set: (val) => setLocale(val),
@@ -46,7 +52,8 @@ watch(isMobileMenuShow, (val) => {
 
 <template>
     <header
-        class="fixed top-0 w-full h-14 bg-white shadow flex justify-center z-[999999]"
+        class="fixed top-0 w-full h-14 flex justify-center z-[999999] transition-all duration-300"
+        :class="isHomePage ? 'bg-white/10 shadow-none backdrop-blur-md text-white' : 'bg-white shadow text-gray-900'"
     >
         <!-- navigation on desktop view -->
         <nav
@@ -62,34 +69,35 @@ watch(isMobileMenuShow, (val) => {
                         class="h-7"
                         @error="logoError = true"
                     />
-                    <span v-else class="font-bold text-gray-900 text-lg">Ekspor Gula Aren</span>
+                    <span v-else class="text-lg font-bold" :class="isHomePage ? 'text-white' : 'text-gray-900'">Ekspor Gula Aren</span>
                 </NuxtLink>
-                <button @click="toggleMobileMenu" class="ml-4 md:hidden">
+                <button @click="toggleMobileMenu" class="ml-4 md:hidden" :class="isHomePage ? 'text-white' : 'text-gray-900'">
                     <LucideX v-if="isMobileMenuShow" />
                     <LucideMenu v-else />
                 </button>
             </div>
 
             <!-- header middle section -->
-            <ul class="flex gap-10 items-center whitespace-nowrap">
+            <ul class="flex gap-10 items-center whitespace-nowrap" :class="isHomePage ? 'text-white' : ''">
                 <li class="hidden lg:block">
-                    <NuxtLink :to="localePath('/')" class="hover:text-amber-600 transition-colors">Home</NuxtLink>
+                    <NuxtLink :to="localePath('/')" class="transition-colors" :class="isHomePage ? 'hover:text-amber-300' : 'hover:text-amber-600'">Home</NuxtLink>
                 </li>
                 <li class="hidden md:block">
-                    <NuxtLink :to="localePath('/product')" class="hover:text-amber-600 transition-colors">Product</NuxtLink>
+                    <NuxtLink :to="localePath('/product')" class="transition-colors" :class="isHomePage ? 'hover:text-amber-300' : 'hover:text-amber-600'">Product</NuxtLink>
                 </li>
                 <li class="hidden md:block">
-                    <NuxtLink :to="localePath('/service')" class="hover:text-amber-600 transition-colors">Service</NuxtLink>
+                    <NuxtLink :to="localePath('/service')" class="transition-colors" :class="isHomePage ? 'hover:text-amber-300' : 'hover:text-amber-600'">Service</NuxtLink>
                 </li>
                 <li class="hidden lg:block">
-                    <NuxtLink :to="localePath('/contact')" class="hover:text-amber-600 transition-colors">Contact</NuxtLink>
+                    <NuxtLink :to="localePath('/contact')" class="transition-colors" :class="isHomePage ? 'hover:text-amber-300' : 'hover:text-amber-600'">Contact</NuxtLink>
                 </li>
             </ul>
 
             <!-- header right section -->
             <div class="relative hidden md:block">
                 <select
-                    class="bg-gray-light pr-8 py-1 pl-2 appearance-none"
+                    class="pr-8 py-1 pl-2 appearance-none transition-colors"
+                    :class="isHomePage ? 'bg-white/20 text-white border border-white/30' : 'bg-gray-light text-gray-900'"
                     name="language"
                     id="language"
                     v-model="language"
@@ -105,6 +113,7 @@ watch(isMobileMenuShow, (val) => {
                 <LucideChevronDown
                     :size="18"
                     class="absolute right-1 top-1/2 -translate-y-1/2 pointer-events-none"
+                    :class="isHomePage ? 'text-white' : 'text-gray-900'"
                 />
             </div>
         </nav>

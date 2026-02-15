@@ -1,28 +1,50 @@
+<script>
+    import heroImg from "~/assets/images/hero-image.jpg"
+</script>
+
 <template>
     <div>
-        <!-- Hero Section -->
-        <section class="relative bg-gradient-to-br from-amber-50 via-white to-stone-50 py-20 md:py-28">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight tracking-tight">
+        <!-- Hero Section: full viewport, image behind header -->
+        <section
+            class="hero-fullscreen relative flex min-h-screen flex-col justify-center bg-gray-900"
+            aria-label="Hero"
+        >
+            <!-- Background image: kekayaan tanaman Indonesia (ganti dengan /images/hero.jpg jika pakai asset lokal) -->
+            <div
+                class="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                :style="{ backgroundImage: `url(${heroImg})` }"
+            />
+            <!-- Overlay: gradient agar teks terbaca & header menyatu -->
+            <div
+                class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/45 to-black/75"
+                aria-hidden="true"
+            />
+            <!-- Konten di atas overlay -->
+            <div class="relative z-10 mx-auto max-w-4xl px-4 pt-24 pb-16 text-center sm:px-6">
+                <h1 class="text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-sm sm:text-4xl md:text-5xl lg:text-6xl">
                     Bringing Indonesia's Finest Natural Products to the Global Market
                 </h1>
-                <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                <p class="mx-auto mt-6 max-w-2xl text-lg text-white/95 drop-shadow-sm md:text-xl">
                     A trusted export partner based in Makassar & Maros, delivering premium Indonesian food products in large-scale shipments across Southeast Asia, Australia, and beyond.
                 </p>
-                <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <div class="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center">
                     <NuxtLink
                         :to="localePath('/contact')"
-                        class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
+                        class="inline-flex items-center justify-center rounded-xl bg-amber-400 px-8 py-4 text-base font-semibold text-amber-900 shadow-lg transition hover:bg-amber-300"
                     >
                         Request a Quotation
                     </NuxtLink>
                     <NuxtLink
                         :to="localePath('/product')"
-                        class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-amber-700 bg-white border-2 border-amber-600 hover:bg-amber-50 rounded-lg transition-colors"
+                        class="inline-flex items-center justify-center rounded-xl border-2 border-white/90 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
                     >
                         Explore Our Products
                     </NuxtLink>
                 </div>
+            </div>
+            <!-- Scroll cue -->
+            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/70">
+                <span class="inline-block h-8 w-5 rounded-full border-2 border-current" />
             </div>
         </section>
 
@@ -85,3 +107,10 @@
 <script setup>
 const localePath = useLocalePath();
 </script>
+
+<style scoped>
+/* Hero mengisi layar dan 'menarik' ke atas agar menyatu dengan header */
+.hero-fullscreen {
+    margin-top: -3.5rem; /* sama dengan h-14 header */
+}
+</style>
