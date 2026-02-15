@@ -1,0 +1,27 @@
+{
+    "navigation": {
+        "watch": "Watch",
+        "originals": "Originals",
+        "forBusiness": "For Business",
+        "uploadFilm": "Submit Film",
+        "community": "Community",
+        "missions": "Missions",
+        "login": "Log in",
+        "aboutUs": "About",
+        "advice": "Feedback",
+        "help": "Help",
+        "career": "Jobs",
+        "media": "Press",
+        "submitFilm": "Submit Film",
+        "maps": "Sitemap",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Use",
+        "nuggets": "Nuggets",
+        "likes": "Likes",
+        "playlists": "Playlists",
+        "watchLater": "Watch Later",
+        "profile": "Profile",
+        "settings": "Settings",
+        "logout": "Log out"
+    }
+}

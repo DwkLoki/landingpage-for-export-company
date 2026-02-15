@@ -1,0 +1,27 @@
+{
+    "navigation": {
+        "watch": "觀賞",
+        "originals": "Originals",
+        "forBusiness": "企業介紹",
+        "uploadFilm": "呈交作品",
+        "community": "社區",
+        "missions": "Missions",
+        "login": "登錄",
+        "aboutUs": "關於",
+        "advice": "反饋意見",
+        "help": "協助",
+        "career": "徵聘",
+        "media": "媒體",
+        "submitFilm": "呈交作品",
+        "maps": "網絡圖",
+        "privacyPolicy": "使用條例",
+        "termsOfService": "私隱政策聲明",
+        "nuggets": "Nuggets",
+        "likes": "喜歡",
+        "playlists": "播放表",
+        "watchLater": "待會觀賞表",
+        "profile": "個人資料",
+        "settings": "設置",
+        "logout": "登出"
+    }
+}

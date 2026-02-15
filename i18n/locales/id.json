@@ -1,0 +1,27 @@
+{
+    "navigation": {
+        "watch": "Tonton",
+        "originals": "Originals",
+        "forBusiness": "Untuk Brand",
+        "uploadFilm": "Unggah Film",
+        "community": "Komunitas",
+        "missions": "Misi",
+        "login": "Masuk",
+        "aboutUs": "Tentang Kami",
+        "advice": "Saran dan Kritik",
+        "help": "Bantuan",
+        "career": "Karir",
+        "media": "Media",
+        "submitFilm": "Daftarkan Film",
+        "maps": "Peta Situs",
+        "privacyPolicy": "Kebijakan Privasi",
+        "termsOfService": "Syarat Penggunaan",
+        "nuggets": "Nuggets",
+        "likes": "Suka",
+        "playlists": "Daftar Putar",
+        "watchLater": "Tonton Nanti",
+        "profile": "Profil",
+        "settings": "Pengaturan",
+        "logout": "Keluar"
+    }
+}
