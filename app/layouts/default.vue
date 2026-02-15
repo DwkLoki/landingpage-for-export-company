@@ -4,6 +4,6 @@
         <main class="flex-1 w-full pt-14 bg-gray-light">
             <slot />
         </main>
-        <!-- <Footer /> -->
+        <Footer />
     </div>
 </template>

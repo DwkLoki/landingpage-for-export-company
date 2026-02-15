@@ -2,6 +2,7 @@
 import mainLogo from "~/assets/images/main-logo.png";
 
 const { locale, locales, setLocale } = useI18n();
+const logoError = ref(false);
 const language = computed({
     get: () => locale.value,
     set: (val) => setLocale(val),
@@ -53,8 +54,15 @@ watch(isMobileMenuShow, (val) => {
         >
             <!-- header left section -->
             <div class="flex items-center md:gap-4">
-                <NuxtLink :to="localePath('/')">
-                    <img :src="mainLogo" alt="Viddsee Logo" class="h-7" />
+                <NuxtLink :to="localePath('/')" class="flex items-center gap-2">
+                    <img
+                        v-if="!logoError"
+                        :src="mainLogo"
+                        alt="Logo"
+                        class="h-7"
+                        @error="logoError = true"
+                    />
+                    <span v-else class="font-bold text-gray-900 text-lg">Ekspor Gula Aren</span>
                 </NuxtLink>
                 <button @click="toggleMobileMenu" class="ml-4 md:hidden">
                     <LucideX v-if="isMobileMenuShow" />
@@ -65,11 +73,17 @@ watch(isMobileMenuShow, (val) => {
             <!-- header middle section -->
             <ul class="flex gap-10 items-center whitespace-nowrap">
                 <li class="hidden lg:block">
-                    <NuxtLink :to="localePath('/')"> Home </NuxtLink>
+                    <NuxtLink :to="localePath('/')" class="hover:text-amber-600 transition-colors">Home</NuxtLink>
                 </li>
-                <li class="hidden md:block">Product</li>
-                <li class="hidden md:block">Service</li>
-                <li class="hidden lg:block">Contact</li>
+                <li class="hidden md:block">
+                    <NuxtLink :to="localePath('/product')" class="hover:text-amber-600 transition-colors">Product</NuxtLink>
+                </li>
+                <li class="hidden md:block">
+                    <NuxtLink :to="localePath('/service')" class="hover:text-amber-600 transition-colors">Service</NuxtLink>
+                </li>
+                <li class="hidden lg:block">
+                    <NuxtLink :to="localePath('/contact')" class="hover:text-amber-600 transition-colors">Contact</NuxtLink>
+                </li>
             </ul>
 
             <!-- header right section -->
