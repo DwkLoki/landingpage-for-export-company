@@ -28,15 +28,12 @@ const localePath = useLocalePath();
                 <h1
                     class="text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-sm sm:text-4xl md:text-5xl lg:text-6xl"
                 >
-                    Bringing Indonesia's Finest Natural Products to the Global
-                    Market
+                    {{ $t("content.heroTitle") }}
                 </h1>
                 <p
                     class="mx-auto mt-6 max-w-2xl text-lg text-white/95 drop-shadow-sm md:text-xl"
                 >
-                    A trusted export partner based in Makassar & Maros,
-                    delivering premium Indonesian food products in large-scale
-                    shipments across Southeast Asia, Australia, and beyond.
+                    {{ $t("content.heroDesc") }}
                 </p>
                 <div
                     class="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center"
@@ -45,13 +42,13 @@ const localePath = useLocalePath();
                         :to="localePath('/contact')"
                         class="inline-flex items-center justify-center rounded-xl bg-amber-400 px-8 py-4 text-base font-semibold text-amber-900 shadow-lg transition hover:bg-amber-300"
                     >
-                        Request a Quotation
+                        {{ $t("label.reqQuotation") }}
                     </NuxtLink>
                     <NuxtLink
                         :to="localePath('/product')"
                         class="inline-flex items-center justify-center rounded-xl border-2 border-white/90 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
                     >
-                        Explore Our Products
+                        {{ $t("label.exploreOurProducts") }}
                     </NuxtLink>
                 </div>
             </div>
@@ -69,18 +66,13 @@ const localePath = useLocalePath();
         <section class="py-16 md:py-24">
             <div class="max-w-4xl mx-auto px-4 sm:px-6">
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-                    About Us
+                    {{ $t("content.aboutUs") }}
                 </h2>
                 <p class="text-gray-600 text-lg leading-relaxed mb-4">
-                    We are an Indonesia-based export company specializing in
-                    high-quality natural and processed food products. Operating
-                    from Makassar City and Maros Regency, we connect Indonesia's
-                    rich natural resources with international markets.
+                    {{ $t("content.aboutUsFirstDesc") }}
                 </p>
                 <p class="text-gray-600 text-lg leading-relaxed">
-                    With strong local sourcing networks and scalable production
-                    capabilities, we are ready to fulfill bulk orders ranging
-                    from multi-ton shipments to full truckload exports.
+                    {{ $t("content.aboutUsSecondDesc") }}
                 </p>
             </div>
         </section>
@@ -91,7 +83,7 @@ const localePath = useLocalePath();
                 <h2
                     class="text-2xl md:text-3xl font-bold text-gray-900 mb-12 text-center"
                 >
-                    Why Partner With Us?
+                    {{ $t("content.whyWithUs.title") }}
                 </h2>
                 <div class="grid md:grid-cols-2 gap-8">
                     <div
@@ -101,11 +93,10 @@ const localePath = useLocalePath();
                             <h3
                                 class="text-lg font-semibold text-gray-900 mb-2"
                             >
-                                Reliable Supply Capacity
+                                {{ $t("content.whyWithUs.firstPoint") }}
                             </h3>
                             <p class="text-gray-600">
-                                Capable of fulfilling bulk orders, including
-                                multi-ton and full truckload shipments.
+                                {{ $t("content.whyWithUs.firstPointDesc") }}
                             </p>
                         </div>
                     </div>
@@ -116,12 +107,10 @@ const localePath = useLocalePath();
                             <h3
                                 class="text-lg font-semibold text-gray-900 mb-2"
                             >
-                                Strategic Location
+                                {{ $t("content.whyWithUs.secondPoint") }}
                             </h3>
                             <p class="text-gray-600">
-                                Based in Eastern Indonesia, giving efficient
-                                access to domestic sourcing and international
-                                ports.
+                                {{ $t("content.whyWithUs.secondPointDesc") }}
                             </p>
                         </div>
                     </div>
@@ -132,11 +121,10 @@ const localePath = useLocalePath();
                             <h3
                                 class="text-lg font-semibold text-gray-900 mb-2"
                             >
-                                Quality Assurance
+                                {{ $t("content.whyWithUs.thirdPoint") }}
                             </h3>
                             <p class="text-gray-600">
-                                Carefully selected raw materials and consistent
-                                quality control standards.
+                                {{ $t("content.whyWithUs.thirdPointDesc") }}
                             </p>
                         </div>
                     </div>
@@ -147,12 +135,10 @@ const localePath = useLocalePath();
                             <h3
                                 class="text-lg font-semibold text-gray-900 mb-2"
                             >
-                                Export-Oriented Operations
+                                {{ $t("content.whyWithUs.fourthPoint") }}
                             </h3>
                             <p class="text-gray-600">
-                                Experienced in serving Southeast Asian and
-                                Australian markets, with expansion plans to
-                                Europe.
+                                {{ $t("content.whyWithUs.fourthPointDesc") }}
                             </p>
                         </div>
                     </div>
@@ -164,18 +150,16 @@ const localePath = useLocalePath();
         <section class="py-16 md:py-24">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-                    Our Export Markets
+                    {{ $t("cta.ourMarkets") }}
                 </h2>
                 <p class="text-gray-600 text-lg leading-relaxed mb-10">
-                    We currently serve clients across Southeast Asia and
-                    Australia, with plans to expand into the European market in
-                    the near future.
+                    {{ $t("cta.ourMarketsDesc") }}
                 </p>
                 <NuxtLink
                     :to="localePath('/contact')"
                     class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
                 >
-                    Become Our Global Partner
+                    {{ $t("label.becomeOurPartner") }}
                 </NuxtLink>
             </div>
         </section>

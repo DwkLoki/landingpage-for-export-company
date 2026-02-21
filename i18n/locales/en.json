@@ -1,27 +1,108 @@
 {
     "navigation": {
-        "watch": "Watch",
-        "originals": "Originals",
-        "forBusiness": "For Business",
-        "uploadFilm": "Submit Film",
-        "community": "Community",
-        "missions": "Missions",
-        "login": "Log in",
-        "aboutUs": "About",
-        "advice": "Feedback",
-        "help": "Help",
-        "career": "Jobs",
-        "media": "Press",
-        "submitFilm": "Submit Film",
-        "maps": "Sitemap",
-        "privacyPolicy": "Privacy Policy",
-        "termsOfService": "Terms of Use",
-        "nuggets": "Nuggets",
-        "likes": "Likes",
-        "playlists": "Playlists",
-        "watchLater": "Watch Later",
-        "profile": "Profile",
-        "settings": "Settings",
-        "logout": "Log out"
+        "home": "Home",
+        "product": "Product",
+        "service": "Service",
+        "contact": "Contact"
+    },
+    "content": {
+        "heroTitle": "Bringing Indonesia's Finest Natural Products to the Global Market",
+        "heroDesc": "A trusted export partner based in Makassar & Maros, delivering premium Indonesian food products in large-scale shipments across Southeast Asia, Australia, and beyond.",
+        "aboutUs": "About Us",
+        "aboutUsFirstDesc": "We are an Indonesia-based export company specializing in high-quality natural and processed food products. Operating from Makassar City and Maros Regency, we connect Indonesia's rich natural resources with international markets.",
+        "aboutUsSecondDesc": "With strong local sourcing networks and scalable production capabilities, we are ready to fulfill bulk orders ranging from multi-ton shipments to full truckload exports.",
+        "whyWithUs": {
+            "title": "Why Partner With Us?",
+            "firstPoint": "Reliable Supply Capacity",
+            "firstPointDesc": "Capable of fulfilling bulk orders, including multi-ton and full truckload shipments.",
+            "secondPoint": "Strategic Location",
+            "secondPointDesc": "Based in Eastern Indonesia, giving efficient access to domestic sourcing and international ports.",
+            "thirdPoint": "Quality Assurance",
+            "thirdPointDesc": "Carefully selected raw materials and consistent quality control standards.",
+            "fourthPoint": "Export-Oriented Operations",
+            "fourthPointDesc": "Experienced in serving Southeast Asian and Australian markets, with expansion plans to Europe."
+        },
+        "product": {
+            "title": "Our Premium Products",
+            "desc": "Sourced from Indonesia's rich natural resources and processed to meet international standards.",
+            "ingredients": "Ingredients",
+            "shelfLife": "Shelf Life",
+            "benefits": "Benefits",
+            "uses": "Uses",
+            "legality": "Legality",
+            "firstProduct": {
+                "name": "Palm Sugar Powder",
+                "description": "Naturally derived from Indonesian palm sap, our palm sugar powder offers a rich caramel flavor and fine texture. Ideal for food manufacturers, beverage producers, and retail distribution.",
+                "ingredients": "100% natural palm sap (nira aren). No artificial additives, preservatives, or coloring.",
+                "shelfLife": "12 months from production date when stored in a cool, dry place in sealed packaging.",
+                "benefits": "Supports immune system function; Helps maintain healthy blood sugar levels when consumed as part of a balanced diet; Promotes digestive health; Supports normal nervous system function; Naturally rich in antioxidants",
+                "uses": "Beverage manufacturing (coffee, tea, juice, and specialty drinks); Bakery and dessert production (ingredient and topping); Culinary applications, including sauces, marinades, and seasoning blends",
+                "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing, complete with Nutrition Facts labeling and retail barcode registration to support domestic and international distribution."
+            },
+            "secondProduct": {
+                "name": "Premium Shredded Tuna",
+                "description": "Made from carefully selected tuna, processed hygienically to preserve freshness and flavor. A high-protein product suitable for retail and wholesale distribution.",
+                "ingredients": "Fresh Tuna, Vegetable Oil, Garlic, Shallots, Galangal, Ginger, Turmeric, Coriander, Pepper, Flavor Enhancer, Salt.",
+                "shelfLife": "12 months in sealed packaging when stored in a cool, dry place. Refer to label for exact expiry.",
+                "benefits": "High protein content; source of omega-3; long shelf life; versatile for meals and snacks; suitable for retail and food service.",
+                "uses": "Topping for rice and porridge; filling for bread and pastries; ready-to-eat snack; ingredient for traditional and modern dishes; bulk supply for repackaging.",
+                "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution."
+            },
+            "thirdProduct": {
+                "name": "Mackerel Fish Crackers",
+                "description": "A traditional Indonesian snack made from premium mackerel fish, offering a crispy texture and savory taste loved across markets.",
+                "ingredients": "Fresh Mackerel fish (tenggiri), Wheat Flour, Eggs, Pepper, Salt, Sugar, Leavening Agent.",
+                "shelfLife": "3 months in sealed packaging. Store in a cool, dry place. Best consumed within stated expiry date.",
+                "benefits": "Everyday snack favorite; Authentic regional specialty; Versatile meal companion; Suitable for events and hospitality; Long-lasting and travel-friendly",
+                "uses": "Standalone snack; accompaniment to meals; retail and bulk export; custom packaging and private label; convenience and grocery distribution.",
+                "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution."
+            },
+            "fourthProduct": {
+                "name": "Passion Fruit Beverage",
+                "description": "Made from fresh Indonesian passion fruit, delivering a refreshing tropical taste. Available for bulk export and private labeling.",
+                "ingredients": "Passion Fruit Juice, Sugar and Sodium Benzoate (as permitted preservative)",
+                "shelfLife": "6 months unopened when stored in a cool, dry place. Refrigerate after opening and consume within the period stated on label.",
+                "benefits": "Rich in vitamin C to support normal immune function; Contains antioxidants that help protect cells from oxidative stress; A source of dietary fiber that supports healthy digestion; Contains potassium, which contributes to the maintenance of normal blood pressure; Naturally contains alkaloid compounds associated with mild calming properties",
+                "uses": "Ready-to-drink beverage; base for cocktails and mocktails; food service and hospitality; retail and e-commerce; bulk and container shipment for overseas bottling.",
+                "legality": "Halal-certified and officially registered with BPOM (Indonesia’s National Agency of Drug and Food Control), ensuring compliance with national food safety regulations."
+            }
+        },
+        "service": {
+            "title": "Export & Supply Services",
+            "desc": "Scalable. Reliable. Internationally Ready.",
+            "ourService": {
+                "firstPoint": "Large-Scale Production & Supply",
+                "firstPointDesc": "We handle high-volume orders, from multi-ton shipments to full truckload exports. Our production network ensures consistent supply for long-term contracts.",
+                "secondPoint": "Complete Export Documentation",
+                "secondPointDesc": "We manage export documentation and ensure compliance with international trade regulations for smooth and secure shipping.",
+                "thirdPoint": "Private Label & Custom Packaging",
+                "thirdPointDesc": "We offer customized packaging solutions tailored to your brand and market requirements.",
+                "fourthPoint": "International Logistics Support",
+                "fourthPointDesc": "Efficient shipping solutions via sea and land freight, optimized for Southeast Asia and Australia markets."
+            }
+        },
+        "contact": {
+            "title": "Let's Build a Global Partnership",
+            "desc": "Contact us today to discuss pricing, volume requirements, and export arrangements.",
+            "directContact": "Direct Contact"
+        }
+    },
+    "label": {
+        "reqQuotation": "Request a Quotation",
+        "exploreOurProducts": "Explore Our Products",
+        "becomeOurPartner": "Become Our Global Partner",
+        "contactOurSales": "Contact Our Sales Team",
+        "reqExport": "Request Export Details"
+    },
+    "cta": {
+        "ourMarkets": "Our Export Markets",
+        "ourMarketsDesc": "We currently serve clients across Southeast Asia and Australia, with plans to expand into the European market in the near future.",
+        "firstProductDesc": "Looking for a reliable long-term supplier?",
+        "secondProductDesc": "Let's discuss your volume requirements and export needs.",
+        "readyToScale": "Ready to scale your supply chain with a trusted Indonesian exporter?"
+    },
+    "footer": {
+        "copyright": "Copyright &#64; 2024 All Rights Reserved",
+        "vision": "Delivering Indonesia's Natural Excellence to the World."
     }
 }

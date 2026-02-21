@@ -6,10 +6,10 @@
         >
             <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
                 <h1 class="text-3xl md:text-4xl font-bold text-green-dark">
-                    Export & Supply Services
+                    {{ $t("content.service.title") }}
                 </h1>
                 <p class="mt-4 text-lg text-gray-600">
-                    Scalable. Reliable. Internationally Ready.
+                    {{ $t("content.service.desc") }}
                 </p>
             </div>
         </section>
@@ -20,42 +20,42 @@
                 <div class="grid md:grid-cols-2 gap-8">
                     <div class="bg-gray-light p-6 md:p-8 rounded-xl">
                         <h2 class="text-xl font-bold text-gray-900 mb-3">
-                            Large-Scale Production & Supply
+                            {{ $t("content.service.ourService.firstPoint") }}
                         </h2>
                         <p class="text-gray-600 leading-relaxed">
-                            We handle high-volume orders, from multi-ton
-                            shipments to full truckload exports. Our production
-                            network ensures consistent supply for long-term
-                            contracts.
+                            {{
+                                $t("content.service.ourService.firstPointDesc")
+                            }}
                         </p>
                     </div>
                     <div class="bg-gray-light p-6 md:p-8 rounded-xl">
                         <h2 class="text-xl font-bold text-gray-900 mb-3">
-                            Complete Export Documentation
+                            {{ $t("content.service.ourService.secondPoint") }}
                         </h2>
                         <p class="text-gray-600 leading-relaxed">
-                            We manage export documentation and ensure compliance
-                            with international trade regulations for smooth and
-                            secure shipping.
+                            {{
+                                $t("content.service.ourService.secondPointDesc")
+                            }}
                         </p>
                     </div>
                     <div class="bg-gray-light p-6 md:p-8 rounded-xl">
                         <h2 class="text-xl font-bold text-gray-900 mb-3">
-                            Private Label & Custom Packaging
+                            {{ $t("content.service.ourService.thirdPoint") }}
                         </h2>
                         <p class="text-gray-600 leading-relaxed">
-                            We offer customized packaging solutions tailored to
-                            your brand and market requirements.
+                            {{
+                                $t("content.service.ourService.thirdPointDesc")
+                            }}
                         </p>
                     </div>
                     <div class="bg-gray-light p-6 md:p-8 rounded-xl">
                         <h2 class="text-xl font-bold text-gray-900 mb-3">
-                            International Logistics Support
+                            {{ $t("content.service.ourService.fourthPoint") }}
                         </h2>
                         <p class="text-gray-600 leading-relaxed">
-                            Efficient shipping solutions via sea and land
-                            freight, optimized for Southeast Asia and Australia
-                            markets.
+                            {{
+                                $t("content.service.ourService.fourthPointDesc")
+                            }}
                         </p>
                     </div>
                 </div>
@@ -66,14 +66,13 @@
         <section class="py-16 md:py-20 bg-gray-light">
             <div class="max-w-2xl mx-auto px-4 sm:px-6 text-center">
                 <p class="text-lg text-gray-700 mb-6">
-                    Ready to scale your supply chain with a trusted Indonesian
-                    exporter?
+                    {{ $t("cta.readyToScale") }}
                 </p>
                 <NuxtLink
                     :to="localePath('/contact')"
                     class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
                 >
-                    Request Export Details
+                    {{ $t("label.reqExport") }}
                 </NuxtLink>
             </div>
         </section>

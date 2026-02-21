@@ -6,11 +6,10 @@
         >
             <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
                 <h1 class="text-3xl md:text-4xl font-bold text-green-dark">
-                    Let's Build a Global Partnership
+                    {{ $t("content.contact.title") }}
                 </h1>
                 <p class="mt-4 text-lg text-gray-600">
-                    Contact us today to discuss pricing, volume requirements,
-                    and export arrangements.
+                    {{ $t("content.contact.desc") }}
                 </p>
             </div>
         </section>
@@ -18,7 +17,7 @@
         <section class="py-12 md:py-16 bg-white">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 md:flex md:gap-16">
                 <!-- Contact Form -->
-                <div class="md:flex-1">
+                <!-- <div class="md:flex-1">
                     <h2 class="text-xl font-bold text-gray-900 mb-6">
                         Send Us Your Inquiry
                     </h2>
@@ -136,12 +135,12 @@
                             Submit Inquiry
                         </button>
                     </form>
-                </div>
+                </div> -->
 
                 <!-- Direct Contact -->
-                <div class="mt-12 md:mt-0 md:w-80 flex-shrink-0">
+                <div class="md:mt-0 md:w-80 flex-shrink-0">
                     <h2 class="text-xl font-bold text-gray-900 mb-4">
-                        Direct Contact
+                        {{ $t("content.contact.directContact") }}
                     </h2>
                     <div class="space-y-3 text-gray-600">
                         <p class="flex items-start gap-2">
@@ -155,12 +154,12 @@
                             <a
                                 href="mailto:export@companyname.com"
                                 class="text-amber-600 hover:underline"
-                                >export@[companyname].com</a
+                                >eksporcelebes89@gmail.com</a
                             >
                         </p>
                         <p class="flex items-start gap-2">
                             <span>📞</span>
-                            <span>+62 xxx xxxx xxxx</span>
+                            <span>+62822-8993-0399</span>
                         </p>
                     </div>
                 </div>

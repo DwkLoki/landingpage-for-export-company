@@ -1,27 +1,108 @@
 {
     "navigation": {
-        "watch": "Tonton",
-        "originals": "Originals",
-        "forBusiness": "Untuk Brand",
-        "uploadFilm": "Unggah Film",
-        "community": "Komunitas",
-        "missions": "Misi",
-        "login": "Masuk",
+        "home": "Beranda",
+        "product": "Produk",
+        "service": "Layanan",
+        "contact": "Kontak"
+    },
+    "content": {
+        "heroTitle": "Menghadirkan Produk Alami Terbaik Indonesia ke Pasar Global",
+        "heroDesc": "Mitra ekspor terpercaya berbasis di Makassar & Maros, menghadirkan produk pangan premium Indonesia dalam skala besar ke Asia Tenggara, Australia, dan sekitarnya.",
         "aboutUs": "Tentang Kami",
-        "advice": "Saran dan Kritik",
-        "help": "Bantuan",
-        "career": "Karir",
-        "media": "Media",
-        "submitFilm": "Daftarkan Film",
-        "maps": "Peta Situs",
-        "privacyPolicy": "Kebijakan Privasi",
-        "termsOfService": "Syarat Penggunaan",
-        "nuggets": "Nuggets",
-        "likes": "Suka",
-        "playlists": "Daftar Putar",
-        "watchLater": "Tonton Nanti",
-        "profile": "Profil",
-        "settings": "Pengaturan",
-        "logout": "Keluar"
+        "aboutUsFirstDesc": "Kami adalah perusahaan ekspor berbasis di Indonesia yang berfokus pada produk pangan alami dan olahan berkualitas tinggi. Beroperasi di Kota Makassar dan Kabupaten Maros, kami menghubungkan kekayaan alam Indonesia dengan pasar internasional.",
+        "aboutUsSecondDesc": "Dengan jaringan sumber daya lokal yang kuat dan kapasitas produksi yang skalabel, kami siap memenuhi pesanan dalam jumlah besar mulai dari hitungan ton hingga pengiriman satu truk penuh.",
+        "whyWithUs": {
+            "title": "Mengapa Bermitra dengan Kami?",
+            "firstPoint": "Kapasitas Pasokan Andal",
+            "firstPointDesc": "Mampu memenuhi pesanan dalam jumlah besar, termasuk pengiriman multi-ton dan satu truk penuh.",
+            "secondPoint": "Lokasi Strategis",
+            "secondPointDesc": "Berbasis di Indonesia Timur dengan akses efisien ke sumber bahan baku dan pelabuhan internasional.",
+            "thirdPoint": "Jaminan Kualitas",
+            "thirdPointDesc": "Bahan baku pilihan dengan standar kontrol kualitas yang konsisten.",
+            "fourthPoint": "Berorientasi Ekspor",
+            "fourthPointDesc": "Berpengalaman melayani pasar Asia Tenggara dan Australia, dengan rencana ekspansi ke Eropa."
+        },
+        "product": {
+            "title": "Produk Premium Kami",
+            "desc": "Bersumber dari kekayaan alam Indonesia dan diproses sesuai standar internasional.",
+            "ingredients": "Komposisi",
+            "shelfLife": "Masa Simpan",
+            "benefits": "Manfaat",
+            "uses": "Kegunaan",
+            "legality": "Legalitas",
+            "firstProduct": {
+                "name": "Gula Aren Semut",
+                "description": "Dihasilkan secara alami dari nira aren Indonesia, gula aren semut kami memiliki cita rasa karamel yang khas dan tekstur halus. Cocok untuk industri makanan, minuman, dan distribusi ritel.",
+                "ingredients": "100% nira aren alami tanpa bahan tambahan, pengawet, maupun pewarna buatan.",
+                "shelfLife": "12 bulan sejak tanggal produksi apabila disimpan di tempat sejuk dan kering dalam kemasan tertutup.",
+                "benefits": "Mendukung sistem kekebalan tubuh; membantu menjaga kadar gula darah sebagai bagian dari pola makan seimbang; mendukung kesehatan pencernaan; mendukung fungsi sistem saraf; kaya akan antioksidan alami.",
+                "uses": "Pemanis minuman (kopi, teh, jus); bahan dan topping produk bakery; campuran dasar saus dan bumbu masakan.",
+                "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal, memiliki izin P-IRT, dilengkapi label Informasi Nilai Gizi dan barcode ritel untuk mendukung distribusi domestik dan internasional."
+            },
+            "secondProduct": {
+                "name": "Abon Ikan Tuna Premium",
+                "description": "Diproduksi dari ikan tuna pilihan yang diolah secara higienis untuk menjaga kesegaran dan cita rasa. Produk tinggi protein yang cocok untuk distribusi ritel dan grosir.",
+                "ingredients": "Ikan Tuna Segar, Minyak Nabati, Bawang Putih, Bawang Merah, Lengkuas, Jahe, Kunyit, Ketumbar, Lada, Penyedap Rasa, Garam.",
+                "shelfLife": "12 bulan dalam kemasan tertutup apabila disimpan di tempat sejuk dan kering. Lihat label untuk tanggal kedaluwarsa.",
+                "benefits": "Tinggi protein; sumber omega-3; masa simpan panjang; serbaguna untuk makanan dan camilan; cocok untuk ritel dan layanan makanan.",
+                "uses": "Topping nasi dan bubur; isian roti dan pastry; camilan siap saji; bahan masakan tradisional maupun modern; pasokan grosir untuk pengemasan ulang.",
+                "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal dan memenuhi Standar Nasional Indonesia (SNI), dilengkapi izin P-IRT dan barcode ritel untuk mendukung distribusi domestik dan internasional."
+            },
+            "thirdProduct": {
+                "name": "Kerupuk Amplang Ikan Tenggiri",
+                "description": "Camilan tradisional Indonesia berbahan dasar ikan tenggiri premium dengan tekstur renyah dan cita rasa gurih yang disukai berbagai kalangan.",
+                "ingredients": "Ikan Tenggiri Segar, Tepung Terigu, Telur, Lada, Garam, Gula, Pengembang.",
+                "shelfLife": "3 bulan dalam kemasan tertutup. Simpan di tempat sejuk dan kering. Konsumsi sebelum tanggal kedaluwarsa.",
+                "benefits": "Camilan favorit sehari-hari; oleh-oleh khas daerah; pendamping makanan; cocok untuk acara dan jamuan; tahan lama dan praktis dibawa bepergian.",
+                "uses": "Camilan mandiri; pendamping hidangan; distribusi ritel dan ekspor; kemasan khusus dan private label; distribusi toko dan grosir.",
+                "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal dan memenuhi Standar Nasional Indonesia (SNI), dilengkapi izin P-IRT dan barcode ritel untuk mendukung distribusi domestik dan internasional."
+            },
+            "fourthProduct": {
+                "name": "Minuman Sari Markisa",
+                "description": "Terbuat dari buah markisa segar Indonesia dengan rasa tropis yang menyegarkan. Tersedia untuk ekspor skala besar dan private label.",
+                "ingredients": "Sari Buah Markisa, Gula Pasir, dan Natrium Benzoat (sebagai pengawet yang diizinkan).",
+                "shelfLife": "6 bulan dalam kondisi tertutup dan disimpan di tempat sejuk dan kering. Simpan di lemari es setelah dibuka.",
+                "benefits": "Kaya vitamin C untuk mendukung sistem imun; mengandung antioksidan; sumber serat; mengandung kalium untuk membantu menjaga tekanan darah; memiliki senyawa alami yang memberikan efek menenangkan ringan.",
+                "uses": "Minuman siap saji; dasar koktail dan mocktail; kebutuhan hotel dan restoran; distribusi ritel dan e-commerce; pengiriman kontainer untuk pembotolan luar negeri.",
+                "legality": "Bersertifikat Halal dan terdaftar di BPOM (Badan Pengawas Obat dan Makanan), memastikan kepatuhan terhadap regulasi keamanan pangan nasional."
+            }
+        },
+        "service": {
+            "title": "Layanan Ekspor & Pasokan",
+            "desc": "Skalabel. Andal. Siap untuk Pasar Internasional.",
+            "ourService": {
+                "firstPoint": "Produksi & Pasokan Skala Besar",
+                "firstPointDesc": "Kami menangani pesanan volume tinggi, mulai dari multi-ton hingga pengiriman satu truk penuh dengan pasokan berkelanjutan.",
+                "secondPoint": "Dokumentasi Ekspor Lengkap",
+                "secondPointDesc": "Kami mengelola dokumen ekspor dan memastikan kepatuhan terhadap regulasi perdagangan internasional.",
+                "thirdPoint": "Private Label & Kemasan Kustom",
+                "thirdPointDesc": "Kami menyediakan solusi kemasan sesuai kebutuhan merek dan pasar Anda.",
+                "fourthPoint": "Dukungan Logistik Internasional",
+                "fourthPointDesc": "Solusi pengiriman laut dan darat yang efisien untuk pasar Asia Tenggara dan Australia."
+            }
+        },
+        "contact": {
+            "title": "Mari Bangun Kemitraan Global",
+            "desc": "Hubungi kami untuk mendiskusikan harga, kebutuhan volume, dan pengaturan ekspor.",
+            "directContact": "Kontak Langsung"
+        }
+    },
+    "label": {
+        "reqQuotation": "Minta Penawaran",
+        "exploreOurProducts": "Jelajahi Produk Kami",
+        "becomeOurPartner": "Menjadi Mitra Global Kami",
+        "contactOurSales": "Hubungi Tim Penjualan",
+        "reqExport": "Minta Detail Ekspor"
+    },
+    "cta": {
+        "ourMarkets": "Pasar Ekspor Kami",
+        "ourMarketsDesc": "Saat ini kami melayani klien di Asia Tenggara dan Australia, dengan rencana ekspansi ke pasar Eropa dalam waktu dekat.",
+        "firstProductDesc": "Mencari pemasok jangka panjang yang terpercaya?",
+        "secondProductDesc": "Mari diskusikan kebutuhan volume dan pengaturan ekspor Anda.",
+        "readyToScale": "Siap mengembangkan rantai pasok Anda bersama eksportir terpercaya Indonesia?"
+    },
+    "footer": {
+        "copyright": "Hak Cipta &#64; 2024 Semua Hak Dilindungi",
+        "vision": "Menghadirkan Keunggulan Alam Indonesia ke Dunia."
     }
 }

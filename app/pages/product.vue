@@ -6,11 +6,10 @@
         >
             <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
                 <h1 class="text-3xl md:text-4xl font-bold text-green-dark">
-                    Our Premium Products
+                    {{ $t("content.product.title") }}
                 </h1>
                 <p class="mt-4 text-lg text-gray-600">
-                    Sourced from Indonesia's rich natural resources and
-                    processed to meet international standards.
+                    {{ $t("content.product.desc") }}
                 </p>
             </div>
         </section>
@@ -30,6 +29,7 @@
                         index % 2 === 0 ? 'lg:justify-end' : 'lg:justify-start'
                     "
                 >
+                    <!-- IMAGE -->
                     <div
                         class="absolute top-4 left-1/2 -translate-x-1/2 md:-top-[35%] md:translate-y-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-0 w-72 h-72 md:w-80 md:h-80 z-10"
                         :class="
@@ -57,38 +57,22 @@
                                 : 'lg:pr-72 lg:pl-12 md:px-8 md:pt-64 px-4 pt-80'
                         "
                     >
-                        <!-- IMAGE -->
-                        <!-- <div
-                            class="absolute top-4 left-1/2 -translate-x-1/2 md:-top-[35%] md:translate-y-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-0 w-72 h-72 md:w-80 md:h-80"
-                            :class="
-                                index % 2 === 0
-                                    ? 'lg:left-0'
-                                    : 'lg:right-0 lg:left-auto'
-                            "
-                        >
-                            <div
-                                class="w-full h-full rounded-2xl overflow-hidden shadow-lg bg-gray-100"
-                            >
-                                <img
-                                    :src="product.image"
-                                    :alt="product.name"
-                                    class="w-full h-full object-cover"
-                                />
-                            </div>
-                        </div> -->
-
                         <!-- CONTENT -->
                         <div>
                             <h2
                                 class="text-2xl md:text-3xl font-semibold text-gray-900 mb-4"
                             >
-                                {{ product.name }}
+                                {{ $t(`content.product.${product.id}.name`) }}
                             </h2>
 
                             <p
                                 class="text-gray-600 leading-relaxed text-lg mb-8 max-w-3xl"
                             >
-                                {{ product.description }}
+                                {{
+                                    $t(
+                                        `content.product.${product.id}.description`,
+                                    )
+                                }}
                             </p>
 
                             <dl
@@ -98,10 +82,14 @@
                                     <dt
                                         class="font-semibold text-gray-900 mb-1"
                                     >
-                                        Ingredients
+                                        {{ $t("content.product.ingredients") }}
                                     </dt>
                                     <dd class="text-gray-600">
-                                        {{ product.ingredients }}
+                                        {{
+                                            $t(
+                                                `content.product.${product.id}.ingredients`,
+                                            )
+                                        }}
                                     </dd>
                                 </div>
 
@@ -109,10 +97,14 @@
                                     <dt
                                         class="font-semibold text-gray-900 mb-1"
                                     >
-                                        Shelf Life
+                                        {{ $t("content.product.shelfLife") }}
                                     </dt>
                                     <dd class="text-gray-600">
-                                        {{ product.shelfLife }}
+                                        {{
+                                            $t(
+                                                `content.product.${product.id}.shelfLife`,
+                                            )
+                                        }}
                                     </dd>
                                 </div>
 
@@ -120,10 +112,14 @@
                                     <dt
                                         class="font-semibold text-gray-900 mb-1"
                                     >
-                                        Benefits
+                                        {{ $t("content.product.benefits") }}
                                     </dt>
                                     <dd class="text-gray-600">
-                                        {{ product.benefits }}
+                                        {{
+                                            $t(
+                                                `content.product.${product.id}.benefits`,
+                                            )
+                                        }}
                                     </dd>
                                 </div>
 
@@ -131,10 +127,14 @@
                                     <dt
                                         class="font-semibold text-gray-900 mb-1"
                                     >
-                                        Uses
+                                        {{ $t("content.product.uses") }}
                                     </dt>
                                     <dd class="text-gray-600">
-                                        {{ product.uses }}
+                                        {{
+                                            $t(
+                                                `content.product.${product.id}.uses`,
+                                            )
+                                        }}
                                     </dd>
                                 </div>
 
@@ -142,10 +142,14 @@
                                     <dt
                                         class="font-semibold text-gray-900 mb-1"
                                     >
-                                        Legality
+                                        {{ $t("content.product.legality") }}
                                     </dt>
                                     <dd class="text-gray-600">
-                                        {{ product.legality }}
+                                        {{
+                                            $t(
+                                                `content.product.${product.id}.legality`,
+                                            )
+                                        }}
                                     </dd>
                                 </div>
                             </dl>
@@ -158,15 +162,17 @@
         <!-- Closing CTA -->
         <section class="py-16 md:py-20 bg-gray-light">
             <div class="max-w-2xl mx-auto px-4 sm:px-6 text-center">
-                <p class="text-lg text-gray-700 mb-6">
-                    Looking for a reliable long-term supplier?<br />
-                    Let's discuss your volume requirements and export needs.
-                </p>
+                <div class="text-lg text-gray-700 mb-6">
+                    <p>{{ $t("cta.firstProductDesc") }}</p>
+                    <p>
+                        {{ $t("cta.secondProductDesc") }}
+                    </p>
+                </div>
                 <NuxtLink
                     :to="localePath('/contact')"
                     class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
                 >
-                    Contact Our Sales Team
+                    {{ $t("label.contactOurSales") }}
                 </NuxtLink>
             </div>
         </section>
@@ -183,7 +189,7 @@ const localePath = useLocalePath();
 
 const products = [
     {
-        id: "palm-sugar",
+        id: "firstProduct",
         name: "Palm Sugar Powder",
         image: product1,
         description:
@@ -199,7 +205,7 @@ const products = [
             "Produced in accordance with Indonesian food safety regulations. Certified Halal and equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing, complete with Nutrition Facts labeling and retail barcode registration to support domestic and international distribution.",
     },
     {
-        id: "shredded-tuna",
+        id: "secondProduct",
         name: "Premium Shredded Tuna",
         image: product2,
         description:
@@ -215,7 +221,7 @@ const products = [
             "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
     },
     {
-        id: "mackerel-crackers",
+        id: "thirdProduct",
         name: "Mackerel Fish Crackers",
         image: product3,
         description:
@@ -231,7 +237,7 @@ const products = [
             "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
     },
     {
-        id: "passion-fruit",
+        id: "fourthProduct",
         name: "Passion Fruit Beverage",
         image: product4,
         description:
