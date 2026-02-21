@@ -12,6 +12,7 @@
                 >
                     {{ $t("navigation.home") }}
                 </NuxtLink>
+
                 <NuxtLink
                     :to="localePath('/product')"
                     class="py-2 text-gray-700 hover:text-amber-600 font-medium"
@@ -19,6 +20,7 @@
                 >
                     {{ $t("navigation.product") }}
                 </NuxtLink>
+
                 <NuxtLink
                     :to="localePath('/service')"
                     class="py-2 text-gray-700 hover:text-amber-600 font-medium"
@@ -26,6 +28,7 @@
                 >
                     {{ $t("navigation.service") }}
                 </NuxtLink>
+
                 <NuxtLink
                     :to="localePath('/contact')"
                     class="py-2 text-gray-700 hover:text-amber-600 font-medium"
@@ -33,6 +36,38 @@
                 >
                     {{ $t("navigation.contact") }}
                 </NuxtLink>
+
+                <!-- Divider -->
+                <div class="border-t border-gray-200 my-4"></div>
+
+                <!-- Language Switcher -->
+                <div>
+                    <label
+                        class="block text-sm font-semibold text-gray-700 mb-2"
+                    >
+                        Language
+                    </label>
+
+                    <div class="relative">
+                        <select
+                            v-model="language"
+                            class="w-full pr-8 py-2 pl-3 appearance-none bg-gray-light text-green-dark border border-green-dark rounded-md"
+                        >
+                            <option
+                                v-for="item in locales"
+                                :key="item.code"
+                                :value="item.code"
+                            >
+                                {{ item.name }}
+                            </option>
+                        </select>
+
+                        <LucideChevronDown
+                            :size="18"
+                            class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-green-dark"
+                        />
+                    </div>
+                </div>
             </nav>
         </div>
     </Transition>
@@ -43,5 +78,12 @@ defineProps({
     isOpen: { type: Boolean, default: false },
 });
 defineEmits(["close"]);
+
 const localePath = useLocalePath();
+const { locale, locales, setLocale } = useI18n();
+
+const language = computed({
+    get: () => locale.value,
+    set: (val) => setLocale(val),
+});
 </script>
