@@ -16,6 +16,7 @@ const language = computed({
 const isMobileMenuShow = ref(false);
 const isWatchMenuShow = ref(false);
 const localePath = useLocalePath();
+const isScrolledPastHero = ref(false);
 
 const toggleMobileMenu = () => {
     isMobileMenuShow.value = !isMobileMenuShow.value;
@@ -48,13 +49,31 @@ watch(isMobileMenuShow, (val) => {
         document.body.classList.remove("overflow-hidden");
     }
 });
+
+onMounted(() => {
+    document.addEventListener("click", handleClickOutside);
+
+    const handleScroll = () => {
+        const hero = document.querySelector("#hero-section");
+        if (!hero) return;
+
+        const heroHeight = hero.offsetHeight;
+        isScrolledPastHero.value = window.scrollY > heroHeight - 64;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    onBeforeUnmount(() => {
+        window.removeEventListener("scroll", handleScroll);
+    });
+});
 </script>
 
 <template>
     <header
         class="fixed top-0 w-full h-16 flex justify-center z-[999999] transition-all duration-300"
         :class="
-            isHomePage
+            isHomePage && !isScrolledPastHero
                 ? 'bg-white/10 shadow-none backdrop-blur-md text-white'
                 : 'bg-white shadow text-gray-900'
         "
@@ -91,16 +110,13 @@ watch(isMobileMenuShow, (val) => {
             </div>
 
             <!-- header middle section -->
-            <ul
-                class="flex gap-10 items-center whitespace-nowrap"
-                :class="isHomePage ? 'text-white' : ''"
-            >
+            <ul class="flex gap-10 items-center whitespace-nowrap">
                 <li class="hidden lg:block">
                     <NuxtLink
                         :to="localePath('/')"
                         class="transition-colors"
                         :class="
-                            isHomePage
+                            isHomePage && !isScrolledPastHero
                                 ? 'hover:text-amber-300'
                                 : 'hover:text-amber-600'
                         "
@@ -112,7 +128,7 @@ watch(isMobileMenuShow, (val) => {
                         :to="localePath('/product')"
                         class="transition-colors"
                         :class="
-                            isHomePage
+                            isHomePage && !isScrolledPastHero
                                 ? 'hover:text-amber-300'
                                 : 'hover:text-amber-600'
                         "
@@ -124,7 +140,7 @@ watch(isMobileMenuShow, (val) => {
                         :to="localePath('/service')"
                         class="transition-colors"
                         :class="
-                            isHomePage
+                            isHomePage && !isScrolledPastHero
                                 ? 'hover:text-amber-300'
                                 : 'hover:text-amber-600'
                         "
@@ -136,7 +152,7 @@ watch(isMobileMenuShow, (val) => {
                         :to="localePath('/contact')"
                         class="transition-colors"
                         :class="
-                            isHomePage
+                            isHomePage && !isScrolledPastHero
                                 ? 'hover:text-amber-300'
                                 : 'hover:text-amber-600'
                         "
@@ -150,9 +166,9 @@ watch(isMobileMenuShow, (val) => {
                 <select
                     class="pr-8 py-1 pl-2 appearance-none transition-colors"
                     :class="
-                        isHomePage
-                            ? 'bg-white/20 text-white border border-white/30'
-                            : 'bg-gray-light text-gray-900'
+                        isHomePage && !isScrolledPastHero
+                            ? 'bg-white/20 text-white border border-white/30 rounded-md'
+                            : 'bg-gray-light text-green-dark border border-green-dark rounded-md'
                     "
                     name="language"
                     id="language"
@@ -169,7 +185,11 @@ watch(isMobileMenuShow, (val) => {
                 <LucideChevronDown
                     :size="18"
                     class="absolute right-1 top-1/2 -translate-y-1/2 pointer-events-none"
-                    :class="isHomePage ? 'text-white' : 'text-gray-900'"
+                    :class="
+                        isHomePage && !isScrolledPastHero
+                            ? 'text-white'
+                            : 'text-green-dark'
+                    "
                 />
             </div>
         </nav>

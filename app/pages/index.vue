@@ -7,6 +7,7 @@ const localePath = useLocalePath();
     <div>
         <!-- Hero Section: full viewport, image behind header -->
         <section
+            id="hero-section"
             class="-mt-16 relative flex min-h-screen flex-col justify-center bg-gray-900"
             aria-label="Hero"
         >
