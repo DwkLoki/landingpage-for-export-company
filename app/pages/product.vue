@@ -1,69 +1,158 @@
 <template>
     <div>
         <!-- Page Header -->
-        <section class="bg-gradient-to-br from-amber-50 via-white to-stone-50 py-16 md:py-20">
+        <section
+            class="bg-gradient-to-br from-green-light/30 via-white to-stone-50 py-16 md:py-20"
+        >
             <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-                <h1 class="text-3xl md:text-4xl font-bold text-gray-900">Our Premium Products</h1>
+                <h1 class="text-3xl md:text-4xl font-bold text-green-dark">
+                    Our Premium Products
+                </h1>
                 <p class="mt-4 text-lg text-gray-600">
-                    Sourced from Indonesia's rich natural resources and processed to meet international standards.
+                    Sourced from Indonesia's rich natural resources and
+                    processed to meet international standards.
                 </p>
             </div>
         </section>
 
         <!-- Products -->
-        <section class="py-12 md:py-16 bg-white">
-            <div class="max-w-5xl mx-auto px-4 sm:px-6 space-y-20">
-                <article
-                    v-for="(product, index) in products"
-                    :key="product.id"
-                    class="scroll-mt-24"
+        <section
+            class="pt-12 pb-12 md:pt-44 md:pb-24 lg:py-24 bg-white lg:space-y-24 md:space-y-44 space-y-12"
+        >
+            <article
+                v-for="(product, index) in products"
+                :key="product.id"
+                class="w-full"
+            >
+                <div
+                    class="relative flex w-full max-w-screen-xl mx-auto xl:px-12 md:px-12 px-6"
+                    :class="
+                        index % 2 === 0 ? 'lg:justify-end' : 'lg:justify-start'
+                    "
                 >
                     <div
-                        class="md:flex md:gap-12 md:items-start"
-                        :class="{ 'md:flex-row-reverse': index % 2 === 1 }"
+                        class="absolute top-4 left-1/2 -translate-x-1/2 md:-top-[35%] md:translate-y-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-0 w-72 h-72 md:w-80 md:h-80 z-10"
+                        :class="
+                            index % 2 === 0
+                                ? 'lg:left-12'
+                                : 'lg:right-12 lg:left-auto'
+                        "
                     >
-                        <!-- Gambar produk -->
-                        <div class="md:w-2/5 flex-shrink-0 mb-6 md:mb-0">
-                            <div class="aspect-square rounded-2xl overflow-hidden bg-gray-100 shadow-md">
+                        <div
+                            class="w-full h-full rounded-2xl overflow-hidden shadow-lg bg-gray-100"
+                        >
+                            <img
+                                :src="product.image"
+                                :alt="product.name"
+                                class="w-full h-full object-cover"
+                            />
+                        </div>
+                    </div>
+                    <!-- CARD -->
+                    <div
+                        class="relative lg:w-[90%] w-full rounded-2xl border-2 border-green-dark bg-white shadow-sm lg:py-12 md:py-8 py-4"
+                        :class="
+                            index % 2 === 0
+                                ? 'lg:pl-72 lg:pr-12 md:px-8 md:pt-64 px-4 pt-80'
+                                : 'lg:pr-72 lg:pl-12 md:px-8 md:pt-64 px-4 pt-80'
+                        "
+                    >
+                        <!-- IMAGE -->
+                        <!-- <div
+                            class="absolute top-4 left-1/2 -translate-x-1/2 md:-top-[35%] md:translate-y-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-0 w-72 h-72 md:w-80 md:h-80"
+                            :class="
+                                index % 2 === 0
+                                    ? 'lg:left-0'
+                                    : 'lg:right-0 lg:left-auto'
+                            "
+                        >
+                            <div
+                                class="w-full h-full rounded-2xl overflow-hidden shadow-lg bg-gray-100"
+                            >
                                 <img
                                     :src="product.image"
                                     :alt="product.name"
                                     class="w-full h-full object-cover"
                                 />
                             </div>
-                        </div>
+                        </div> -->
 
-                        <!-- Spesifikasi -->
-                        <div class="md:flex-1">
-                            <h2 class="text-2xl font-bold text-gray-900 mb-3">{{ product.name }}</h2>
-                            <p class="text-gray-600 leading-relaxed mb-6">{{ product.description }}</p>
+                        <!-- CONTENT -->
+                        <div>
+                            <h2
+                                class="text-2xl md:text-3xl font-semibold text-gray-900 mb-4"
+                            >
+                                {{ product.name }}
+                            </h2>
 
-                            <dl class="space-y-4 text-sm">
+                            <p
+                                class="text-gray-600 leading-relaxed text-lg mb-8 max-w-3xl"
+                            >
+                                {{ product.description }}
+                            </p>
+
+                            <dl
+                                class="grid md:grid-cols-2 gap-x-12 gap-y-6 text-sm"
+                            >
                                 <div>
-                                    <dt class="font-semibold text-gray-900 mb-1">Ingredients</dt>
-                                    <dd class="text-gray-600">{{ product.ingredients }}</dd>
+                                    <dt
+                                        class="font-semibold text-gray-900 mb-1"
+                                    >
+                                        Ingredients
+                                    </dt>
+                                    <dd class="text-gray-600">
+                                        {{ product.ingredients }}
+                                    </dd>
                                 </div>
+
                                 <div>
-                                    <dt class="font-semibold text-gray-900 mb-1">Shelf Life (Masa Kadaluarsa)</dt>
-                                    <dd class="text-gray-600">{{ product.shelfLife }}</dd>
+                                    <dt
+                                        class="font-semibold text-gray-900 mb-1"
+                                    >
+                                        Shelf Life
+                                    </dt>
+                                    <dd class="text-gray-600">
+                                        {{ product.shelfLife }}
+                                    </dd>
                                 </div>
+
                                 <div>
-                                    <dt class="font-semibold text-gray-900 mb-1">Benefits (Manfaat)</dt>
-                                    <dd class="text-gray-600">{{ product.benefits }}</dd>
+                                    <dt
+                                        class="font-semibold text-gray-900 mb-1"
+                                    >
+                                        Benefits
+                                    </dt>
+                                    <dd class="text-gray-600">
+                                        {{ product.benefits }}
+                                    </dd>
                                 </div>
+
                                 <div>
-                                    <dt class="font-semibold text-gray-900 mb-1">Uses (Kegunaan)</dt>
-                                    <dd class="text-gray-600">{{ product.uses }}</dd>
+                                    <dt
+                                        class="font-semibold text-gray-900 mb-1"
+                                    >
+                                        Uses
+                                    </dt>
+                                    <dd class="text-gray-600">
+                                        {{ product.uses }}
+                                    </dd>
                                 </div>
-                                <div>
-                                    <dt class="font-semibold text-gray-900 mb-1">Legality (Legalitas)</dt>
-                                    <dd class="text-gray-600">{{ product.legality }}</dd>
+
+                                <div class="md:col-span-2">
+                                    <dt
+                                        class="font-semibold text-gray-900 mb-1"
+                                    >
+                                        Legality
+                                    </dt>
+                                    <dd class="text-gray-600">
+                                        {{ product.legality }}
+                                    </dd>
                                 </div>
                             </dl>
                         </div>
                     </div>
-                </article>
-            </div>
+                </div>
+            </article>
         </section>
 
         <!-- Closing CTA -->
@@ -95,67 +184,67 @@ const localePath = useLocalePath();
 const products = [
     {
         id: "palm-sugar",
-        name: "Palm Sugar Powder (Gula Aren Semut)",
+        name: "Palm Sugar Powder",
         image: product1,
         description:
             "Naturally derived from Indonesian palm sap, our palm sugar powder offers a rich caramel flavor and fine texture. Ideal for food manufacturers, beverage producers, and retail distribution.",
         ingredients:
             "100% natural palm sap (nira aren). No artificial additives, preservatives, or coloring.",
-        shelfLife: "12–24 months from production date when stored in a cool, dry place in sealed packaging.",
+        shelfLife:
+            "12 months from production date when stored in a cool, dry place in sealed packaging.",
         benefits:
-            "Lower glycemic index than refined sugar; contains minerals and amino acids; natural caramel flavor; suitable for clean-label and health-conscious formulations.",
-        uses:
-            "Sweetener for beverages, bakery, confectionery; ingredient for sauces and dressings; retail packaging for end consumers; industrial food manufacturing.",
+            "Supports immune system function; Helps maintain healthy blood sugar levels when consumed as part of a balanced diet; Promotes digestive health; Supports normal nervous system function; Naturally rich in antioxidants",
+        uses: "Beverage manufacturing (coffee, tea, juice, and specialty drinks); Bakery and dessert production (ingredient and topping); Culinary applications, including sauces, marinades, and seasoning blends",
         legality:
-            "Produced in facilities compliant with Indonesian food safety standards; export-ready with required documentation (health certificate, certificate of origin as applicable).",
+            "Produced in accordance with Indonesian food safety regulations. Certified Halal and equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing, complete with Nutrition Facts labeling and retail barcode registration to support domestic and international distribution.",
     },
     {
         id: "shredded-tuna",
-        name: "Premium Shredded Tuna (Abon Ikan Tuna)",
+        name: "Premium Shredded Tuna",
         image: product2,
         description:
             "Made from carefully selected tuna, processed hygienically to preserve freshness and flavor. A high-protein product suitable for retail and wholesale distribution.",
         ingredients:
-            "Tuna meat, vegetable oil, seasonings (salt, sugar, spices), permitted flavor enhancers. No artificial preservatives.",
-        shelfLife: "6–12 months in sealed packaging when stored in a cool, dry place. Refer to label for exact expiry.",
+            "Fresh Tuna, Vegetable Oil, Garlic, Shallots, Galangal, Ginger, Turmeric, Coriander, Pepper, Flavor Enhancer, Salt.",
+        shelfLife:
+            "12 months in sealed packaging when stored in a cool, dry place. Refer to label for exact expiry.",
         benefits:
             "High protein content; source of omega-3; long shelf life; versatile for meals and snacks; suitable for retail and food service.",
-        uses:
-            "Topping for rice and porridge; filling for bread and pastries; ready-to-eat snack; ingredient for traditional and modern dishes; bulk supply for repackaging.",
+        uses: "Topping for rice and porridge; filling for bread and pastries; ready-to-eat snack; ingredient for traditional and modern dishes; bulk supply for repackaging.",
         legality:
-            "Processed in registered facilities; meets Indonesian food safety requirements; export documentation available (e.g. health certificate, halal if applicable).",
+            "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
     },
     {
         id: "mackerel-crackers",
-        name: "Mackerel Fish Crackers (Krupuk Amplang Ikan Tenggiri)",
+        name: "Mackerel Fish Crackers",
         image: product3,
         description:
             "A traditional Indonesian snack made from premium mackerel fish, offering a crispy texture and savory taste loved across markets.",
         ingredients:
-            "Mackerel fish (tenggiri), tapioca starch, salt, sugar, garlic, and other natural seasonings. No MSG or artificial flavors as per formulation.",
-        shelfLife: "9–12 months in sealed packaging. Store in a cool, dry place. Best consumed within stated expiry date.",
+            "Fresh Mackerel fish (tenggiri), Wheat Flour, Eggs, Pepper, Salt, Sugar, Leavening Agent.",
+        shelfLife:
+            "3 months in sealed packaging. Store in a cool, dry place. Best consumed within stated expiry date.",
         benefits:
-            "Authentic Indonesian recipe; high protein from fish; crispy and savory; suitable for all ages; ideal for export as specialty snack.",
-        uses:
-            "Standalone snack; accompaniment to meals; retail and bulk export; custom packaging and private label; convenience and grocery distribution.",
+            "Everyday snack favorite; Authentic regional specialty; Versatile meal companion; Suitable for events and hospitality; Long-lasting and travel-friendly",
+        uses: "Standalone snack; accompaniment to meals; retail and bulk export; custom packaging and private label; convenience and grocery distribution.",
         legality:
-            "Produced under Indonesian food safety standards; export-ready with applicable certifications; halal certification available upon request.",
+            "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
     },
     {
         id: "passion-fruit",
-        name: "Passion Fruit Beverage (Minuman Sari Markisa)",
+        name: "Passion Fruit Beverage",
         image: product4,
         description:
             "Made from fresh Indonesian passion fruit, delivering a refreshing tropical taste. Available for bulk export and private labeling.",
         ingredients:
-            "Passion fruit juice/concentrate, water, sugar, citric acid (as regulator), natural flavor. No artificial colors. Formulation can be adjusted for OEM.",
-        shelfLife: "12–18 months unopened when stored in a cool, dry place. Refrigerate after opening and consume within the period stated on label.",
+            "Passion Fruit Juice, Sugar and Sodium Benzoate (as permitted preservative)",
+        shelfLife:
+            "6 months unopened when stored in a cool, dry place. Refrigerate after opening and consume within the period stated on label.",
         benefits:
-            "Natural tropical flavor; vitamin C and antioxidants from passion fruit; refreshing; suitable for private label and bulk shipment.",
-        uses:
-            "Ready-to-drink beverage; base for cocktails and mocktails; food service and hospitality; retail and e-commerce; bulk and container shipment for overseas bottling.",
+            "Rich in vitamin C to support normal immune function; Contains antioxidants that help protect cells from oxidative stress; A source of dietary fiber that supports healthy digestion; Contains potassium, which contributes to the maintenance of normal blood pressure; Naturally contains alkaloid compounds associated with mild calming properties",
+        uses: "Ready-to-drink beverage; base for cocktails and mocktails; food service and hospitality; retail and e-commerce; bulk and container shipment for overseas bottling.",
         legality:
-            "Manufactured in licensed facilities; compliant with Indonesian and international beverage standards; export documentation and private label options available.",
+            "Halal-certified and officially registered with BPOM (Indonesia’s National Agency of Drug and Food Control), ensuring compliance with national food safety regulations.",
     },
 ];
 </script>

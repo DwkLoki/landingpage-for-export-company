@@ -1,12 +1,13 @@
-<script>
-    import heroImg from "~/assets/images/hero-image.jpg"
+<script setup>
+import heroImg from "~/assets/images/hero-image.jpg";
+const localePath = useLocalePath();
 </script>
 
 <template>
     <div>
         <!-- Hero Section: full viewport, image behind header -->
         <section
-            class="hero-fullscreen relative flex min-h-screen flex-col justify-center bg-gray-900"
+            class="-mt-16 relative flex min-h-screen flex-col justify-center bg-gray-900"
             aria-label="Hero"
         >
             <!-- Background image: kekayaan tanaman Indonesia (ganti dengan /images/hero.jpg jika pakai asset lokal) -->
@@ -20,14 +21,25 @@
                 aria-hidden="true"
             />
             <!-- Konten di atas overlay -->
-            <div class="relative z-10 mx-auto max-w-4xl px-4 pt-24 pb-16 text-center sm:px-6">
-                <h1 class="text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-sm sm:text-4xl md:text-5xl lg:text-6xl">
-                    Bringing Indonesia's Finest Natural Products to the Global Market
+            <div
+                class="relative z-10 mx-auto max-w-4xl px-4 pt-24 pb-16 text-center sm:px-6"
+            >
+                <h1
+                    class="text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-sm sm:text-4xl md:text-5xl lg:text-6xl"
+                >
+                    Bringing Indonesia's Finest Natural Products to the Global
+                    Market
                 </h1>
-                <p class="mx-auto mt-6 max-w-2xl text-lg text-white/95 drop-shadow-sm md:text-xl">
-                    A trusted export partner based in Makassar & Maros, delivering premium Indonesian food products in large-scale shipments across Southeast Asia, Australia, and beyond.
+                <p
+                    class="mx-auto mt-6 max-w-2xl text-lg text-white/95 drop-shadow-sm md:text-xl"
+                >
+                    A trusted export partner based in Makassar & Maros,
+                    delivering premium Indonesian food products in large-scale
+                    shipments across Southeast Asia, Australia, and beyond.
                 </p>
-                <div class="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center">
+                <div
+                    class="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center"
+                >
                     <NuxtLink
                         :to="localePath('/contact')"
                         class="inline-flex items-center justify-center rounded-xl bg-amber-400 px-8 py-4 text-base font-semibold text-amber-900 shadow-lg transition hover:bg-amber-300"
@@ -43,20 +55,31 @@
                 </div>
             </div>
             <!-- Scroll cue -->
-            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/70">
-                <span class="inline-block h-8 w-5 rounded-full border-2 border-current" />
+            <div
+                class="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/70"
+            >
+                <span
+                    class="inline-block h-8 w-5 rounded-full border-2 border-current"
+                />
             </div>
         </section>
 
         <!-- About Section -->
-        <section class="py-16 md:py-24 bg-white">
+        <section class="py-16 md:py-24">
             <div class="max-w-4xl mx-auto px-4 sm:px-6">
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">About Us</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                    About Us
+                </h2>
                 <p class="text-gray-600 text-lg leading-relaxed mb-4">
-                    We are an Indonesia-based export company specializing in high-quality natural and processed food products. Operating from Makassar City and Maros Regency, we connect Indonesia's rich natural resources with international markets.
+                    We are an Indonesia-based export company specializing in
+                    high-quality natural and processed food products. Operating
+                    from Makassar City and Maros Regency, we connect Indonesia's
+                    rich natural resources with international markets.
                 </p>
                 <p class="text-gray-600 text-lg leading-relaxed">
-                    With strong local sourcing networks and scalable production capabilities, we are ready to fulfill bulk orders ranging from multi-ton shipments to full truckload exports.
+                    With strong local sourcing networks and scalable production
+                    capabilities, we are ready to fulfill bulk orders ranging
+                    from multi-ton shipments to full truckload exports.
                 </p>
             </div>
         </section>
@@ -64,34 +87,88 @@
         <!-- Why Partner With Us -->
         <section class="py-16 md:py-24 bg-gray-light">
             <div class="max-w-5xl mx-auto px-4 sm:px-6">
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-12 text-center">Why Partner With Us?</h2>
+                <h2
+                    class="text-2xl md:text-3xl font-bold text-gray-900 mb-12 text-center"
+                >
+                    Why Partner With Us?
+                </h2>
                 <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Reliable Supply Capacity</h3>
-                        <p class="text-gray-600">Capable of fulfilling bulk orders, including multi-ton and full truckload shipments.</p>
+                    <div
+                        class="inline-block rounded-xl shadow-lg bg-gradient-to-br from-green-light to-green-dark p-[3px]"
+                    >
+                        <div class="h-full rounded-xl bg-white p-6 md:p-8">
+                            <h3
+                                class="text-lg font-semibold text-gray-900 mb-2"
+                            >
+                                Reliable Supply Capacity
+                            </h3>
+                            <p class="text-gray-600">
+                                Capable of fulfilling bulk orders, including
+                                multi-ton and full truckload shipments.
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Strategic Location</h3>
-                        <p class="text-gray-600">Based in Eastern Indonesia, giving efficient access to domestic sourcing and international ports.</p>
+                    <div
+                        class="inline-block rounded-xl shadow-lg bg-gradient-to-br from-green-light to-green-dark p-[3px]"
+                    >
+                        <div class="h-full rounded-xl bg-white p-6 md:p-8">
+                            <h3
+                                class="text-lg font-semibold text-gray-900 mb-2"
+                            >
+                                Strategic Location
+                            </h3>
+                            <p class="text-gray-600">
+                                Based in Eastern Indonesia, giving efficient
+                                access to domestic sourcing and international
+                                ports.
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Quality Assurance</h3>
-                        <p class="text-gray-600">Carefully selected raw materials and consistent quality control standards.</p>
+                    <div
+                        class="inline-block rounded-xl shadow-lg bg-gradient-to-br from-green-light to-green-dark p-[3px]"
+                    >
+                        <div class="h-full rounded-xl bg-white p-6 md:p-8">
+                            <h3
+                                class="text-lg font-semibold text-gray-900 mb-2"
+                            >
+                                Quality Assurance
+                            </h3>
+                            <p class="text-gray-600">
+                                Carefully selected raw materials and consistent
+                                quality control standards.
+                            </p>
+                        </div>
                     </div>
-                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Export-Oriented Operations</h3>
-                        <p class="text-gray-600">Experienced in serving Southeast Asian and Australian markets, with expansion plans to Europe.</p>
+                    <div
+                        class="inline-block rounded-xl shadow-lg bg-gradient-to-br from-green-light to-green-dark p-[3px]"
+                    >
+                        <div class="h-full rounded-xl bg-white p-6 md:p-8">
+                            <h3
+                                class="text-lg font-semibold text-gray-900 mb-2"
+                            >
+                                Export-Oriented Operations
+                            </h3>
+                            <p class="text-gray-600">
+                                Experienced in serving Southeast Asian and
+                                Australian markets, with expansion plans to
+                                Europe.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Our Export Markets -->
-        <section class="py-16 md:py-24 bg-white">
+        <section class="py-16 md:py-24">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Our Export Markets</h2>
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+                    Our Export Markets
+                </h2>
                 <p class="text-gray-600 text-lg leading-relaxed mb-10">
-                    We currently serve clients across Southeast Asia and Australia, with plans to expand into the European market in the near future.
+                    We currently serve clients across Southeast Asia and
+                    Australia, with plans to expand into the European market in
+                    the near future.
                 </p>
                 <NuxtLink
                     :to="localePath('/contact')"
@@ -103,14 +180,3 @@
         </section>
     </div>
 </template>
-
-<script setup>
-const localePath = useLocalePath();
-</script>
-
-<style scoped>
-/* Hero mengisi layar dan 'menarik' ke atas agar menyatu dengan header */
-.hero-fullscreen {
-    margin-top: -3.5rem; /* sama dengan h-14 header */
-}
-</style>

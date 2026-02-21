@@ -16,16 +16,11 @@ export default <Partial<Config>>{
             },
             colors: {
                 primary: {
-                    pink: "#ff0078",
+                    green: "#edf8e9",
                 },
-                pink: {
-                    light: "#fa9bbb",
-                    dark: "#d82b6a",
-                },
-                gray: {
-                    light: "#f7f7f7",
-                    medium: "#999",
-                    dark: "#5c5c5c",
+                green: {
+                    light: "#a1d99b",
+                    dark: "#006d2c",
                 },
             },
             borderWidth: { 6: "6px" },
