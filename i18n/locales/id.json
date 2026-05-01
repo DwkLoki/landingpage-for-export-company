@@ -2,6 +2,8 @@
     "navigation": {
         "home": "Beranda",
         "product": "Produk",
+        "productFinished": "Produk UMKM",
+        "productRaw": "Rempah & Komoditas",
         "service": "Layanan",
         "contact": "Kontak"
     },
@@ -25,6 +27,7 @@
         "product": {
             "title": "Produk Premium Kami",
             "desc": "Bersumber dari kekayaan alam Indonesia dan diproses sesuai standar internasional.",
+            "standardsLabel": "Standar & Sertifikasi",
             "ingredients": "Komposisi",
             "shelfLife": "Masa Simpan",
             "benefits": "Manfaat",
@@ -67,6 +70,112 @@
                 "legality": "Bersertifikat Halal dan terdaftar di BPOM (Badan Pengawas Obat dan Makanan), memastikan kepatuhan terhadap regulasi keamanan pangan nasional."
             }
         },
+        "productRaw": {
+            "title": "Komoditas Mentah",
+            "desc": "Komoditas pertanian unggulan yang bersumber langsung dari petani Indonesia, siap untuk ekspor skala besar.",
+            "advantagesLabel": "Keunggulan",
+            "specificationsLabel": "Spesifikasi",
+            "blackPepper": {
+                "name": "Lada Hitam",
+                "description": "Lada hitam utuh hasil pengeringan matahari dari sentra lada premium Indonesia, diproses sesuai standar ekspor internasional.",
+                "advantages": [
+                    "Aroma kuat dengan rasa pedas yang khas",
+                    "Dipanen pada tingkat kematangan optimal",
+                    "Proses pengeringan sempurna"
+                ],
+                "specifications": [
+                    { "label": "Asal", "value": "Indonesia" },
+                    { "label": "Grade A", "value": "GL 550" },
+                    { "label": "Kadar air", "value": "3,5%" },
+                    { "label": "Abu maks", "value": "3%" },
+                    { "label": "Kerusakan", "value": "0,3%" },
+                    { "label": "Kemasan", "value": "10, 20, 25, 50 Kg/Karung" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Waktu proses", "value": "20 - 30 hari" },
+                    { "label": "Pembayaran", "value": "Cash In Advance" }
+                ]
+            },
+            "whitePepper": {
+                "name": "Lada Putih",
+                "description": "Lada putih premium dari Bangka dan Lampung, dicuci dan dijemur untuk menghasilkan rasa bersih dan kualitas yang seragam.",
+                "advantages": [
+                    "Rasa lada bersih dan tajam",
+                    "Dicuci dan dijemur dengan teliti",
+                    "Disortir agar ukurannya seragam"
+                ],
+                "specifications": [
+                    { "label": "Asal", "value": "Indonesia (Bangka, Lampung)" },
+                    { "label": "Grade", "value": "ASTA Grade" },
+                    { "label": "Kadar air", "value": "14% maks" },
+                    { "label": "Abu maks", "value": "2,5% maks" },
+                    { "label": "Kerusakan", "value": "0,5% maks" },
+                    { "label": "Kemasan", "value": "10, 25, 50 Kg/Karung" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Waktu proses", "value": "20 - 30 hari" },
+                    { "label": "Pembayaran", "value": "Cash In Advance" }
+                ]
+            },
+            "cloves": {
+                "name": "Cengkeh",
+                "description": "Bunga cengkeh kering pilihan tangan dari Maluku dan Sulawesi, dijemur untuk mempertahankan aroma kuat dan kandungan minyak atsiri tinggi.",
+                "advantages": [
+                    "Aroma cengkeh kuat dan khas",
+                    "Dipetik tangan pada kematangan optimal",
+                    "Dijemur untuk menjaga minyak atsiri"
+                ],
+                "specifications": [
+                    { "label": "Asal", "value": "Indonesia (Maluku, Sulawesi)" },
+                    { "label": "Jenis", "value": "Bunga kering utuh" },
+                    { "label": "Kadar air", "value": "12% maks" },
+                    { "label": "Benda asing", "value": "1% maks" },
+                    { "label": "Cengkeh tanpa kepala", "value": "4% maks" },
+                    { "label": "Kemasan", "value": "25, 50 Kg/Karung" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Waktu proses", "value": "20 - 30 hari" },
+                    { "label": "Pembayaran", "value": "Cash In Advance" }
+                ]
+            },
+            "arecaNut": {
+                "name": "Pinang",
+                "description": "Pinang hasil pengeringan matahari dari Sulawesi dan Sumatra, disortir berdasarkan ukuran dan kualitas, cocok untuk pasar industri maupun ritel.",
+                "advantages": [
+                    "Dijemur untuk pengawetan alami",
+                    "Disortir berdasarkan ukuran dan kualitas",
+                    "Cocok untuk kebutuhan industri dan ritel"
+                ],
+                "specifications": [
+                    { "label": "Asal", "value": "Indonesia (Sulawesi, Sumatra)" },
+                    { "label": "Jenis", "value": "Belah / Utuh" },
+                    { "label": "Kadar air", "value": "12% maks" },
+                    { "label": "Benda asing", "value": "1% maks" },
+                    { "label": "Biji pecah", "value": "5% maks" },
+                    { "label": "Kemasan", "value": "50, 60 Kg/Karung" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Waktu proses", "value": "20 - 30 hari" },
+                    { "label": "Pembayaran", "value": "Cash In Advance" }
+                ]
+            },
+            "turmeric": {
+                "name": "Kunyit",
+                "description": "Kunyit alami dari Jawa dan Sulawesi, dengan warna oranye cerah dan kandungan kurkumin tinggi.",
+                "advantages": [
+                    "Warna oranye alami yang cerah",
+                    "Kandungan kurkumin tinggi",
+                    "Dibudidayakan tanpa bahan kimia buatan"
+                ],
+                "specifications": [
+                    { "label": "Asal", "value": "Indonesia (Jawa, Sulawesi)" },
+                    { "label": "Bentuk", "value": "Irisan kering / Rimpang utuh" },
+                    { "label": "Kandungan kurkumin", "value": "3% min" },
+                    { "label": "Kadar air", "value": "10% maks" },
+                    { "label": "Benda asing", "value": "1% maks" },
+                    { "label": "Kemasan", "value": "25, 50 Kg/Karung" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Waktu proses", "value": "20 - 30 hari" },
+                    { "label": "Pembayaran", "value": "Cash In Advance" }
+                ]
+            }
+        },
         "service": {
             "title": "Layanan Ekspor & Pasokan",
             "desc": "Skalabel. Andal. Siap untuk Pasar Internasional.",
@@ -85,6 +194,39 @@
             "title": "Mari Bangun Kemitraan Global",
             "desc": "Hubungi kami untuk mendiskusikan harga, kebutuhan volume, dan pengaturan ekspor.",
             "directContact": "Kontak Langsung"
+        },
+        "trust": {
+            "title": "Tepercaya Lintas Batas",
+            "desc": "Kami mematuhi regulasi ekspor Indonesia dan internasional, bekerja sama dengan otoritas nasional untuk pengiriman dengan dokumentasi lengkap.",
+            "regulatedBy": "Diawasi & Diakui Oleh",
+            "certifications": "Sertifikasi & Kepatuhan Kami",
+            "ministries": {
+                "kemenlu": "Kementerian Luar Negeri",
+                "kemendag": "Kementerian Perdagangan",
+                "beacukai": "Bea Cukai"
+            },
+            "certs": {
+                "karantina": {
+                    "name": "Badan Karantina Pertanian",
+                    "desc": "Menjamin produk bebas hama dan penyakit, syarat utama ekspor pertanian."
+                },
+                "coo": {
+                    "name": "Certificate of Origin (COO)",
+                    "desc": "Konfirmasi resmi negara asal barang untuk klaim tarif preferensi."
+                },
+                "phyto": {
+                    "name": "Phytosanitary",
+                    "desc": "Sertifikat kesehatan tumbuhan yang diakui secara internasional."
+                },
+                "peb": {
+                    "name": "Persetujuan Ekspor Barang (PEB)",
+                    "desc": "Dokumen pabean resmi yang menjamin legalitas pengiriman ekspor."
+                },
+                "fumigasi": {
+                    "name": "Fumigasi",
+                    "desc": "Perlakuan hama pada kontainer dan komoditas sebelum pengiriman."
+                }
+            }
         }
     },
     "label": {
@@ -103,6 +245,7 @@
     },
     "footer": {
         "copyright": "Hak Cipta © 2024 Semua Hak Dilindungi",
-        "vision": "Menghadirkan Keunggulan Alam Indonesia ke Dunia."
+        "vision": "Menghadirkan Keunggulan Alam Indonesia ke Dunia.",
+        "regulatedBy": "Diawasi & Diakui Oleh"
     }
 }

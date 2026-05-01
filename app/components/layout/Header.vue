@@ -14,13 +14,15 @@ const language = computed({
     set: (val) => setLocale(val),
 });
 const isMobileMenuShow = ref(false);
-const isWatchMenuShow = ref(false);
+const isProductMenuShow = ref(false);
 const localePath = useLocalePath();
 const isScrolledPastHero = ref(false);
 
 const toggleMobileMenu = () => {
     isMobileMenuShow.value = !isMobileMenuShow.value;
 };
+
+const isProductActive = computed(() => route.path.includes("/product"));
 
 const headerClass = computed(() => {
     if (isMobileMenuShow.value) {
@@ -35,13 +37,12 @@ const headerClass = computed(() => {
 });
 
 function handleClickOutside(e) {
-    const dropdown = document.querySelector(".dropdown-menu");
+    const dropdown = document.querySelector(".product-dropdown");
 
     if (!dropdown) return;
 
-    // Jika klik bukan di tombol watch dan bukan di dropdown → tutup
     if (!dropdown.contains(e.target)) {
-        isWatchMenuShow.value = false;
+        isProductMenuShow.value = false;
     }
 }
 
@@ -138,17 +139,50 @@ onMounted(() => {
                             >{{ $t("navigation.home") }}</NuxtLink
                         >
                     </li>
-                    <li class="hidden md:block">
-                        <NuxtLink
-                            :to="localePath('/product')"
-                            class="transition-colors"
-                            :class="
+                    <li class="hidden md:block relative product-dropdown">
+                        <button
+                            type="button"
+                            @click="isProductMenuShow = !isProductMenuShow"
+                            class="flex items-center gap-1 transition-colors"
+                            :class="[
                                 isHomePage && !isScrolledPastHero
                                     ? 'hover:text-amber-300'
-                                    : 'hover:text-amber-600'
-                            "
-                            >{{ $t("navigation.product") }}</NuxtLink
+                                    : 'hover:text-amber-600',
+                                isProductActive
+                                    ? isHomePage && !isScrolledPastHero
+                                        ? 'text-amber-300'
+                                        : 'text-amber-600'
+                                    : '',
+                            ]"
                         >
+                            {{ $t("navigation.product") }}
+                            <LucideChevronDown
+                                :size="16"
+                                class="transition-transform"
+                                :class="isProductMenuShow ? 'rotate-180' : ''"
+                            />
+                        </button>
+                        <Transition name="slide-down">
+                            <div
+                                v-if="isProductMenuShow"
+                                class="absolute left-1/2 -translate-x-1/2 top-full mt-3 min-w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5 py-2"
+                            >
+                                <NuxtLink
+                                    :to="localePath('/product/finished')"
+                                    class="block px-4 py-2 text-gray-700 hover:bg-gray-light hover:text-amber-600 transition-colors"
+                                    @click="isProductMenuShow = false"
+                                >
+                                    {{ $t("navigation.productFinished") }}
+                                </NuxtLink>
+                                <NuxtLink
+                                    :to="localePath('/product/raw')"
+                                    class="block px-4 py-2 text-gray-700 hover:bg-gray-light hover:text-amber-600 transition-colors"
+                                    @click="isProductMenuShow = false"
+                                >
+                                    {{ $t("navigation.productRaw") }}
+                                </NuxtLink>
+                            </div>
+                        </Transition>
                     </li>
                     <li class="hidden md:block">
                         <NuxtLink

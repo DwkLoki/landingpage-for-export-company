@@ -1,5 +1,8 @@
 <script setup>
 import heroImg from "~/assets/images/hero-image.jpg";
+import kemenluLogo from "~/assets/images/kemenlu.png";
+import kemendagLogo from "~/assets/images/kemendag.svg";
+import beacukaiLogo from "~/assets/images/beacukai.svg";
 const localePath = useLocalePath();
 </script>
 
@@ -45,7 +48,7 @@ const localePath = useLocalePath();
                         {{ $t("label.reqQuotation") }}
                     </NuxtLink>
                     <NuxtLink
-                        :to="localePath('/product')"
+                        :to="localePath('/product/finished')"
                         class="inline-flex items-center justify-center rounded-xl border-2 border-white/90 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
                     >
                         {{ $t("label.exploreOurProducts") }}
@@ -139,6 +142,164 @@ const localePath = useLocalePath();
                             </h3>
                             <p class="text-gray-600">
                                 {{ $t("content.whyWithUs.fourthPointDesc") }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust / Certifications -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                <h2
+                    class="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-3"
+                >
+                    {{ $t("content.trust.title") }}
+                </h2>
+                <p
+                    class="text-gray-600 text-center text-lg max-w-2xl mx-auto mb-12"
+                >
+                    {{ $t("content.trust.desc") }}
+                </p>
+
+                <!-- Ministry Logos -->
+                <div class="mb-14">
+                    <p
+                        class="text-sm font-semibold text-gray-500 uppercase tracking-wider text-center mb-6"
+                    >
+                        {{ $t("content.trust.regulatedBy") }}
+                    </p>
+                    <div
+                        class="flex flex-wrap items-center justify-center gap-4 md:gap-6"
+                    >
+                        <div class="flex flex-col items-center justify-center">
+                            <img
+                                :src="kemenluLogo"
+                                alt="Kemenlu Logo"
+                                class="h-24 mb-1"
+                            />
+                            <span
+                                class="text-gray-500 text-xs font-semibold text-center px-2"
+                            >
+                                {{ $t("content.trust.ministries.kemenlu") }}
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <img
+                                :src="kemendagLogo"
+                                alt="Kemendag Logo"
+                                class="h-24 mb-1"
+                            />
+                            <span
+                                class="text-gray-500 text-xs font-semibold text-center px-2"
+                            >
+                                {{ $t("content.trust.ministries.kemendag") }}
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center">
+                            <img
+                                :src="beacukaiLogo"
+                                alt="Beacukai Logo"
+                                class="h-24 mb-1"
+                            />
+                            <span
+                                class="text-gray-500 text-xs font-semibold text-center px-2"
+                            >
+                                {{ $t("content.trust.ministries.beacukai") }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Grid -->
+                <div>
+                    <p
+                        class="text-sm font-semibold text-gray-500 uppercase tracking-wider text-center mb-6"
+                    >
+                        {{ $t("content.trust.certifications") }}
+                    </p>
+                    <div
+                        class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4"
+                    >
+                        <div
+                            class="rounded-xl border border-green-dark/30 bg-gradient-to-br from-green-light/15 to-white p-5 text-center hover:shadow-md transition-shadow"
+                        >
+                            <LucideShieldCheck
+                                :size="36"
+                                class="mx-auto mb-3 text-green-dark"
+                            />
+                            <h4
+                                class="font-semibold text-gray-900 text-sm mb-1.5"
+                            >
+                                {{ $t("content.trust.certs.karantina.name") }}
+                            </h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">
+                                {{ $t("content.trust.certs.karantina.desc") }}
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-xl border border-green-dark/30 bg-gradient-to-br from-green-light/15 to-white p-5 text-center hover:shadow-md transition-shadow"
+                        >
+                            <LucideGlobe
+                                :size="36"
+                                class="mx-auto mb-3 text-green-dark"
+                            />
+                            <h4
+                                class="font-semibold text-gray-900 text-sm mb-1.5"
+                            >
+                                {{ $t("content.trust.certs.coo.name") }}
+                            </h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">
+                                {{ $t("content.trust.certs.coo.desc") }}
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-xl border border-green-dark/30 bg-gradient-to-br from-green-light/15 to-white p-5 text-center hover:shadow-md transition-shadow"
+                        >
+                            <LucideSprout
+                                :size="36"
+                                class="mx-auto mb-3 text-green-dark"
+                            />
+                            <h4
+                                class="font-semibold text-gray-900 text-sm mb-1.5"
+                            >
+                                {{ $t("content.trust.certs.phyto.name") }}
+                            </h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">
+                                {{ $t("content.trust.certs.phyto.desc") }}
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-xl border border-green-dark/30 bg-gradient-to-br from-green-light/15 to-white p-5 text-center hover:shadow-md transition-shadow"
+                        >
+                            <LucideFileCheck
+                                :size="36"
+                                class="mx-auto mb-3 text-green-dark"
+                            />
+                            <h4
+                                class="font-semibold text-gray-900 text-sm mb-1.5"
+                            >
+                                {{ $t("content.trust.certs.peb.name") }}
+                            </h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">
+                                {{ $t("content.trust.certs.peb.desc") }}
+                            </p>
+                        </div>
+                        <div
+                            class="rounded-xl border border-green-dark/30 bg-gradient-to-br from-green-light/15 to-white p-5 text-center hover:shadow-md transition-shadow"
+                        >
+                            <LucideSprayCan
+                                :size="36"
+                                class="mx-auto mb-3 text-green-dark"
+                            />
+                            <h4
+                                class="font-semibold text-gray-900 text-sm mb-1.5"
+                            >
+                                {{ $t("content.trust.certs.fumigasi.name") }}
+                            </h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">
+                                {{ $t("content.trust.certs.fumigasi.desc") }}
                             </p>
                         </div>
                     </div>

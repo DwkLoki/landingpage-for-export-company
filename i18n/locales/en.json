@@ -2,6 +2,8 @@
     "navigation": {
         "home": "Home",
         "product": "Product",
+        "productFinished": "Artisan Products",
+        "productRaw": "Spices & Commodities",
         "service": "Service",
         "contact": "Contact"
     },
@@ -25,6 +27,7 @@
         "product": {
             "title": "Our Premium Products",
             "desc": "Sourced from Indonesia's rich natural resources and processed to meet international standards.",
+            "standardsLabel": "Standards & Certifications",
             "ingredients": "Ingredients",
             "shelfLife": "Shelf Life",
             "benefits": "Benefits",
@@ -67,6 +70,162 @@
                 "legality": "Halal-certified and officially registered with BPOM (Indonesia’s National Agency of Drug and Food Control), ensuring compliance with national food safety regulations."
             }
         },
+        "productRaw": {
+            "title": "Raw Commodities",
+            "desc": "Premium agricultural commodities sourced directly from Indonesian farmers, ready for bulk export.",
+            "advantagesLabel": "Advantages",
+            "specificationsLabel": "Specifications",
+            "blackPepper": {
+                "name": "Black Pepper",
+                "description": "Sun-dried whole black peppercorns sourced from Indonesia's premium pepper-growing regions, processed to meet international export standards.",
+                "advantages": [
+                    "Strong aroma with a distinctive spicy flavour",
+                    "Harvested at optimum maturity",
+                    "Perfect drying process"
+                ],
+                "specifications": [
+                    { "label": "Origin", "value": "Indonesia" },
+                    { "label": "Grade A", "value": "GL 550" },
+                    { "label": "Moisture content", "value": "3.5%" },
+                    { "label": "Ash Max", "value": "3%" },
+                    { "label": "Damage", "value": "0.3%" },
+                    { "label": "Packaging", "value": "10, 20, 25, 50 Kg/Sack" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Processing time", "value": "20 - 30 days" },
+                    { "label": "Payment term", "value": "Cash In Advance" }
+                ]
+            },
+            "whitePepper": {
+                "name": "White Pepper",
+                "description": "Premium white pepper from Bangka and Lampung, washed and sun-dried for clean, sharp flavor and uniform quality.",
+                "advantages": [
+                    "Clean, sharp pepper flavor",
+                    "Carefully washed and sun-dried",
+                    "Sorted for uniform size"
+                ],
+                "specifications": [
+                    {
+                        "label": "Origin",
+                        "value": "Indonesia (Bangka, Lampung)"
+                    },
+                    { "label": "Grade", "value": "ASTA Grade" },
+                    { "label": "Moisture content", "value": "14% max" },
+                    { "label": "Ash Max", "value": "2.5% max" },
+                    { "label": "Damage", "value": "0.5% max" },
+                    { "label": "Packaging", "value": "10, 25, 50 Kg/Sack" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Processing time", "value": "20 - 30 days" },
+                    { "label": "Payment term", "value": "Cash In Advance" }
+                ]
+            },
+            "cloves": {
+                "name": "Cloves",
+                "description": "Hand-picked dried clove buds from Maluku and Sulawesi, sun-dried to retain their strong fragrance and high essential oil content.",
+                "advantages": [
+                    "Rich in eugenol, providing intense aroma and flavour",
+                    "Hand-picked to maintain quality",
+                    "Natural drying process"
+                ],
+                "specifications": [
+                    {
+                        "label": "Origin",
+                        "value": "Indonesia (Maluku, Sulawesi)"
+                    },
+                    { "label": "Grade A", "value": "AB6" },
+                    { "label": "Moisture content", "value": "3.5%" },
+                    { "label": "Ash Max", "value": "3%" },
+                    { "label": "Packaging", "value": "10, 20, 25,50 Kg/Sack" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Processing time", "value": "20 - 30 days" },
+                    { "label": "Payment term", "value": "Cash In Advance" }
+                ]
+            },
+            "arecaNut": {
+                "name": "Areca Nut",
+                "description": "Sun-dried areca nuts from Sulawesi and Sumatra, sorted for size and quality, suitable for industrial and retail markets.",
+                "advantages": [
+                    "Sun-dried for natural preservation",
+                    "Sorted by size and quality",
+                    "Suitable for industrial and retail use"
+                ],
+                "specifications": [
+                    {
+                        "label": "Origin",
+                        "value": "Indonesia (Sulawesi, Sumatra)"
+                    },
+                    { "label": "Type", "value": "Split / Whole" },
+                    { "label": "Moisture content", "value": "12% max" },
+                    { "label": "Foreign matter", "value": "1% max" },
+                    { "label": "Broken nuts", "value": "5% max" },
+                    { "label": "Packaging", "value": "50, 60 Kg/Sack" },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Processing time", "value": "20 - 30 days" },
+                    { "label": "Payment term", "value": "Cash In Advance" }
+                ]
+            },
+            "turmeric": {
+                "name": "Turmeric",
+                "description": "Naturally cultivated turmeric from Java and Sulawesi, with vibrant orange color and high curcumin content.",
+                "advantages": [
+                    "Vibrant natural orange color",
+                    "High curcumin content",
+                    "Cultivated without artificial chemicals"
+                ],
+                "specifications": [
+                    { "label": "Curcumin content", "value": "3 - 5%" },
+                    { "label": "Moisture content", "value": "70 - 75%" },
+                    {
+                        "label": "Colour",
+                        "value": "Reddish brown outer skin, bright orange inner flesh"
+                    },
+                    { "label": "Aroma", "value": "Strong and distinctive" },
+                    {
+                        "label": "Size",
+                        "value": "5-7 cm long, 1-2 cm in diameter"
+                    },
+                    { "label": "Shape", "value": "Whole or cut rhizome" },
+                    { "label": "Texture", "value": "Dense and not fibrous" },
+                    {
+                        "label": "Packaging",
+                        "value": "25 - 50, Kg/Plastic Basket, Mesh bag"
+                    },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Processing time", "value": "20 - 30 days" },
+                    { "label": "Payment term", "value": "Cash In Advance" }
+                ]
+            },
+            "nutmeg": {
+                "name": "Nutmeg",
+                "description": "High-quality nutmeg from Indonesia, known for its intense aroma and flavor.",
+                "advantages": [
+                    "Intense aroma and flavor",
+                    "High-quality grade",
+                    "Sourced from premium plantations"
+                ],
+                "specifications": [
+                    { "label": "Curcumin content", "value": "3 - 5%" },
+                    { "label": "Moisture content", "value": "70 - 75%" },
+                    {
+                        "label": "Colour",
+                        "value": "Reddish brown outer skin, bright orange inner flesh"
+                    },
+                    { "label": "Aroma", "value": "Strong and distinctive" },
+                    {
+                        "label": "Size",
+                        "value": "5-7 cm long, 1-2 cm in diameter"
+                    },
+                    { "label": "Shape", "value": "Whole or cut rhizome" },
+                    { "label": "Texture", "value": "Dense and not fibrous" },
+                    {
+                        "label": "Packaging",
+                        "value": "25 - 50, Kg/Plastic Basket, Mesh bag"
+                    },
+                    { "label": "MOQ", "value": "1x20 ft Container" },
+                    { "label": "Processing time", "value": "20 - 30 days" },
+                    { "label": "Payment term", "value": "Cash In Advance" }
+                ]
+            }
+        },
         "service": {
             "title": "Export & Supply Services",
             "desc": "Scalable. Reliable. Internationally Ready.",
@@ -85,6 +244,39 @@
             "title": "Let's Build a Global Partnership",
             "desc": "Contact us today to discuss pricing, volume requirements, and export arrangements.",
             "directContact": "Direct Contact"
+        },
+        "trust": {
+            "title": "Trusted Across Borders",
+            "desc": "We comply with Indonesian and international export regulations, working hand-in-hand with national authorities to ship with full documentation.",
+            "regulatedBy": "Regulated & Recognized By",
+            "certifications": "Our Certifications & Compliance",
+            "ministries": {
+                "kemenlu": "Ministry of Foreign Affairs",
+                "kemendag": "Ministry of Trade",
+                "beacukai": "Indonesian Customs"
+            },
+            "certs": {
+                "karantina": {
+                    "name": "Agricultural Quarantine",
+                    "desc": "Ensures pest- and disease-free produce, a core requirement for agricultural exports."
+                },
+                "coo": {
+                    "name": "Certificate of Origin",
+                    "desc": "Official confirmation of country of origin to qualify for preferential tariffs."
+                },
+                "phyto": {
+                    "name": "Phytosanitary",
+                    "desc": "Internationally recognized plant health certificate."
+                },
+                "peb": {
+                    "name": "Export Approval (PEB)",
+                    "desc": "Official customs document securing legal export shipment."
+                },
+                "fumigasi": {
+                    "name": "Fumigation",
+                    "desc": "Pest treatment of containers and commodities prior to shipment."
+                }
+            }
         }
     },
     "label": {
@@ -103,6 +295,7 @@
     },
     "footer": {
         "copyright": "Copyright © 2024 All Rights Reserved",
-        "vision": "Delivering Indonesia's Natural Excellence to the World."
+        "vision": "Delivering Indonesia's Natural Excellence to the World.",
+        "regulatedBy": "Regulated & Recognized By"
     }
 }

@@ -13,13 +13,36 @@
                     {{ $t("navigation.home") }}
                 </NuxtLink>
 
-                <NuxtLink
-                    :to="localePath('/product')"
-                    class="py-2 text-gray-700 hover:text-amber-600 font-medium"
-                    @click="$emit('close')"
-                >
-                    {{ $t("navigation.product") }}
-                </NuxtLink>
+                <div>
+                    <button
+                        type="button"
+                        class="w-full flex items-center justify-between py-2 text-gray-700 hover:text-amber-600 font-medium"
+                        @click="isProductExpanded = !isProductExpanded"
+                    >
+                        <span>{{ $t("navigation.product") }}</span>
+                        <LucideChevronDown
+                            :size="18"
+                            class="transition-transform"
+                            :class="isProductExpanded ? 'rotate-180' : ''"
+                        />
+                    </button>
+                    <div v-if="isProductExpanded" class="pl-4 flex flex-col">
+                        <NuxtLink
+                            :to="localePath('/product/finished')"
+                            class="py-2 text-gray-600 hover:text-amber-600"
+                            @click="$emit('close')"
+                        >
+                            {{ $t("navigation.productFinished") }}
+                        </NuxtLink>
+                        <NuxtLink
+                            :to="localePath('/product/raw')"
+                            class="py-2 text-gray-600 hover:text-amber-600"
+                            @click="$emit('close')"
+                        >
+                            {{ $t("navigation.productRaw") }}
+                        </NuxtLink>
+                    </div>
+                </div>
 
                 <NuxtLink
                     :to="localePath('/service')"
@@ -86,4 +109,6 @@ const language = computed({
     get: () => locale.value,
     set: (val) => setLocale(val),
 });
+
+const isProductExpanded = ref(false);
 </script>
