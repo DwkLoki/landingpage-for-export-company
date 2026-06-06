@@ -1,251 +1,260 @@
 {
-    "navigation": {
-        "home": "首页",
-        "product": "产品",
-        "productFinished": "特色产品",
-        "productRaw": "香料与农产品",
-        "service": "服务",
-        "contact": "联系我们"
+  "meta": {
+    "finishedProductTitle": "特色产品",
+    "rawProductTitle": "香料与农产品",
+    "contactTitle": "联系我们",
+    "serviceTitle": "出口与供应服务",
+    "homeTitle": "印尼天然食品出口商",
+    "description": "PT. NIC 是一家值得信赖的印尼出口公司，专注于高品质天然及加工食品。总部位于马卡萨与马罗斯，我们将印尼丰富的自然资源连接至东南亚、澳大利亚及全球市场。",
+    "keywords": "印尼出口商, 天然食品, 加工食品, 大批量出口, 椰糖粉, 金枪鱼松, 马鲛鱼脆饼, 百香果饮料, 黑胡椒, 白胡椒, 丁香, 槟榔, 姜黄, 肉豆蔻, 国际贸易, 出口服务"
+  },
+  "navigation": {
+    "home": "首页",
+    "product": "产品",
+    "productFinished": "特色产品",
+    "productRaw": "香料与农产品",
+    "service": "服务",
+    "contact": "联系我们"
+  },
+  "content": {
+    "heroTitle": "将印尼优质天然产品带向全球市场",
+    "heroDesc": "我们是一家总部位于马卡萨与马罗斯的专业出口合作伙伴，向东南亚、澳大利亚及全球市场供应高品质印尼食品，支持大规模批量出口。",
+    "aboutUs": "关于我们",
+    "aboutUsFirstDesc": "我们是一家总部位于印度尼西亚的出口公司，专注于高品质天然及加工食品。依托印尼丰富的自然资源，我们将本地优质产品连接至国际市场。",
+    "aboutUsSecondDesc": "凭借稳定的本地供应网络和可扩展的生产能力，我们能够满足从多吨订单到整车出口的批量需求。",
+    "whyWithUs": {
+      "title": "为什么选择我们？",
+      "firstPoint": "稳定可靠的供应能力",
+      "firstPointDesc": "可满足多吨及整车出口等大批量订单需求。",
+      "secondPoint": "战略地理位置",
+      "secondPointDesc": "位于印尼东部，便于原材料采购及国际港口运输。",
+      "thirdPoint": "质量保障",
+      "thirdPointDesc": "精选原材料，并实行严格的质量控制标准。",
+      "fourthPoint": "出口导向运营",
+      "fourthPointDesc": "拥有东南亚及澳大利亚市场经验，并计划拓展至欧洲市场。"
     },
-    "content": {
-        "heroTitle": "将印尼优质天然产品带向全球市场",
-        "heroDesc": "我们是一家总部位于马卡萨与马罗斯的专业出口合作伙伴，向东南亚、澳大利亚及全球市场供应高品质印尼食品，支持大规模批量出口。",
-        "aboutUs": "关于我们",
-        "aboutUsFirstDesc": "我们是一家总部位于印度尼西亚的出口公司，专注于高品质天然及加工食品。依托印尼丰富的自然资源，我们将本地优质产品连接至国际市场。",
-        "aboutUsSecondDesc": "凭借稳定的本地供应网络和可扩展的生产能力，我们能够满足从多吨订单到整车出口的批量需求。",
-        "whyWithUs": {
-            "title": "为什么选择我们？",
-            "firstPoint": "稳定可靠的供应能力",
-            "firstPointDesc": "可满足多吨及整车出口等大批量订单需求。",
-            "secondPoint": "战略地理位置",
-            "secondPointDesc": "位于印尼东部，便于原材料采购及国际港口运输。",
-            "thirdPoint": "质量保障",
-            "thirdPointDesc": "精选原材料，并实行严格的质量控制标准。",
-            "fourthPoint": "出口导向运营",
-            "fourthPointDesc": "拥有东南亚及澳大利亚市场经验，并计划拓展至欧洲市场。"
+    "product": {
+      "title": "我们的优质产品",
+      "desc": "源自印度尼西亚丰富的自然资源，并按照国际标准加工生产。",
+      "standardsLabel": "标准与认证",
+      "ingredients": "成分",
+      "shelfLife": "保质期",
+      "benefits": "产品优势",
+      "uses": "用途",
+      "legality": "资质与认证",
+      "firstProduct": {
+        "name": "椰糖粉（Gula Aren）",
+        "description": "采用印尼天然椰树汁制成，具有浓郁焦糖风味和细腻口感。适用于食品制造、饮料生产及零售分销。",
+        "ingredients": "100% 天然椰树汁（无添加剂、防腐剂及人工色素）。",
+        "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，自生产日期起12个月。",
+        "benefits": "有助于支持免疫系统功能；作为均衡饮食的一部分有助于维持健康血糖水平；促进消化健康；支持神经系统功能；富含天然抗氧化物。",
+        "uses": "饮料甜味剂（咖啡、茶、果汁）；烘焙及甜点配料；酱料与调味品的基础原料。",
+        "legality": "按照印尼食品安全法规生产。获得清真认证（Halal），持有P-IRT许可，配备营养成分标签及零售条形码，支持国内与国际分销。"
+      },
+      "secondProduct": {
+        "name": "优质金枪鱼松",
+        "description": "选用优质金枪鱼，经卫生加工以保持新鲜与风味。高蛋白产品，适合零售及批发分销。",
+        "ingredients": "新鲜金枪鱼、植物油、大蒜、红葱头、高良姜、生姜、姜黄、香菜籽、胡椒、调味料、盐。",
+        "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，保质期为12个月。具体以产品标签为准。",
+        "benefits": "高蛋白含量；富含Omega-3；保质期长；用途广泛；适合零售与餐饮行业。",
+        "uses": "可作为米饭及粥类配料；面包与糕点馅料；即食零食；传统与现代菜肴配料；批量供应用于再包装。",
+        "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。"
+      },
+      "thirdProduct": {
+        "name": "马鲛鱼脆饼（Krupuk Amplang）",
+        "description": "采用优质马鲛鱼制作的传统印尼零食，口感酥脆，风味鲜美，深受各类市场欢迎。",
+        "ingredients": "新鲜马鲛鱼、小麦面粉、鸡蛋、胡椒、盐、糖、膨松剂。",
+        "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，保质期为3个月。请在有效期内食用。",
+        "benefits": "日常受欢迎零食；具有地方特色；餐食搭配佳品；适用于招待及活动场合；保质期长，便于携带。",
+        "uses": "可作为独立零食；餐食搭配；零售与出口分销；支持定制包装与贴牌生产；适合商超及批发渠道。",
+        "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。"
+      },
+      "fourthProduct": {
+        "name": "百香果饮料",
+        "description": "采用新鲜印尼百香果制成，带来清爽的热带风味。支持大批量出口及贴牌生产。",
+        "ingredients": "百香果汁、糖、苯甲酸钠（作为许可使用的防腐剂）。",
+        "shelfLife": "在密封状态下并存放于阴凉干燥处，保质期为6个月。开封后请冷藏并在标签标示期限内饮用。",
+        "benefits": "富含维生素C，有助于支持正常免疫功能；含抗氧化成分，有助于保护细胞免受氧化压力；含膳食纤维，有助于消化健康；含钾元素，有助于维持正常血压；含天然生物碱成分，具有轻微放松特性。",
+        "uses": "即饮饮料；鸡尾酒与无酒精饮品基底；酒店及餐饮行业；零售与电商渠道；支持集装箱出口及海外灌装。",
+        "legality": "获得清真认证，并在BPOM（印尼国家食品药品监督管理局）注册，确保符合国家食品安全法规。"
+      }
+    },
+    "productRaw": {
+      "title": "原材料商品",
+      "desc": "源自印尼农户的优质农产品原料，可大批量出口。",
+      "advantagesLabel": "产品优势",
+      "specificationsLabel": "规格参数",
+      "blackPepper": {
+        "name": "黑胡椒",
+        "description": "采用日晒整粒黑胡椒，来自印尼优质胡椒产区，按国际出口标准加工处理。",
+        "advantages": [
+          "香气浓郁，辛辣风味独特",
+          "在最佳成熟期采收",
+          "完善的干燥工艺"
+        ],
+        "specifications": [
+          { "label": "产地", "value": "Indonesia" },
+          { "label": "等级A", "value": "GL 550" },
+          { "label": "水分含量", "value": "3.5%" },
+          { "label": "灰分最大", "value": "3%" },
+          { "label": "损伤率", "value": "0.3%" },
+          { "label": "包装", "value": "10, 20, 25, 50 Kg/袋" },
+          { "label": "MOQ", "value": "1x20 ft Container" },
+          { "label": "加工周期", "value": "20 - 30 天" },
+          { "label": "付款方式", "value": "Cash In Advance" }
+        ]
+      },
+      "whitePepper": {
+        "name": "白胡椒",
+        "description": "来自邦加岛与楠榜的优质白胡椒，经清洗与日晒处理，风味清爽锐利，品质均一。",
+        "advantages": [
+          "胡椒风味清爽锐利",
+          "经过精心清洗与日晒",
+          "筛选确保颗粒均匀"
+        ],
+        "specifications": [
+          { "label": "产地", "value": "Indonesia (Bangka, Lampung)" },
+          { "label": "等级", "value": "ASTA Grade" },
+          { "label": "水分含量", "value": "14% max" },
+          { "label": "灰分最大", "value": "2.5% max" },
+          { "label": "损伤率", "value": "0.5% max" },
+          { "label": "包装", "value": "10, 25, 50 Kg/袋" },
+          { "label": "MOQ", "value": "1x20 ft Container" },
+          { "label": "加工周期", "value": "20 - 30 天" },
+          { "label": "付款方式", "value": "Cash In Advance" }
+        ]
+      },
+      "cloves": {
+        "name": "丁香",
+        "description": "来自马鲁古与苏拉威西的手工采摘干燥丁香花蕾，经日晒处理，保持浓郁香气与高含量精油。",
+        "advantages": [
+          "丁香香气浓郁独特",
+          "在最佳成熟期手工采摘",
+          "日晒以保留精油成分"
+        ],
+        "specifications": [
+          { "label": "产地", "value": "Indonesia (Maluku, Sulawesi)" },
+          { "label": "类型", "value": "整粒干花蕾" },
+          { "label": "水分含量", "value": "12% max" },
+          { "label": "杂质", "value": "1% max" },
+          { "label": "无头丁香", "value": "4% max" },
+          { "label": "包装", "value": "25, 50 Kg/袋" },
+          { "label": "MOQ", "value": "1x20 ft Container" },
+          { "label": "加工周期", "value": "20 - 30 天" },
+          { "label": "付款方式", "value": "Cash In Advance" }
+        ]
+      },
+      "arecaNut": {
+        "name": "槟榔",
+        "description": "来自苏拉威西与苏门答腊的日晒槟榔果，按尺寸与品质分级，适用于工业及零售市场。",
+        "advantages": [
+          "日晒以实现自然保存",
+          "按尺寸与品质分级筛选",
+          "适用于工业与零售用途"
+        ],
+        "specifications": [
+          { "label": "产地", "value": "Indonesia (Sulawesi, Sumatra)" },
+          { "label": "类型", "value": "切半 / 整粒" },
+          { "label": "水分含量", "value": "12% max" },
+          { "label": "杂质", "value": "1% max" },
+          { "label": "破碎率", "value": "5% max" },
+          { "label": "包装", "value": "50, 60 Kg/袋" },
+          { "label": "MOQ", "value": "1x20 ft Container" },
+          { "label": "加工周期", "value": "20 - 30 天" },
+          { "label": "付款方式", "value": "Cash In Advance" }
+        ]
+      },
+      "turmeric": {
+        "name": "姜黄",
+        "description": "来自爪哇与苏拉威西的天然种植姜黄，色泽橙黄鲜艳，姜黄素含量高。",
+        "advantages": [
+          "天然橙黄色泽鲜艳",
+          "姜黄素含量高",
+          "无人工化学物质栽培"
+        ],
+        "specifications": [
+          { "label": "产地", "value": "Indonesia (Java, Sulawesi)" },
+          { "label": "形态", "value": "干片 / 整根" },
+          { "label": "姜黄素含量", "value": "3% min" },
+          { "label": "水分含量", "value": "10% max" },
+          { "label": "杂质", "value": "1% max" },
+          { "label": "包装", "value": "25, 50 Kg/袋" },
+          { "label": "MOQ", "value": "1x20 ft Container" },
+          { "label": "加工周期", "value": "20 - 30 天" },
+          { "label": "付款方式", "value": "Cash In Advance" }
+        ]
+      }
+    },
+    "service": {
+      "title": "出口与供应服务",
+      "desc": "可扩展。可靠。面向国际市场。",
+      "ourService": {
+        "firstPoint": "大规模生产与供应",
+        "firstPointDesc": "我们承接高容量订单，从多吨到整车出口，确保长期稳定供应。",
+        "secondPoint": "完整出口文件支持",
+        "secondPointDesc": "我们负责出口文件办理，确保符合国际贸易法规，实现顺畅安全运输。",
+        "thirdPoint": "贴牌生产与定制包装",
+        "thirdPointDesc": "根据您的品牌与市场需求提供定制包装解决方案。",
+        "fourthPoint": "国际物流支持",
+        "fourthPointDesc": "提供高效的海运与陆运方案，优化东南亚与澳大利亚市场运输。"
+      }
+    },
+    "contact": {
+      "title": "携手共建全球合作伙伴关系",
+      "desc": "欢迎联系我们洽谈价格、订单数量及出口安排。",
+      "directContact": "直接联系方式"
+    },
+    "trust": {
+      "title": "跨境信赖",
+      "desc": "我们遵循印尼及国际出口法规，与国家主管部门紧密合作，确保所有出口具备完整文件。",
+      "regulatedBy": "受监管与认可",
+      "certifications": "我们的认证与合规",
+      "ministries": {
+        "kemenlu": "外交部",
+        "kemendag": "贸易部",
+        "beacukai": "印尼海关"
+      },
+      "certs": {
+        "karantina": {
+          "name": "农业检疫",
+          "desc": "确保产品无病虫害，是农产品出口的核心要求。"
         },
-        "product": {
-            "title": "我们的优质产品",
-            "desc": "源自印度尼西亚丰富的自然资源，并按照国际标准加工生产。",
-            "standardsLabel": "标准与认证",
-            "ingredients": "成分",
-            "shelfLife": "保质期",
-            "benefits": "产品优势",
-            "uses": "用途",
-            "legality": "资质与认证",
-            "firstProduct": {
-                "name": "椰糖粉（Gula Aren）",
-                "description": "采用印尼天然椰树汁制成，具有浓郁焦糖风味和细腻口感。适用于食品制造、饮料生产及零售分销。",
-                "ingredients": "100% 天然椰树汁（无添加剂、防腐剂及人工色素）。",
-                "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，自生产日期起12个月。",
-                "benefits": "有助于支持免疫系统功能；作为均衡饮食的一部分有助于维持健康血糖水平；促进消化健康；支持神经系统功能；富含天然抗氧化物。",
-                "uses": "饮料甜味剂（咖啡、茶、果汁）；烘焙及甜点配料；酱料与调味品的基础原料。",
-                "legality": "按照印尼食品安全法规生产。获得清真认证（Halal），持有P-IRT许可，配备营养成分标签及零售条形码，支持国内与国际分销。"
-            },
-            "secondProduct": {
-                "name": "优质金枪鱼松",
-                "description": "选用优质金枪鱼，经卫生加工以保持新鲜与风味。高蛋白产品，适合零售及批发分销。",
-                "ingredients": "新鲜金枪鱼、植物油、大蒜、红葱头、高良姜、生姜、姜黄、香菜籽、胡椒、调味料、盐。",
-                "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，保质期为12个月。具体以产品标签为准。",
-                "benefits": "高蛋白含量；富含Omega-3；保质期长；用途广泛；适合零售与餐饮行业。",
-                "uses": "可作为米饭及粥类配料；面包与糕点馅料；即食零食；传统与现代菜肴配料；批量供应用于再包装。",
-                "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。"
-            },
-            "thirdProduct": {
-                "name": "马鲛鱼脆饼（Krupuk Amplang）",
-                "description": "采用优质马鲛鱼制作的传统印尼零食，口感酥脆，风味鲜美，深受各类市场欢迎。",
-                "ingredients": "新鲜马鲛鱼、小麦面粉、鸡蛋、胡椒、盐、糖、膨松剂。",
-                "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，保质期为3个月。请在有效期内食用。",
-                "benefits": "日常受欢迎零食；具有地方特色；餐食搭配佳品；适用于招待及活动场合；保质期长，便于携带。",
-                "uses": "可作为独立零食；餐食搭配；零售与出口分销；支持定制包装与贴牌生产；适合商超及批发渠道。",
-                "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。"
-            },
-            "fourthProduct": {
-                "name": "百香果饮料",
-                "description": "采用新鲜印尼百香果制成，带来清爽的热带风味。支持大批量出口及贴牌生产。",
-                "ingredients": "百香果汁、糖、苯甲酸钠（作为许可使用的防腐剂）。",
-                "shelfLife": "在密封状态下并存放于阴凉干燥处，保质期为6个月。开封后请冷藏并在标签标示期限内饮用。",
-                "benefits": "富含维生素C，有助于支持正常免疫功能；含抗氧化成分，有助于保护细胞免受氧化压力；含膳食纤维，有助于消化健康；含钾元素，有助于维持正常血压；含天然生物碱成分，具有轻微放松特性。",
-                "uses": "即饮饮料；鸡尾酒与无酒精饮品基底；酒店及餐饮行业；零售与电商渠道；支持集装箱出口及海外灌装。",
-                "legality": "获得清真认证，并在BPOM（印尼国家食品药品监督管理局）注册，确保符合国家食品安全法规。"
-            }
+        "coo": {
+          "name": "原产地证书 (COO)",
+          "desc": "官方确认商品原产国，用于申请优惠关税。"
         },
-        "productRaw": {
-            "title": "原材料商品",
-            "desc": "源自印尼农户的优质农产品原料，可大批量出口。",
-            "advantagesLabel": "产品优势",
-            "specificationsLabel": "规格参数",
-            "blackPepper": {
-                "name": "黑胡椒",
-                "description": "采用日晒整粒黑胡椒，来自印尼优质胡椒产区，按国际出口标准加工处理。",
-                "advantages": [
-                    "香气浓郁，辛辣风味独特",
-                    "在最佳成熟期采收",
-                    "完善的干燥工艺"
-                ],
-                "specifications": [
-                    { "label": "产地", "value": "Indonesia" },
-                    { "label": "等级A", "value": "GL 550" },
-                    { "label": "水分含量", "value": "3.5%" },
-                    { "label": "灰分最大", "value": "3%" },
-                    { "label": "损伤率", "value": "0.3%" },
-                    { "label": "包装", "value": "10, 20, 25, 50 Kg/袋" },
-                    { "label": "MOQ", "value": "1x20 ft Container" },
-                    { "label": "加工周期", "value": "20 - 30 天" },
-                    { "label": "付款方式", "value": "Cash In Advance" }
-                ]
-            },
-            "whitePepper": {
-                "name": "白胡椒",
-                "description": "来自邦加岛与楠榜的优质白胡椒，经清洗与日晒处理，风味清爽锐利，品质均一。",
-                "advantages": [
-                    "胡椒风味清爽锐利",
-                    "经过精心清洗与日晒",
-                    "筛选确保颗粒均匀"
-                ],
-                "specifications": [
-                    { "label": "产地", "value": "Indonesia (Bangka, Lampung)" },
-                    { "label": "等级", "value": "ASTA Grade" },
-                    { "label": "水分含量", "value": "14% max" },
-                    { "label": "灰分最大", "value": "2.5% max" },
-                    { "label": "损伤率", "value": "0.5% max" },
-                    { "label": "包装", "value": "10, 25, 50 Kg/袋" },
-                    { "label": "MOQ", "value": "1x20 ft Container" },
-                    { "label": "加工周期", "value": "20 - 30 天" },
-                    { "label": "付款方式", "value": "Cash In Advance" }
-                ]
-            },
-            "cloves": {
-                "name": "丁香",
-                "description": "来自马鲁古与苏拉威西的手工采摘干燥丁香花蕾，经日晒处理，保持浓郁香气与高含量精油。",
-                "advantages": [
-                    "丁香香气浓郁独特",
-                    "在最佳成熟期手工采摘",
-                    "日晒以保留精油成分"
-                ],
-                "specifications": [
-                    { "label": "产地", "value": "Indonesia (Maluku, Sulawesi)" },
-                    { "label": "类型", "value": "整粒干花蕾" },
-                    { "label": "水分含量", "value": "12% max" },
-                    { "label": "杂质", "value": "1% max" },
-                    { "label": "无头丁香", "value": "4% max" },
-                    { "label": "包装", "value": "25, 50 Kg/袋" },
-                    { "label": "MOQ", "value": "1x20 ft Container" },
-                    { "label": "加工周期", "value": "20 - 30 天" },
-                    { "label": "付款方式", "value": "Cash In Advance" }
-                ]
-            },
-            "arecaNut": {
-                "name": "槟榔",
-                "description": "来自苏拉威西与苏门答腊的日晒槟榔果，按尺寸与品质分级，适用于工业及零售市场。",
-                "advantages": [
-                    "日晒以实现自然保存",
-                    "按尺寸与品质分级筛选",
-                    "适用于工业与零售用途"
-                ],
-                "specifications": [
-                    { "label": "产地", "value": "Indonesia (Sulawesi, Sumatra)" },
-                    { "label": "类型", "value": "切半 / 整粒" },
-                    { "label": "水分含量", "value": "12% max" },
-                    { "label": "杂质", "value": "1% max" },
-                    { "label": "破碎率", "value": "5% max" },
-                    { "label": "包装", "value": "50, 60 Kg/袋" },
-                    { "label": "MOQ", "value": "1x20 ft Container" },
-                    { "label": "加工周期", "value": "20 - 30 天" },
-                    { "label": "付款方式", "value": "Cash In Advance" }
-                ]
-            },
-            "turmeric": {
-                "name": "姜黄",
-                "description": "来自爪哇与苏拉威西的天然种植姜黄，色泽橙黄鲜艳，姜黄素含量高。",
-                "advantages": [
-                    "天然橙黄色泽鲜艳",
-                    "姜黄素含量高",
-                    "无人工化学物质栽培"
-                ],
-                "specifications": [
-                    { "label": "产地", "value": "Indonesia (Java, Sulawesi)" },
-                    { "label": "形态", "value": "干片 / 整根" },
-                    { "label": "姜黄素含量", "value": "3% min" },
-                    { "label": "水分含量", "value": "10% max" },
-                    { "label": "杂质", "value": "1% max" },
-                    { "label": "包装", "value": "25, 50 Kg/袋" },
-                    { "label": "MOQ", "value": "1x20 ft Container" },
-                    { "label": "加工周期", "value": "20 - 30 天" },
-                    { "label": "付款方式", "value": "Cash In Advance" }
-                ]
-            }
+        "phyto": {
+          "name": "植物检疫证书",
+          "desc": "国际公认的植物健康证明文件。"
         },
-        "service": {
-            "title": "出口与供应服务",
-            "desc": "可扩展。可靠。面向国际市场。",
-            "ourService": {
-                "firstPoint": "大规模生产与供应",
-                "firstPointDesc": "我们承接高容量订单，从多吨到整车出口，确保长期稳定供应。",
-                "secondPoint": "完整出口文件支持",
-                "secondPointDesc": "我们负责出口文件办理，确保符合国际贸易法规，实现顺畅安全运输。",
-                "thirdPoint": "贴牌生产与定制包装",
-                "thirdPointDesc": "根据您的品牌与市场需求提供定制包装解决方案。",
-                "fourthPoint": "国际物流支持",
-                "fourthPointDesc": "提供高效的海运与陆运方案，优化东南亚与澳大利亚市场运输。"
-            }
+        "peb": {
+          "name": "出口报关 (PEB)",
+          "desc": "确保出口运输合法的官方海关文件。"
         },
-        "contact": {
-            "title": "携手共建全球合作伙伴关系",
-            "desc": "欢迎联系我们洽谈价格、订单数量及出口安排。",
-            "directContact": "直接联系方式"
-        },
-        "trust": {
-            "title": "跨境信赖",
-            "desc": "我们遵循印尼及国际出口法规，与国家主管部门紧密合作，确保所有出口具备完整文件。",
-            "regulatedBy": "受监管与认可",
-            "certifications": "我们的认证与合规",
-            "ministries": {
-                "kemenlu": "外交部",
-                "kemendag": "贸易部",
-                "beacukai": "印尼海关"
-            },
-            "certs": {
-                "karantina": {
-                    "name": "农业检疫",
-                    "desc": "确保产品无病虫害，是农产品出口的核心要求。"
-                },
-                "coo": {
-                    "name": "原产地证书 (COO)",
-                    "desc": "官方确认商品原产国，用于申请优惠关税。"
-                },
-                "phyto": {
-                    "name": "植物检疫证书",
-                    "desc": "国际公认的植物健康证明文件。"
-                },
-                "peb": {
-                    "name": "出口报关 (PEB)",
-                    "desc": "确保出口运输合法的官方海关文件。"
-                },
-                "fumigasi": {
-                    "name": "熏蒸处理",
-                    "desc": "在装运前对集装箱与商品进行害虫处理。"
-                }
-            }
+        "fumigasi": {
+          "name": "熏蒸处理",
+          "desc": "在装运前对集装箱与商品进行害虫处理。"
         }
-    },
-    "label": {
-        "reqQuotation": "获取报价",
-        "exploreOurProducts": "查看产品",
-        "becomeOurPartner": "成为全球合作伙伴",
-        "contactOurSales": "联系销售团队",
-        "reqExport": "获取出口详情"
-    },
-    "cta": {
-        "ourMarkets": "我们的出口市场",
-        "ourMarketsDesc": "目前我们服务于东南亚和澳大利亚市场，并计划未来拓展至欧洲市场。",
-        "firstProductDesc": "正在寻找可靠的长期供应商？",
-        "secondProductDesc": "欢迎与我们洽谈您的订单需求与出口安排。",
-        "readyToScale": "准备与值得信赖的印尼出口商合作扩展您的供应链吗？"
-    },
-    "footer": {
-        "copyright": "版权所有 © 2024 保留所有权利",
-        "vision": "将印尼天然卓越品质带向世界。",
-        "regulatedBy": "受监管与认可"
+      }
     }
+  },
+  "label": {
+    "reqQuotation": "获取报价",
+    "exploreOurProducts": "查看产品",
+    "becomeOurPartner": "成为全球合作伙伴",
+    "contactOurSales": "联系销售团队",
+    "reqExport": "获取出口详情"
+  },
+  "cta": {
+    "ourMarkets": "我们的出口市场",
+    "ourMarketsDesc": "目前我们服务于东南亚和澳大利亚市场，并计划未来拓展至欧洲市场。",
+    "firstProductDesc": "正在寻找可靠的长期供应商？",
+    "secondProductDesc": "欢迎与我们洽谈您的订单需求与出口安排。",
+    "readyToScale": "准备与值得信赖的印尼出口商合作扩展您的供应链吗？"
+  },
+  "footer": {
+    "copyright": "版权所有 © 2024 保留所有权利",
+    "vision": "将印尼天然卓越品质带向世界。",
+    "regulatedBy": "受监管与认可"
+  }
 }

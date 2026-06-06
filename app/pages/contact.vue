@@ -1,23 +1,49 @@
-<template>
-    <div>
-        <!-- Page Header -->
-        <section
-            class="bg-gradient-to-br from-green-light/30 via-white to-stone-50 py-16 md:py-20"
-        >
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-                <h1 class="text-3xl md:text-4xl font-bold text-green-dark">
-                    {{ $t("content.contact.title") }}
-                </h1>
-                <p class="mt-4 text-lg text-gray-600">
-                    {{ $t("content.contact.desc") }}
-                </p>
-            </div>
-        </section>
+<script setup>
+const localePath = useLocalePath();
+const { t } = useI18n();
 
-        <section class="py-12 md:py-16 bg-white">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 md:flex md:gap-16">
-                <!-- Contact Form -->
-                <!-- <div class="md:flex-1">
+useHead({
+  title: computed(() => t("meta.contactTitle")),
+});
+
+const form = reactive({
+  fullName: "",
+  companyName: "",
+  country: "",
+  email: "",
+  phone: "",
+  productInterest: "",
+  orderVolume: "",
+  message: "",
+});
+
+function onSubmit() {
+  // TODO: integrate with backend or email service
+  console.log("Inquiry submitted:", form);
+  alert("Thank you for your inquiry. We will get back to you soon.");
+}
+</script>
+
+<template>
+  <div>
+    <!-- Page Header -->
+    <section
+      class="bg-gradient-to-br from-green-light/30 via-white to-stone-50 py-16 md:py-20"
+    >
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+        <h1 class="text-3xl md:text-4xl font-bold text-green-dark">
+          {{ $t("content.contact.title") }}
+        </h1>
+        <p class="mt-4 text-lg text-gray-600">
+          {{ $t("content.contact.desc") }}
+        </p>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-16 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 md:flex md:gap-16">
+        <!-- Contact Form -->
+        <!-- <div class="md:flex-1">
                     <h2 class="text-xl font-bold text-gray-900 mb-6">
                         Send Us Your Inquiry
                     </h2>
@@ -137,54 +163,31 @@
                     </form>
                 </div> -->
 
-                <!-- Direct Contact -->
-                <div class="md:mt-0 md:w-80 flex-shrink-0">
-                    <h2 class="text-xl font-bold text-gray-900 mb-4">
-                        {{ $t("content.contact.directContact") }}
-                    </h2>
-                    <div class="space-y-3 text-gray-600">
-                        <p class="flex items-start gap-2">
-                            <span>📍</span>
-                            <span
-                                >Makassar City & Maros Regency, Indonesia</span
-                            >
-                        </p>
-                        <p class="flex items-start gap-2">
-                            <span>📧</span>
-                            <a
-                                href="mailto:export@companyname.com"
-                                class="text-amber-600 hover:underline"
-                                >eksporcelebes89@gmail.com</a
-                            >
-                        </p>
-                        <p class="flex items-start gap-2">
-                            <span>📞</span>
-                            <span>+62822-8993-0399</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
+        <!-- Direct Contact -->
+        <div class="md:mt-0 md:w-80 flex-shrink-0">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">
+            {{ $t("content.contact.directContact") }}
+          </h2>
+          <div class="space-y-3 text-gray-600">
+            <p class="flex items-start gap-2">
+              <span>📍</span>
+              <span>Makassar City & Maros Regency, Indonesia</span>
+            </p>
+            <p class="flex items-start gap-2">
+              <span>📧</span>
+              <a
+                href="mailto:export@companyname.com"
+                class="text-amber-600 hover:underline"
+                >eksporcelebes89@gmail.com</a
+              >
+            </p>
+            <p class="flex items-start gap-2">
+              <span>📞</span>
+              <span>+62822-8993-0399</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
-
-<script setup>
-const localePath = useLocalePath();
-
-const form = reactive({
-    fullName: "",
-    companyName: "",
-    country: "",
-    email: "",
-    phone: "",
-    productInterest: "",
-    orderVolume: "",
-    message: "",
-});
-
-function onSubmit() {
-    // TODO: integrate with backend or email service
-    console.log("Inquiry submitted:", form);
-    alert("Thank you for your inquiry. We will get back to you soon.");
-}
-</script>
