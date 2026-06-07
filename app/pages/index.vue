@@ -4,7 +4,6 @@ import kemenluLogo from "~/assets/images/kemenlu.png";
 import kemendagLogo from "~/assets/images/kemendag.svg";
 import beacukaiLogo from "~/assets/images/beacukai.svg";
 
-const localePath = useLocalePath();
 const { t } = useI18n();
 
 useHead({
@@ -46,13 +45,13 @@ useHead({
         </p>
         <div class="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center">
           <NuxtLink
-            :to="localePath('/contact')"
+            to="/contact"
             class="inline-flex items-center justify-center rounded-xl bg-amber-400 px-8 py-4 text-base font-semibold text-amber-900 shadow-lg transition hover:bg-amber-300"
           >
             {{ $t("label.reqQuotation") }}
           </NuxtLink>
           <NuxtLink
-            :to="localePath('/product/finished')"
+            to="/product/finished"
             class="inline-flex items-center justify-center rounded-xl border-2 border-white/90 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
           >
             {{ $t("label.exploreOurProducts") }}
@@ -276,7 +275,7 @@ useHead({
           {{ $t("cta.ourMarketsDesc") }}
         </p>
         <NuxtLink
-          :to="localePath('/contact')"
+          to="/contact"
           class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
         >
           {{ $t("label.becomeOurPartner") }}

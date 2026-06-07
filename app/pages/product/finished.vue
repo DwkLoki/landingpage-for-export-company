@@ -8,7 +8,6 @@ import halalLogo from "~/assets/images/halal.svg";
 import pirtLogo from "~/assets/images/pirt.png";
 import sniLogo from "~/assets/images/sni.png";
 
-const localePath = useLocalePath();
 const { t } = useI18n();
 
 useHead({
@@ -189,7 +188,7 @@ const products = [
           </p>
         </div>
         <NuxtLink
-          :to="localePath('/contact')"
+          to="/contact"
           class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
         >
           {{ $t("label.contactOurSales") }}

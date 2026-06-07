@@ -1,6 +1,5 @@
 <script setup>
 const { t } = useI18n();
-const localePath = useLocalePath();
 
 useHead({
   title: computed(() => t("meta.serviceTitle")),
@@ -69,7 +68,7 @@ useHead({
           {{ $t("cta.readyToScale") }}
         </p>
         <NuxtLink
-          :to="localePath('/contact')"
+          to="/contact"
           class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
         >
           {{ $t("label.reqExport") }}

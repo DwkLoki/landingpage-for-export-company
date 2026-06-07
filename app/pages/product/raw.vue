@@ -1,12 +1,11 @@
 <script setup>
 import blackPepper from "~/assets/images/black-pepper.jpg";
 import whitePepper from "~/assets/images/white-pepper.png";
-import cloves from "~/assets/images/cloves.jpg";
+import cloves from "~/assets/images/cloves.jpeg";
 import arecaNut from "~/assets/images/areca-nut.jpeg";
 import turmeric from "~/assets/images/turmeric.jpg";
 import nutmeg from "~/assets/images/nutmeg.jpeg";
 
-const localePath = useLocalePath();
 const { tm, rt } = useI18n();
 const { t } = useI18n();
 
@@ -145,7 +144,7 @@ const products = [
           </p>
         </div>
         <NuxtLink
-          :to="localePath('/contact')"
+          to="/contact"
           class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
         >
           {{ $t("label.contactOurSales") }}

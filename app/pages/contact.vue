@@ -1,5 +1,4 @@
 <script setup>
-const localePath = useLocalePath();
 const { t } = useI18n();
 
 useHead({
