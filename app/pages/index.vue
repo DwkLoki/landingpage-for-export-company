@@ -51,7 +51,7 @@ useHead({
             {{ $t("label.reqQuotation") }}
           </NuxtLink>
           <NuxtLink
-            to="/product/finished"
+            to="/product/artisan-products"
             class="inline-flex items-center justify-center rounded-xl border-2 border-white/90 bg-white/10 px-8 py-4 text-base font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
           >
             {{ $t("label.exploreOurProducts") }}

@@ -28,14 +28,14 @@
           </button>
           <div v-if="isProductExpanded" class="pl-4 flex flex-col">
             <NuxtLink
-              to="/product/finished"
+              to="/product/artisan-products"
               class="py-2 text-gray-600 hover:text-amber-600"
               @click="$emit('close')"
             >
               {{ $t("navigation.productFinished") }}
             </NuxtLink>
             <NuxtLink
-              to="/product/raw"
+              to="/product/spices-commodities"
               class="py-2 text-gray-600 hover:text-amber-600"
               @click="$emit('close')"
             >

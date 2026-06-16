@@ -1,10 +1,10 @@
 {
   "meta": {
-    "finishedProductTitle": "Artisan Products",
-    "rawProductTitle": "Spices & Commodities",
+    "artisanProductsTitle": "Artisan Products",
+    "spicesCommoditiesTitle": "Spices & Commodities",
     "contactTitle": "Contact Us",
     "serviceTitle": "Export & Supply Services",
-    "homeTitle": "Indonesian Exporter of Natural Food Products",
+    "homeTitle": "Exports, High-Quality Indonesian Spices & Food Processing, Palm Sugar, Liquid Palm Sugar, Tuna Flakes, Cloves, Black Pepper, White Pepper, Nutmeg, Areca Nut",
     "description": "PT. NIC is a trusted Indonesian export company specializing in high-quality natural and processed food products. Based in Makassar City and Maros Regency, we connect Indonesia's rich natural resources with international markets across Southeast Asia, Australia, and beyond.",
     "keywords": "Indonesian exporter, natural food products, processed food, bulk export, palm sugar powder, shredded tuna, mackerel fish crackers, passion fruit beverage, black pepper, white pepper, cloves, areca nut, turmeric, nutmeg, international trade, export services"
   },
@@ -42,6 +42,13 @@
       "benefits": "Benefits",
       "uses": "Uses",
       "legality": "Legality",
+      "moq": "MOQ",
+      "packaging": "Packaging",
+      "paymentSystem": "Payment",
+      "hsCode": "HS Code",
+      "viewDetails": "View Details",
+      "backToCatalog": "Back to Product Catalog",
+      "certificationsLabel": "Certifications & Permits",
       "firstProduct": {
         "name": "Palm Sugar Powder",
         "description": "Naturally derived from Indonesian palm sap, our palm sugar powder offers a rich caramel flavor and fine texture. Ideal for food manufacturers, beverage producers, and retail distribution.",
@@ -49,7 +56,10 @@
         "shelfLife": "12 months from production date when stored in a cool, dry place in sealed packaging.",
         "benefits": "Supports immune system function; Helps maintain healthy blood sugar levels when consumed as part of a balanced diet; Promotes digestive health; Supports normal nervous system function; Naturally rich in antioxidants",
         "uses": "Beverage manufacturing (coffee, tea, juice, and specialty drinks); Bakery and dessert production (ingredient and topping); Culinary applications, including sauces, marinades, and seasoning blends",
-        "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing, complete with Nutrition Facts labeling and retail barcode registration to support domestic and international distribution."
+        "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing, complete with Nutrition Facts labeling and retail barcode registration to support domestic and international distribution.",
+        "moq": "500 kg",
+        "packaging": "25 kg vacuum bag",
+        "paymentSystem": "T/T, L/C at sight"
       },
       "secondProduct": {
         "name": "Premium Shredded Tuna",
@@ -58,7 +68,10 @@
         "shelfLife": "12 months in sealed packaging when stored in a cool, dry place. Refer to label for exact expiry.",
         "benefits": "High protein content; source of omega-3; long shelf life; versatile for meals and snacks; suitable for retail and food service.",
         "uses": "Topping for rice and porridge; filling for bread and pastries; ready-to-eat snack; ingredient for traditional and modern dishes; bulk supply for repackaging.",
-        "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution."
+        "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
+        "moq": "1,000 units",
+        "packaging": "200g retail pouch",
+        "paymentSystem": "T/T"
       },
       "thirdProduct": {
         "name": "Mackerel Fish Crackers",
@@ -67,7 +80,10 @@
         "shelfLife": "3 months in sealed packaging. Store in a cool, dry place. Best consumed within stated expiry date.",
         "benefits": "Everyday snack favorite; Authentic regional specialty; Versatile meal companion; Suitable for events and hospitality; Long-lasting and travel-friendly",
         "uses": "Standalone snack; accompaniment to meals; retail and bulk export; custom packaging and private label; convenience and grocery distribution.",
-        "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution."
+        "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
+        "moq": "500 kg",
+        "packaging": "250g sealed pouch",
+        "paymentSystem": "T/T, L/C at sight"
       },
       "fourthProduct": {
         "name": "Passion Fruit Beverage",
@@ -76,7 +92,10 @@
         "shelfLife": "6 months unopened when stored in a cool, dry place. Refrigerate after opening and consume within the period stated on label.",
         "benefits": "Rich in vitamin C to support normal immune function; Contains antioxidants that help protect cells from oxidative stress; A source of dietary fiber that supports healthy digestion; Contains potassium, which contributes to the maintenance of normal blood pressure; Naturally contains alkaloid compounds associated with mild calming properties",
         "uses": "Ready-to-drink beverage; base for cocktails and mocktails; food service and hospitality; retail and e-commerce; bulk and container shipment for overseas bottling.",
-        "legality": "Halal-certified and officially registered with BPOM (Indonesia’s National Agency of Drug and Food Control), ensuring compliance with national food safety regulations."
+        "legality": "Halal-certified and officially registered with BPOM (Indonesia’s National Agency of Drug and Food Control), ensuring compliance with national food safety regulations.",
+        "moq": "1x20 ft container",
+        "packaging": "330ml bottle / bulk",
+        "paymentSystem": "T/T, L/C at sight"
       }
     },
     "productRaw": {
@@ -87,6 +106,9 @@
       "blackPepper": {
         "name": "Black Pepper",
         "description": "Sun-dried whole black peppercorns sourced from Indonesia's premium pepper-growing regions, processed to meet international export standards.",
+        "moq": "1x20 ft Container",
+        "packaging": "10, 20, 25, 50 Kg/Sack",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "Strong aroma with a distinctive spicy flavour",
           "Harvested at optimum maturity",
@@ -107,6 +129,9 @@
       "whitePepper": {
         "name": "White Pepper",
         "description": "Premium white pepper from Bangka and Lampung, washed and sun-dried for clean, sharp flavor and uniform quality.",
+        "moq": "1x20 ft Container",
+        "packaging": "10, 25, 50 Kg/Sack",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "Clean, sharp pepper flavor",
           "Carefully washed and sun-dried",
@@ -130,6 +155,9 @@
       "cloves": {
         "name": "Cloves",
         "description": "Hand-picked dried clove buds from Maluku and Sulawesi, sun-dried to retain their strong fragrance and high essential oil content.",
+        "moq": "1x20 ft Container",
+        "packaging": "10, 20, 25, 50 Kg/Sack",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "Rich in eugenol, providing intense aroma and flavour",
           "Hand-picked to maintain quality",
@@ -152,6 +180,9 @@
       "arecaNut": {
         "name": "Areca Nut",
         "description": "Sun-dried areca nuts from Sulawesi and Sumatra, sorted for size and quality, suitable for industrial and retail markets.",
+        "moq": "1x20 ft Container",
+        "packaging": "50, 60 Kg/Sack",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "Sun-dried for natural preservation",
           "Sorted by size and quality",
@@ -175,6 +206,9 @@
       "turmeric": {
         "name": "Turmeric",
         "description": "Naturally cultivated turmeric from Java and Sulawesi, with vibrant orange color and high curcumin content.",
+        "moq": "1x20 ft Container",
+        "packaging": "25 - 50 Kg/Plastic Basket, Mesh bag",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "Vibrant natural orange color",
           "High curcumin content",
@@ -206,6 +240,9 @@
       "nutmeg": {
         "name": "Nutmeg",
         "description": "High-quality nutmeg from Indonesia, known for its intense aroma and flavor.",
+        "moq": "1x20 ft Container",
+        "packaging": "25 - 50 Kg/Plastic Basket, Mesh bag",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "Intense aroma and flavor",
           "High-quality grade",

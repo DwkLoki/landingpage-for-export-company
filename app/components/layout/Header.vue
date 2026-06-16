@@ -161,14 +161,14 @@ onMounted(() => {
                 class="absolute left-1/2 -translate-x-1/2 top-full mt-3 min-w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5 py-2"
               >
                 <NuxtLink
-                  to="/product/finished"
+                  to="/product/artisan-products"
                   class="block px-4 py-2 text-gray-700 hover:bg-gray-light hover:text-amber-600 transition-colors"
                   @click="isProductMenuShow = false"
                 >
                   {{ $t("navigation.productFinished") }}
                 </NuxtLink>
                 <NuxtLink
-                  to="/product/raw"
+                  to="/product/spices-commodities"
                   class="block px-4 py-2 text-gray-700 hover:bg-gray-light hover:text-amber-600 transition-colors"
                   @click="isProductMenuShow = false"
                 >

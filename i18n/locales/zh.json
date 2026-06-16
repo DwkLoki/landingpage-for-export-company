@@ -1,10 +1,10 @@
 {
   "meta": {
-    "finishedProductTitle": "特色产品",
-    "rawProductTitle": "香料与农产品",
+    "artisanProductsTitle": "特色产品",
+    "spicesCommoditiesTitle": "香料与农产品",
     "contactTitle": "联系我们",
     "serviceTitle": "出口与供应服务",
-    "homeTitle": "印尼天然食品出口商",
+    "homeTitle": "印尼出口商，优质天然食品与香料，椰糖粉，金枪鱼松，马鲛鱼脆饼，百香果饮料，黑胡椒，白胡椒，丁香，肉豆蔻，姜黄",
     "description": "PT. NIC 是一家值得信赖的印尼出口公司，专注于高品质天然及加工食品。总部位于马卡萨与马罗斯，我们将印尼丰富的自然资源连接至东南亚、澳大利亚及全球市场。",
     "keywords": "印尼出口商, 天然食品, 加工食品, 大批量出口, 椰糖粉, 金枪鱼松, 马鲛鱼脆饼, 百香果饮料, 黑胡椒, 白胡椒, 丁香, 槟榔, 姜黄, 肉豆蔻, 国际贸易, 出口服务"
   },
@@ -42,6 +42,13 @@
       "benefits": "产品优势",
       "uses": "用途",
       "legality": "资质与认证",
+      "moq": "MOQ",
+      "packaging": "包装",
+      "paymentSystem": "付款方式",
+      "hsCode": "HS编码",
+      "viewDetails": "查看详情",
+      "backToCatalog": "返回产品目录",
+      "certificationsLabel": "认证与许可",
       "firstProduct": {
         "name": "椰糖粉（Gula Aren）",
         "description": "采用印尼天然椰树汁制成，具有浓郁焦糖风味和细腻口感。适用于食品制造、饮料生产及零售分销。",
@@ -49,7 +56,10 @@
         "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，自生产日期起12个月。",
         "benefits": "有助于支持免疫系统功能；作为均衡饮食的一部分有助于维持健康血糖水平；促进消化健康；支持神经系统功能；富含天然抗氧化物。",
         "uses": "饮料甜味剂（咖啡、茶、果汁）；烘焙及甜点配料；酱料与调味品的基础原料。",
-        "legality": "按照印尼食品安全法规生产。获得清真认证（Halal），持有P-IRT许可，配备营养成分标签及零售条形码，支持国内与国际分销。"
+        "legality": "按照印尼食品安全法规生产。获得清真认证（Halal），持有P-IRT许可，配备营养成分标签及零售条形码，支持国内与国际分销。",
+        "moq": "500公斤",
+        "packaging": "25公斤真空袋",
+        "paymentSystem": "电汇（T/T）、即期信用证（L/C at sight）"
       },
       "secondProduct": {
         "name": "优质金枪鱼松",
@@ -58,7 +68,10 @@
         "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，保质期为12个月。具体以产品标签为准。",
         "benefits": "高蛋白含量；富含Omega-3；保质期长；用途广泛；适合零售与餐饮行业。",
         "uses": "可作为米饭及粥类配料；面包与糕点馅料；即食零食；传统与现代菜肴配料；批量供应用于再包装。",
-        "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。"
+        "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。",
+        "moq": "1,000件",
+        "packaging": "200克零售袋装",
+        "paymentSystem": "电汇（T/T）"
       },
       "thirdProduct": {
         "name": "马鲛鱼脆饼（Krupuk Amplang）",
@@ -67,7 +80,10 @@
         "shelfLife": "在密封包装并存放于阴凉干燥处的情况下，保质期为3个月。请在有效期内食用。",
         "benefits": "日常受欢迎零食；具有地方特色；餐食搭配佳品；适用于招待及活动场合；保质期长，便于携带。",
         "uses": "可作为独立零食；餐食搭配；零售与出口分销；支持定制包装与贴牌生产；适合商超及批发渠道。",
-        "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。"
+        "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。",
+        "moq": "500公斤",
+        "packaging": "250克密封袋装",
+        "paymentSystem": "电汇（T/T）、即期信用证（L/C at sight）"
       },
       "fourthProduct": {
         "name": "百香果饮料",
@@ -76,7 +92,10 @@
         "shelfLife": "在密封状态下并存放于阴凉干燥处，保质期为6个月。开封后请冷藏并在标签标示期限内饮用。",
         "benefits": "富含维生素C，有助于支持正常免疫功能；含抗氧化成分，有助于保护细胞免受氧化压力；含膳食纤维，有助于消化健康；含钾元素，有助于维持正常血压；含天然生物碱成分，具有轻微放松特性。",
         "uses": "即饮饮料；鸡尾酒与无酒精饮品基底；酒店及餐饮行业；零售与电商渠道；支持集装箱出口及海外灌装。",
-        "legality": "获得清真认证，并在BPOM（印尼国家食品药品监督管理局）注册，确保符合国家食品安全法规。"
+        "legality": "获得清真认证，并在BPOM（印尼国家食品药品监督管理局）注册，确保符合国家食品安全法规。",
+        "moq": "1x20英尺集装箱",
+        "packaging": "330毫升瓶装 / 散装",
+        "paymentSystem": "电汇（T/T）、即期信用证（L/C at sight）"
       }
     },
     "productRaw": {
@@ -87,6 +106,9 @@
       "blackPepper": {
         "name": "黑胡椒",
         "description": "采用日晒整粒黑胡椒，来自印尼优质胡椒产区，按国际出口标准加工处理。",
+        "moq": "1x20 ft Container",
+        "packaging": "10, 20, 25, 50 Kg/袋",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "香气浓郁，辛辣风味独特",
           "在最佳成熟期采收",
@@ -107,6 +129,9 @@
       "whitePepper": {
         "name": "白胡椒",
         "description": "来自邦加岛与楠榜的优质白胡椒，经清洗与日晒处理，风味清爽锐利，品质均一。",
+        "moq": "1x20 ft Container",
+        "packaging": "10, 25, 50 Kg/袋",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "胡椒风味清爽锐利",
           "经过精心清洗与日晒",
@@ -127,6 +152,9 @@
       "cloves": {
         "name": "丁香",
         "description": "来自马鲁古与苏拉威西的手工采摘干燥丁香花蕾，经日晒处理，保持浓郁香气与高含量精油。",
+        "moq": "1x20 ft Container",
+        "packaging": "25, 50 Kg/袋",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "丁香香气浓郁独特",
           "在最佳成熟期手工采摘",
@@ -147,6 +175,9 @@
       "arecaNut": {
         "name": "槟榔",
         "description": "来自苏拉威西与苏门答腊的日晒槟榔果，按尺寸与品质分级，适用于工业及零售市场。",
+        "moq": "1x20 ft Container",
+        "packaging": "50, 60 Kg/袋",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "日晒以实现自然保存",
           "按尺寸与品质分级筛选",
@@ -167,6 +198,9 @@
       "turmeric": {
         "name": "姜黄",
         "description": "来自爪哇与苏拉威西的天然种植姜黄，色泽橙黄鲜艳，姜黄素含量高。",
+        "moq": "1x20 ft Container",
+        "packaging": "25, 50 Kg/袋",
+        "paymentSystem": "Cash In Advance",
         "advantages": [
           "天然橙黄色泽鲜艳",
           "姜黄素含量高",
@@ -178,6 +212,28 @@
           { "label": "姜黄素含量", "value": "3% min" },
           { "label": "水分含量", "value": "10% max" },
           { "label": "杂质", "value": "1% max" },
+          { "label": "包装", "value": "25, 50 Kg/袋" },
+          { "label": "MOQ", "value": "1x20 ft Container" },
+          { "label": "加工周期", "value": "20 - 30 天" },
+          { "label": "付款方式", "value": "Cash In Advance" }
+        ]
+      },
+      "nutmeg": {
+        "name": "肉豆蔻",
+        "description": "来自印尼的高品质肉豆蔻，以浓郁香气和风味著称。",
+        "moq": "1x20 ft Container",
+        "packaging": "25, 50 Kg/袋",
+        "paymentSystem": "Cash In Advance",
+        "advantages": [
+          "香气浓郁，风味突出",
+          "高品质等级",
+          "源自优质种植园"
+        ],
+        "specifications": [
+          { "label": "产地", "value": "Indonesia" },
+          { "label": "等级", "value": "ABBA" },
+          { "label": "水分含量", "value": "10% max" },
+          { "label": "灰分最大", "value": "3% max" },
           { "label": "包装", "value": "25, 50 Kg/袋" },
           { "label": "MOQ", "value": "1x20 ft Container" },
           { "label": "加工周期", "value": "20 - 30 天" },
