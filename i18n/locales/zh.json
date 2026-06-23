@@ -57,9 +57,9 @@
         "benefits": "有助于支持免疫系统功能；作为均衡饮食的一部分有助于维持健康血糖水平；促进消化健康；支持神经系统功能；富含天然抗氧化物。",
         "uses": "饮料甜味剂（咖啡、茶、果汁）；烘焙及甜点配料；酱料与调味品的基础原料。",
         "legality": "按照印尼食品安全法规生产。获得清真认证（Halal），持有P-IRT许可，配备营养成分标签及零售条形码，支持国内与国际分销。",
-        "moq": "500公斤",
-        "packaging": "25公斤真空袋",
-        "paymentSystem": "电汇（T/T）、即期信用证（L/C at sight）"
+        "moq": "1000公斤",
+        "packaging": "1000克",
+        "paymentSystem": "信用证（L/C, Letter of Credit）"
       },
       "secondProduct": {
         "name": "优质金枪鱼松",
@@ -69,9 +69,9 @@
         "benefits": "高蛋白含量；富含Omega-3；保质期长；用途广泛；适合零售与餐饮行业。",
         "uses": "可作为米饭及粥类配料；面包与糕点馅料；即食零食；传统与现代菜肴配料；批量供应用于再包装。",
         "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。",
-        "moq": "1,000件",
-        "packaging": "200克零售袋装",
-        "paymentSystem": "电汇（T/T）"
+        "moq": "1000公斤",
+        "packaging": "1000克",
+        "paymentSystem": "信用证（L/C, Letter of Credit）"
       },
       "thirdProduct": {
         "name": "马鲛鱼脆饼（Krupuk Amplang）",
@@ -81,9 +81,9 @@
         "benefits": "日常受欢迎零食；具有地方特色；餐食搭配佳品；适用于招待及活动场合；保质期长，便于携带。",
         "uses": "可作为独立零食；餐食搭配；零售与出口分销；支持定制包装与贴牌生产；适合商超及批发渠道。",
         "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。",
-        "moq": "500公斤",
-        "packaging": "250克密封袋装",
-        "paymentSystem": "电汇（T/T）、即期信用证（L/C at sight）"
+        "moq": "1000公斤",
+        "packaging": "1000克",
+        "paymentSystem": "信用证（L/C, Letter of Credit）"
       },
       "fourthProduct": {
         "name": "百香果饮料",
@@ -93,9 +93,9 @@
         "benefits": "富含维生素C，有助于支持正常免疫功能；含抗氧化成分，有助于保护细胞免受氧化压力；含膳食纤维，有助于消化健康；含钾元素，有助于维持正常血压；含天然生物碱成分，具有轻微放松特性。",
         "uses": "即饮饮料；鸡尾酒与无酒精饮品基底；酒店及餐饮行业；零售与电商渠道；支持集装箱出口及海外灌装。",
         "legality": "获得清真认证，并在BPOM（印尼国家食品药品监督管理局）注册，确保符合国家食品安全法规。",
-        "moq": "1x20英尺集装箱",
-        "packaging": "330毫升瓶装 / 散装",
-        "paymentSystem": "电汇（T/T）、即期信用证（L/C at sight）"
+        "moq": "1000公斤",
+        "packaging": "1000克",
+        "paymentSystem": "信用证（L/C, Letter of Credit）"
       }
     },
     "productRaw": {
@@ -106,138 +106,297 @@
       "blackPepper": {
         "name": "黑胡椒",
         "description": "采用日晒整粒黑胡椒，来自印尼优质胡椒产区，按国际出口标准加工处理。",
-        "moq": "1x20 ft Container",
-        "packaging": "10, 20, 25, 50 Kg/袋",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000公斤",
+        "packaging": "10、25、50公斤/袋",
+        "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
           "香气浓郁，辛辣风味独特",
           "在最佳成熟期采收",
           "完善的干燥工艺"
         ],
         "specifications": [
-          { "label": "产地", "value": "Indonesia" },
-          { "label": "等级A", "value": "GL 550" },
-          { "label": "水分含量", "value": "3.5%" },
-          { "label": "灰分最大", "value": "3%" },
-          { "label": "损伤率", "value": "0.3%" },
-          { "label": "包装", "value": "10, 20, 25, 50 Kg/袋" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "加工周期", "value": "20 - 30 天" },
-          { "label": "付款方式", "value": "Cash In Advance" }
+          {
+            "label": "产地",
+            "value": "印度尼西亚"
+          },
+          {
+            "label": "A级",
+            "value": "GL 550"
+          },
+          {
+            "label": "水分含量",
+            "value": "3.5%"
+          },
+          {
+            "label": "灰分最大",
+            "value": "3%"
+          },
+          {
+            "label": "损伤率",
+            "value": "0.3%"
+          },
+          {
+            "label": "包装",
+            "value": "10、25、50公斤/袋"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000公斤"
+          },
+          {
+            "label": "加工周期",
+            "value": "20 - 30 天"
+          },
+          {
+            "label": "付款方式",
+            "value": "信用证（L/C, Letter of Credit）"
+          }
         ]
       },
       "whitePepper": {
         "name": "白胡椒",
         "description": "来自邦加岛与楠榜的优质白胡椒，经清洗与日晒处理，风味清爽锐利，品质均一。",
-        "moq": "1x20 ft Container",
-        "packaging": "10, 25, 50 Kg/袋",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000公斤",
+        "packaging": "10、25、50公斤/袋",
+        "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
           "胡椒风味清爽锐利",
           "经过精心清洗与日晒",
           "筛选确保颗粒均匀"
         ],
         "specifications": [
-          { "label": "产地", "value": "Indonesia (Bangka, Lampung)" },
-          { "label": "等级", "value": "ASTA Grade" },
-          { "label": "水分含量", "value": "14% max" },
-          { "label": "灰分最大", "value": "2.5% max" },
-          { "label": "损伤率", "value": "0.5% max" },
-          { "label": "包装", "value": "10, 25, 50 Kg/袋" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "加工周期", "value": "20 - 30 天" },
-          { "label": "付款方式", "value": "Cash In Advance" }
+          {
+            "label": "产地",
+            "value": "印度尼西亚（邦加、楠榜）"
+          },
+          {
+            "label": "等级",
+            "value": "ASTA Grade"
+          },
+          {
+            "label": "水分含量",
+            "value": "14% max"
+          },
+          {
+            "label": "灰分最大",
+            "value": "2.5% max"
+          },
+          {
+            "label": "损伤率",
+            "value": "0.5% max"
+          },
+          {
+            "label": "包装",
+            "value": "10、25、50公斤/袋"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000公斤"
+          },
+          {
+            "label": "加工周期",
+            "value": "20 - 30 天"
+          },
+          {
+            "label": "付款方式",
+            "value": "信用证（L/C, Letter of Credit）"
+          }
         ]
       },
       "cloves": {
         "name": "丁香",
         "description": "来自马鲁古与苏拉威西的手工采摘干燥丁香花蕾，经日晒处理，保持浓郁香气与高含量精油。",
-        "moq": "1x20 ft Container",
-        "packaging": "25, 50 Kg/袋",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000公斤",
+        "packaging": "10、25、50公斤/袋",
+        "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
           "丁香香气浓郁独特",
           "在最佳成熟期手工采摘",
           "日晒以保留精油成分"
         ],
         "specifications": [
-          { "label": "产地", "value": "Indonesia (Maluku, Sulawesi)" },
-          { "label": "类型", "value": "整粒干花蕾" },
-          { "label": "水分含量", "value": "12% max" },
-          { "label": "杂质", "value": "1% max" },
-          { "label": "无头丁香", "value": "4% max" },
-          { "label": "包装", "value": "25, 50 Kg/袋" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "加工周期", "value": "20 - 30 天" },
-          { "label": "付款方式", "value": "Cash In Advance" }
+          {
+            "label": "产地",
+            "value": "印度尼西亚（马鲁古、苏拉威西）"
+          },
+          {
+            "label": "类型",
+            "value": "整粒干丁香花蕾"
+          },
+          {
+            "label": "水分含量",
+            "value": "12% max"
+          },
+          {
+            "label": "杂质",
+            "value": "1% max"
+          },
+          {
+            "label": "无头丁香",
+            "value": "4% max"
+          },
+          {
+            "label": "包装",
+            "value": "10、25、50公斤/袋"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000公斤"
+          },
+          {
+            "label": "加工周期",
+            "value": "20 - 30 天"
+          },
+          {
+            "label": "付款方式",
+            "value": "信用证（L/C, Letter of Credit）"
+          }
         ]
       },
       "arecaNut": {
         "name": "槟榔",
         "description": "来自苏拉威西与苏门答腊的日晒槟榔果，按尺寸与品质分级，适用于工业及零售市场。",
-        "moq": "1x20 ft Container",
-        "packaging": "50, 60 Kg/袋",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000公斤",
+        "packaging": "10、25、50公斤/袋",
+        "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
           "日晒以实现自然保存",
           "按尺寸与品质分级筛选",
           "适用于工业与零售用途"
         ],
         "specifications": [
-          { "label": "产地", "value": "Indonesia (Sulawesi, Sumatra)" },
-          { "label": "类型", "value": "切半 / 整粒" },
-          { "label": "水分含量", "value": "12% max" },
-          { "label": "杂质", "value": "1% max" },
-          { "label": "破碎率", "value": "5% max" },
-          { "label": "包装", "value": "50, 60 Kg/袋" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "加工周期", "value": "20 - 30 天" },
-          { "label": "付款方式", "value": "Cash In Advance" }
+          {
+            "label": "产地",
+            "value": "印度尼西亚（苏拉威西、苏门答腊）"
+          },
+          {
+            "label": "类型",
+            "value": "切半 / 整粒"
+          },
+          {
+            "label": "水分含量",
+            "value": "12% max"
+          },
+          {
+            "label": "杂质",
+            "value": "1% max"
+          },
+          {
+            "label": "破碎率",
+            "value": "5% max"
+          },
+          {
+            "label": "包装",
+            "value": "10、25、50公斤/袋"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000公斤"
+          },
+          {
+            "label": "加工周期",
+            "value": "20 - 30 天"
+          },
+          {
+            "label": "付款方式",
+            "value": "信用证（L/C, Letter of Credit）"
+          }
         ]
       },
       "turmeric": {
         "name": "姜黄",
         "description": "来自爪哇与苏拉威西的天然种植姜黄，色泽橙黄鲜艳，姜黄素含量高。",
-        "moq": "1x20 ft Container",
-        "packaging": "25, 50 Kg/袋",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000公斤",
+        "packaging": "10、25、50公斤/袋",
+        "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
           "天然橙黄色泽鲜艳",
           "姜黄素含量高",
           "无人工化学物质栽培"
         ],
         "specifications": [
-          { "label": "产地", "value": "Indonesia (Java, Sulawesi)" },
-          { "label": "形态", "value": "干片 / 整根" },
-          { "label": "姜黄素含量", "value": "3% min" },
-          { "label": "水分含量", "value": "10% max" },
-          { "label": "杂质", "value": "1% max" },
-          { "label": "包装", "value": "25, 50 Kg/袋" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "加工周期", "value": "20 - 30 天" },
-          { "label": "付款方式", "value": "Cash In Advance" }
+          {
+            "label": "产地",
+            "value": "印度尼西亚（爪哇、苏拉威西）"
+          },
+          {
+            "label": "形态",
+            "value": "干片 / 整根"
+          },
+          {
+            "label": "姜黄素含量",
+            "value": "3% min"
+          },
+          {
+            "label": "水分含量",
+            "value": "10% max"
+          },
+          {
+            "label": "杂质",
+            "value": "1% max"
+          },
+          {
+            "label": "包装",
+            "value": "10、25、50公斤/袋"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000公斤"
+          },
+          {
+            "label": "加工周期",
+            "value": "20 - 30 天"
+          },
+          {
+            "label": "付款方式",
+            "value": "信用证（L/C, Letter of Credit）"
+          }
         ]
       },
       "nutmeg": {
         "name": "肉豆蔻",
         "description": "来自印尼的高品质肉豆蔻，以浓郁香气和风味著称。",
-        "moq": "1x20 ft Container",
-        "packaging": "25, 50 Kg/袋",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000公斤",
+        "packaging": "10、25、50公斤/袋",
+        "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
           "香气浓郁，风味突出",
           "高品质等级",
           "源自优质种植园"
         ],
         "specifications": [
-          { "label": "产地", "value": "Indonesia" },
-          { "label": "等级", "value": "ABBA" },
-          { "label": "水分含量", "value": "10% max" },
-          { "label": "灰分最大", "value": "3% max" },
-          { "label": "包装", "value": "25, 50 Kg/袋" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "加工周期", "value": "20 - 30 天" },
-          { "label": "付款方式", "value": "Cash In Advance" }
+          {
+            "label": "产地",
+            "value": "印度尼西亚"
+          },
+          {
+            "label": "等级",
+            "value": "ABBA"
+          },
+          {
+            "label": "水分含量",
+            "value": "10% max"
+          },
+          {
+            "label": "灰分最大",
+            "value": "3% max"
+          },
+          {
+            "label": "包装",
+            "value": "10、25、50公斤/袋"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000公斤"
+          },
+          {
+            "label": "加工周期",
+            "value": "20 - 30 天"
+          },
+          {
+            "label": "付款方式",
+            "value": "信用证（L/C, Letter of Credit）"
+          }
         ]
       }
     },

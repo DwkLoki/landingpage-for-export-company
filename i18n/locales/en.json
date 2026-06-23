@@ -57,9 +57,9 @@
         "benefits": "Supports immune system function; Helps maintain healthy blood sugar levels when consumed as part of a balanced diet; Promotes digestive health; Supports normal nervous system function; Naturally rich in antioxidants",
         "uses": "Beverage manufacturing (coffee, tea, juice, and specialty drinks); Bakery and dessert production (ingredient and topping); Culinary applications, including sauces, marinades, and seasoning blends",
         "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing, complete with Nutrition Facts labeling and retail barcode registration to support domestic and international distribution.",
-        "moq": "500 kg",
-        "packaging": "25 kg vacuum bag",
-        "paymentSystem": "T/T, L/C at sight"
+        "moq": "1000 Kg",
+        "packaging": "1000 Grams",
+        "paymentSystem": "L/C (Letter of Credit)"
       },
       "secondProduct": {
         "name": "Premium Shredded Tuna",
@@ -69,9 +69,9 @@
         "benefits": "High protein content; source of omega-3; long shelf life; versatile for meals and snacks; suitable for retail and food service.",
         "uses": "Topping for rice and porridge; filling for bread and pastries; ready-to-eat snack; ingredient for traditional and modern dishes; bulk supply for repackaging.",
         "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
-        "moq": "1,000 units",
-        "packaging": "200g retail pouch",
-        "paymentSystem": "T/T"
+        "moq": "1000 Kg",
+        "packaging": "1000 Grams",
+        "paymentSystem": "L/C (Letter of Credit)"
       },
       "thirdProduct": {
         "name": "Mackerel Fish Crackers",
@@ -81,9 +81,9 @@
         "benefits": "Everyday snack favorite; Authentic regional specialty; Versatile meal companion; Suitable for events and hospitality; Long-lasting and travel-friendly",
         "uses": "Standalone snack; accompaniment to meals; retail and bulk export; custom packaging and private label; convenience and grocery distribution.",
         "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
-        "moq": "500 kg",
-        "packaging": "250g sealed pouch",
-        "paymentSystem": "T/T, L/C at sight"
+        "moq": "1000 Kg",
+        "packaging": "1000 Grams",
+        "paymentSystem": "L/C (Letter of Credit)"
       },
       "fourthProduct": {
         "name": "Passion Fruit Beverage",
@@ -93,9 +93,9 @@
         "benefits": "Rich in vitamin C to support normal immune function; Contains antioxidants that help protect cells from oxidative stress; A source of dietary fiber that supports healthy digestion; Contains potassium, which contributes to the maintenance of normal blood pressure; Naturally contains alkaloid compounds associated with mild calming properties",
         "uses": "Ready-to-drink beverage; base for cocktails and mocktails; food service and hospitality; retail and e-commerce; bulk and container shipment for overseas bottling.",
         "legality": "Halal-certified and officially registered with BPOM (Indonesia’s National Agency of Drug and Food Control), ensuring compliance with national food safety regulations.",
-        "moq": "1x20 ft container",
-        "packaging": "330ml bottle / bulk",
-        "paymentSystem": "T/T, L/C at sight"
+        "moq": "1000 Kg",
+        "packaging": "1000 Grams",
+        "paymentSystem": "L/C (Letter of Credit)"
       }
     },
     "productRaw": {
@@ -106,32 +106,59 @@
       "blackPepper": {
         "name": "Black Pepper",
         "description": "Sun-dried whole black peppercorns sourced from Indonesia's premium pepper-growing regions, processed to meet international export standards.",
-        "moq": "1x20 ft Container",
-        "packaging": "10, 20, 25, 50 Kg/Sack",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Sack",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
-          "Strong aroma with a distinctive spicy flavour",
+          "Strong aroma with a distinctive spicy flavor",
           "Harvested at optimum maturity",
           "Perfect drying process"
         ],
         "specifications": [
-          { "label": "Origin", "value": "Indonesia" },
-          { "label": "Grade A", "value": "GL 550" },
-          { "label": "Moisture content", "value": "3.5%" },
-          { "label": "Ash Max", "value": "3%" },
-          { "label": "Damage", "value": "0.3%" },
-          { "label": "Packaging", "value": "10, 20, 25, 50 Kg/Sack" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Processing time", "value": "20 - 30 days" },
-          { "label": "Payment term", "value": "Cash In Advance" }
+          {
+            "label": "Origin",
+            "value": "Indonesia"
+          },
+          {
+            "label": "Grade A",
+            "value": "GL 550"
+          },
+          {
+            "label": "Moisture content",
+            "value": "3.5%"
+          },
+          {
+            "label": "Ash max",
+            "value": "3%"
+          },
+          {
+            "label": "Damage",
+            "value": "0.3%"
+          },
+          {
+            "label": "Packaging",
+            "value": "10, 25, 50 Kg/Sack"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Processing time",
+            "value": "20 - 30 days"
+          },
+          {
+            "label": "Payment term",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "whitePepper": {
         "name": "White Pepper",
         "description": "Premium white pepper from Bangka and Lampung, washed and sun-dried for clean, sharp flavor and uniform quality.",
-        "moq": "1x20 ft Container",
+        "moq": "1000 Kg",
         "packaging": "10, 25, 50 Kg/Sack",
-        "paymentSystem": "Cash In Advance",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Clean, sharp pepper flavor",
           "Carefully washed and sun-dried",
@@ -142,24 +169,48 @@
             "label": "Origin",
             "value": "Indonesia (Bangka, Lampung)"
           },
-          { "label": "Grade", "value": "ASTA Grade" },
-          { "label": "Moisture content", "value": "14% max" },
-          { "label": "Ash Max", "value": "2.5% max" },
-          { "label": "Damage", "value": "0.5% max" },
-          { "label": "Packaging", "value": "10, 25, 50 Kg/Sack" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Processing time", "value": "20 - 30 days" },
-          { "label": "Payment term", "value": "Cash In Advance" }
+          {
+            "label": "Grade",
+            "value": "ASTA Grade"
+          },
+          {
+            "label": "Moisture content",
+            "value": "14% max"
+          },
+          {
+            "label": "Ash max",
+            "value": "2.5% max"
+          },
+          {
+            "label": "Damage",
+            "value": "0.5% max"
+          },
+          {
+            "label": "Packaging",
+            "value": "10, 25, 50 Kg/Sack"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Processing time",
+            "value": "20 - 30 days"
+          },
+          {
+            "label": "Payment term",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "cloves": {
         "name": "Cloves",
         "description": "Hand-picked dried clove buds from Maluku and Sulawesi, sun-dried to retain their strong fragrance and high essential oil content.",
-        "moq": "1x20 ft Container",
-        "packaging": "10, 20, 25, 50 Kg/Sack",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Sack",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
-          "Rich in eugenol, providing intense aroma and flavour",
+          "Rich in eugenol, providing intense aroma and flavor",
           "Hand-picked to maintain quality",
           "Natural drying process"
         ],
@@ -168,21 +219,46 @@
             "label": "Origin",
             "value": "Indonesia (Maluku, Sulawesi)"
           },
-          { "label": "Grade A", "value": "AB6" },
-          { "label": "Moisture content", "value": "3.5%" },
-          { "label": "Ash Max", "value": "3%" },
-          { "label": "Packaging", "value": "10, 20, 25,50 Kg/Sack" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Processing time", "value": "20 - 30 days" },
-          { "label": "Payment term", "value": "Cash In Advance" }
+          {
+            "label": "Type",
+            "value": "Whole dried clove buds"
+          },
+          {
+            "label": "Moisture content",
+            "value": "12% max"
+          },
+          {
+            "label": "Foreign matter",
+            "value": "1% max"
+          },
+          {
+            "label": "Headless cloves",
+            "value": "4% max"
+          },
+          {
+            "label": "Packaging",
+            "value": "10, 25, 50 Kg/Sack"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Processing time",
+            "value": "20 - 30 days"
+          },
+          {
+            "label": "Payment term",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "arecaNut": {
         "name": "Areca Nut",
         "description": "Sun-dried areca nuts from Sulawesi and Sumatra, sorted for size and quality, suitable for industrial and retail markets.",
-        "moq": "1x20 ft Container",
-        "packaging": "50, 60 Kg/Sack",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Sack",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Sun-dried for natural preservation",
           "Sorted by size and quality",
@@ -193,82 +269,134 @@
             "label": "Origin",
             "value": "Indonesia (Sulawesi, Sumatra)"
           },
-          { "label": "Type", "value": "Split / Whole" },
-          { "label": "Moisture content", "value": "12% max" },
-          { "label": "Foreign matter", "value": "1% max" },
-          { "label": "Broken nuts", "value": "5% max" },
-          { "label": "Packaging", "value": "50, 60 Kg/Sack" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Processing time", "value": "20 - 30 days" },
-          { "label": "Payment term", "value": "Cash In Advance" }
+          {
+            "label": "Type",
+            "value": "Split / Whole"
+          },
+          {
+            "label": "Moisture content",
+            "value": "12% max"
+          },
+          {
+            "label": "Foreign matter",
+            "value": "1% max"
+          },
+          {
+            "label": "Broken nuts",
+            "value": "5% max"
+          },
+          {
+            "label": "Packaging",
+            "value": "10, 25, 50 Kg/Sack"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Processing time",
+            "value": "20 - 30 days"
+          },
+          {
+            "label": "Payment term",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "turmeric": {
         "name": "Turmeric",
         "description": "Naturally cultivated turmeric from Java and Sulawesi, with vibrant orange color and high curcumin content.",
-        "moq": "1x20 ft Container",
-        "packaging": "25 - 50 Kg/Plastic Basket, Mesh bag",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Sack",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Vibrant natural orange color",
           "High curcumin content",
           "Cultivated without artificial chemicals"
         ],
         "specifications": [
-          { "label": "Curcumin content", "value": "3 - 5%" },
-          { "label": "Moisture content", "value": "70 - 75%" },
           {
-            "label": "Colour",
-            "value": "Reddish brown outer skin, bright orange inner flesh"
+            "label": "Origin",
+            "value": "Indonesia (Java, Sulawesi)"
           },
-          { "label": "Aroma", "value": "Strong and distinctive" },
           {
-            "label": "Size",
-            "value": "5-7 cm long, 1-2 cm in diameter"
+            "label": "Form",
+            "value": "Dried slices / Whole rhizome"
           },
-          { "label": "Shape", "value": "Whole or cut rhizome" },
-          { "label": "Texture", "value": "Dense and not fibrous" },
+          {
+            "label": "Curcumin content",
+            "value": "3% min"
+          },
+          {
+            "label": "Moisture content",
+            "value": "10% max"
+          },
+          {
+            "label": "Foreign matter",
+            "value": "1% max"
+          },
           {
             "label": "Packaging",
-            "value": "25 - 50, Kg/Plastic Basket, Mesh bag"
+            "value": "10, 25, 50 Kg/Sack"
           },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Processing time", "value": "20 - 30 days" },
-          { "label": "Payment term", "value": "Cash In Advance" }
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Processing time",
+            "value": "20 - 30 days"
+          },
+          {
+            "label": "Payment term",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "nutmeg": {
         "name": "Nutmeg",
         "description": "High-quality nutmeg from Indonesia, known for its intense aroma and flavor.",
-        "moq": "1x20 ft Container",
-        "packaging": "25 - 50 Kg/Plastic Basket, Mesh bag",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Sack",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Intense aroma and flavor",
           "High-quality grade",
           "Sourced from premium plantations"
         ],
         "specifications": [
-          { "label": "Curcumin content", "value": "3 - 5%" },
-          { "label": "Moisture content", "value": "70 - 75%" },
           {
-            "label": "Colour",
-            "value": "Reddish brown outer skin, bright orange inner flesh"
+            "label": "Origin",
+            "value": "Indonesia"
           },
-          { "label": "Aroma", "value": "Strong and distinctive" },
           {
-            "label": "Size",
-            "value": "5-7 cm long, 1-2 cm in diameter"
+            "label": "Grade",
+            "value": "ABBA"
           },
-          { "label": "Shape", "value": "Whole or cut rhizome" },
-          { "label": "Texture", "value": "Dense and not fibrous" },
+          {
+            "label": "Moisture content",
+            "value": "10% max"
+          },
+          {
+            "label": "Ash max",
+            "value": "3% max"
+          },
           {
             "label": "Packaging",
-            "value": "25 - 50, Kg/Plastic Basket, Mesh bag"
+            "value": "10, 25, 50 Kg/Sack"
           },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Processing time", "value": "20 - 30 days" },
-          { "label": "Payment term", "value": "Cash In Advance" }
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Processing time",
+            "value": "20 - 30 days"
+          },
+          {
+            "label": "Payment term",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       }
     },

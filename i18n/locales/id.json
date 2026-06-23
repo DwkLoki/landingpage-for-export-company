@@ -57,9 +57,9 @@
         "benefits": "Mendukung sistem kekebalan tubuh; membantu menjaga kadar gula darah sebagai bagian dari pola makan seimbang; mendukung kesehatan pencernaan; mendukung fungsi sistem saraf; kaya akan antioksidan alami.",
         "uses": "Pemanis minuman (kopi, teh, jus); bahan dan topping produk bakery; campuran dasar saus dan bumbu masakan.",
         "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal, memiliki izin P-IRT, dilengkapi label Informasi Nilai Gizi dan barcode ritel untuk mendukung distribusi domestik dan internasional.",
-        "moq": "500 kg",
-        "packaging": "Kemasan vakum 25 kg",
-        "paymentSystem": "T/T, L/C at sight"
+        "moq": "1000 Kg",
+        "packaging": "1000 Gram",
+        "paymentSystem": "L/C (Letter of Credit)"
       },
       "secondProduct": {
         "name": "Abon Ikan Tuna Premium",
@@ -69,9 +69,9 @@
         "benefits": "Tinggi protein; sumber omega-3; masa simpan panjang; serbaguna untuk makanan dan camilan; cocok untuk ritel dan layanan makanan.",
         "uses": "Topping nasi dan bubur; isian roti dan pastry; camilan siap saji; bahan masakan tradisional maupun modern; pasokan grosir untuk pengemasan ulang.",
         "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal dan memenuhi Standar Nasional Indonesia (SNI), dilengkapi izin P-IRT dan barcode ritel untuk mendukung distribusi domestik dan internasional.",
-        "moq": "1.000 unit",
-        "packaging": "Kemasan sachet 200g",
-        "paymentSystem": "T/T"
+        "moq": "1000 Kg",
+        "packaging": "1000 Gram",
+        "paymentSystem": "L/C (Letter of Credit)"
       },
       "thirdProduct": {
         "name": "Kerupuk Amplang Ikan Tenggiri",
@@ -81,9 +81,9 @@
         "benefits": "Camilan favorit sehari-hari; oleh-oleh khas daerah; pendamping makanan; cocok untuk acara dan jamuan; tahan lama dan praktis dibawa bepergian.",
         "uses": "Camilan mandiri; pendamping hidangan; distribusi ritel dan ekspor; kemasan khusus dan private label; distribusi toko dan grosir.",
         "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal dan memenuhi Standar Nasional Indonesia (SNI), dilengkapi izin P-IRT dan barcode ritel untuk mendukung distribusi domestik dan internasional.",
-        "moq": "500 kg",
-        "packaging": "Kemasan tertutup 250g",
-        "paymentSystem": "T/T, L/C at sight"
+        "moq": "1000 Kg",
+        "packaging": "1000 Gram",
+        "paymentSystem": "L/C (Letter of Credit)"
       },
       "fourthProduct": {
         "name": "Minuman Sari Markisa",
@@ -93,9 +93,9 @@
         "benefits": "Kaya vitamin C untuk mendukung sistem imun; mengandung antioksidan; sumber serat; mengandung kalium untuk membantu menjaga tekanan darah; memiliki senyawa alami yang memberikan efek menenangkan ringan.",
         "uses": "Minuman siap saji; dasar koktail dan mocktail; kebutuhan hotel dan restoran; distribusi ritel dan e-commerce; pengiriman kontainer untuk pembotolan luar negeri.",
         "legality": "Bersertifikat Halal dan terdaftar di BPOM (Badan Pengawas Obat dan Makanan), memastikan kepatuhan terhadap regulasi keamanan pangan nasional.",
-        "moq": "1x20 ft container",
-        "packaging": "Botol 330ml / curah",
-        "paymentSystem": "T/T, L/C at sight"
+        "moq": "1000 Kg",
+        "packaging": "1000 Gram",
+        "paymentSystem": "L/C (Letter of Credit)"
       }
     },
     "productRaw": {
@@ -106,138 +106,297 @@
       "blackPepper": {
         "name": "Lada Hitam",
         "description": "Lada hitam utuh hasil pengeringan matahari dari sentra lada premium Indonesia, diproses sesuai standar ekspor internasional.",
-        "moq": "1x20 ft Container",
-        "packaging": "10, 20, 25, 50 Kg/Karung",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Karung",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Aroma kuat dengan rasa pedas yang khas",
           "Dipanen pada tingkat kematangan optimal",
           "Proses pengeringan sempurna"
         ],
         "specifications": [
-          { "label": "Asal", "value": "Indonesia" },
-          { "label": "Grade A", "value": "GL 550" },
-          { "label": "Kadar air", "value": "3,5%" },
-          { "label": "Abu maks", "value": "3%" },
-          { "label": "Kerusakan", "value": "0,3%" },
-          { "label": "Kemasan", "value": "10, 20, 25, 50 Kg/Karung" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Waktu proses", "value": "20 - 30 hari" },
-          { "label": "Pembayaran", "value": "Cash In Advance" }
+          {
+            "label": "Asal",
+            "value": "Indonesia"
+          },
+          {
+            "label": "Grade A",
+            "value": "GL 550"
+          },
+          {
+            "label": "Kadar air",
+            "value": "3,5%"
+          },
+          {
+            "label": "Abu maks",
+            "value": "3%"
+          },
+          {
+            "label": "Kerusakan",
+            "value": "0,3%"
+          },
+          {
+            "label": "Kemasan",
+            "value": "10, 25, 50 Kg/Karung"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Waktu proses",
+            "value": "20 - 30 hari"
+          },
+          {
+            "label": "Pembayaran",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "whitePepper": {
         "name": "Lada Putih",
         "description": "Lada putih premium dari Bangka dan Lampung, dicuci dan dijemur untuk menghasilkan rasa bersih dan kualitas yang seragam.",
-        "moq": "1x20 ft Container",
+        "moq": "1000 Kg",
         "packaging": "10, 25, 50 Kg/Karung",
-        "paymentSystem": "Cash In Advance",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Rasa lada bersih dan tajam",
           "Dicuci dan dijemur dengan teliti",
           "Disortir agar ukurannya seragam"
         ],
         "specifications": [
-          { "label": "Asal", "value": "Indonesia (Bangka, Lampung)" },
-          { "label": "Grade", "value": "ASTA Grade" },
-          { "label": "Kadar air", "value": "14% maks" },
-          { "label": "Abu maks", "value": "2,5% maks" },
-          { "label": "Kerusakan", "value": "0,5% maks" },
-          { "label": "Kemasan", "value": "10, 25, 50 Kg/Karung" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Waktu proses", "value": "20 - 30 hari" },
-          { "label": "Pembayaran", "value": "Cash In Advance" }
+          {
+            "label": "Asal",
+            "value": "Indonesia (Bangka, Lampung)"
+          },
+          {
+            "label": "Grade",
+            "value": "ASTA Grade"
+          },
+          {
+            "label": "Kadar air",
+            "value": "14% maks"
+          },
+          {
+            "label": "Abu maks",
+            "value": "2,5% maks"
+          },
+          {
+            "label": "Kerusakan",
+            "value": "0,5% maks"
+          },
+          {
+            "label": "Kemasan",
+            "value": "10, 25, 50 Kg/Karung"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Waktu proses",
+            "value": "20 - 30 hari"
+          },
+          {
+            "label": "Pembayaran",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "cloves": {
         "name": "Cengkeh",
         "description": "Bunga cengkeh kering pilihan tangan dari Maluku dan Sulawesi, dijemur untuk mempertahankan aroma kuat dan kandungan minyak atsiri tinggi.",
-        "moq": "1x20 ft Container",
-        "packaging": "25, 50 Kg/Karung",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Karung",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Aroma cengkeh kuat dan khas",
           "Dipetik tangan pada kematangan optimal",
           "Dijemur untuk menjaga minyak atsiri"
         ],
         "specifications": [
-          { "label": "Asal", "value": "Indonesia (Maluku, Sulawesi)" },
-          { "label": "Jenis", "value": "Bunga kering utuh" },
-          { "label": "Kadar air", "value": "12% maks" },
-          { "label": "Benda asing", "value": "1% maks" },
-          { "label": "Cengkeh tanpa kepala", "value": "4% maks" },
-          { "label": "Kemasan", "value": "25, 50 Kg/Karung" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Waktu proses", "value": "20 - 30 hari" },
-          { "label": "Pembayaran", "value": "Cash In Advance" }
+          {
+            "label": "Asal",
+            "value": "Indonesia (Maluku, Sulawesi)"
+          },
+          {
+            "label": "Jenis",
+            "value": "Bunga cengkeh kering utuh"
+          },
+          {
+            "label": "Kadar air",
+            "value": "12% maks"
+          },
+          {
+            "label": "Benda asing",
+            "value": "1% maks"
+          },
+          {
+            "label": "Cengkeh tanpa kepala",
+            "value": "4% maks"
+          },
+          {
+            "label": "Kemasan",
+            "value": "10, 25, 50 Kg/Karung"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Waktu proses",
+            "value": "20 - 30 hari"
+          },
+          {
+            "label": "Pembayaran",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "arecaNut": {
         "name": "Pinang",
         "description": "Pinang hasil pengeringan matahari dari Sulawesi dan Sumatra, disortir berdasarkan ukuran dan kualitas, cocok untuk pasar industri maupun ritel.",
-        "moq": "1x20 ft Container",
-        "packaging": "50, 60 Kg/Karung",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Karung",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Dijemur untuk pengawetan alami",
           "Disortir berdasarkan ukuran dan kualitas",
           "Cocok untuk kebutuhan industri dan ritel"
         ],
         "specifications": [
-          { "label": "Asal", "value": "Indonesia (Sulawesi, Sumatra)" },
-          { "label": "Jenis", "value": "Belah / Utuh" },
-          { "label": "Kadar air", "value": "12% maks" },
-          { "label": "Benda asing", "value": "1% maks" },
-          { "label": "Biji pecah", "value": "5% maks" },
-          { "label": "Kemasan", "value": "50, 60 Kg/Karung" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Waktu proses", "value": "20 - 30 hari" },
-          { "label": "Pembayaran", "value": "Cash In Advance" }
+          {
+            "label": "Asal",
+            "value": "Indonesia (Sulawesi, Sumatra)"
+          },
+          {
+            "label": "Jenis",
+            "value": "Belah / Utuh"
+          },
+          {
+            "label": "Kadar air",
+            "value": "12% maks"
+          },
+          {
+            "label": "Benda asing",
+            "value": "1% maks"
+          },
+          {
+            "label": "Biji pecah",
+            "value": "5% maks"
+          },
+          {
+            "label": "Kemasan",
+            "value": "10, 25, 50 Kg/Karung"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Waktu proses",
+            "value": "20 - 30 hari"
+          },
+          {
+            "label": "Pembayaran",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "turmeric": {
         "name": "Kunyit",
         "description": "Kunyit alami dari Jawa dan Sulawesi, dengan warna oranye cerah dan kandungan kurkumin tinggi.",
-        "moq": "1x20 ft Container",
-        "packaging": "25, 50 Kg/Karung",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Karung",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Warna oranye alami yang cerah",
           "Kandungan kurkumin tinggi",
           "Dibudidayakan tanpa bahan kimia buatan"
         ],
         "specifications": [
-          { "label": "Asal", "value": "Indonesia (Jawa, Sulawesi)" },
-          { "label": "Bentuk", "value": "Irisan kering / Rimpang utuh" },
-          { "label": "Kandungan kurkumin", "value": "3% min" },
-          { "label": "Kadar air", "value": "10% maks" },
-          { "label": "Benda asing", "value": "1% maks" },
-          { "label": "Kemasan", "value": "25, 50 Kg/Karung" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Waktu proses", "value": "20 - 30 hari" },
-          { "label": "Pembayaran", "value": "Cash In Advance" }
+          {
+            "label": "Asal",
+            "value": "Indonesia (Jawa, Sulawesi)"
+          },
+          {
+            "label": "Bentuk",
+            "value": "Irisan kering / Rimpang utuh"
+          },
+          {
+            "label": "Kandungan kurkumin",
+            "value": "3% min"
+          },
+          {
+            "label": "Kadar air",
+            "value": "10% maks"
+          },
+          {
+            "label": "Benda asing",
+            "value": "1% maks"
+          },
+          {
+            "label": "Kemasan",
+            "value": "10, 25, 50 Kg/Karung"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Waktu proses",
+            "value": "20 - 30 hari"
+          },
+          {
+            "label": "Pembayaran",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       },
       "nutmeg": {
         "name": "Pala",
         "description": "Pala berkualitas tinggi dari Indonesia, dikenal dengan aroma dan rasa yang kuat.",
-        "moq": "1x20 ft Container",
-        "packaging": "25 - 50 Kg/Karung",
-        "paymentSystem": "Cash In Advance",
+        "moq": "1000 Kg",
+        "packaging": "10, 25, 50 Kg/Karung",
+        "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
           "Aroma dan rasa yang kuat",
           "Grade berkualitas tinggi",
           "Bersumber dari perkebunan premium"
         ],
         "specifications": [
-          { "label": "Asal", "value": "Indonesia" },
-          { "label": "Grade", "value": "ABBA" },
-          { "label": "Kadar air", "value": "10% maks" },
-          { "label": "Abu maks", "value": "3% maks" },
-          { "label": "Kemasan", "value": "25, 50 Kg/Karung" },
-          { "label": "MOQ", "value": "1x20 ft Container" },
-          { "label": "Waktu proses", "value": "20 - 30 hari" },
-          { "label": "Pembayaran", "value": "Cash In Advance" }
+          {
+            "label": "Asal",
+            "value": "Indonesia"
+          },
+          {
+            "label": "Grade",
+            "value": "ABBA"
+          },
+          {
+            "label": "Kadar air",
+            "value": "10% maks"
+          },
+          {
+            "label": "Abu maks",
+            "value": "3% maks"
+          },
+          {
+            "label": "Kemasan",
+            "value": "10, 25, 50 Kg/Karung"
+          },
+          {
+            "label": "MOQ",
+            "value": "1000 Kg"
+          },
+          {
+            "label": "Waktu proses",
+            "value": "20 - 30 hari"
+          },
+          {
+            "label": "Pembayaran",
+            "value": "L/C (Letter of Credit)"
+          }
         ]
       }
     },
