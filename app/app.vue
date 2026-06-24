@@ -10,28 +10,31 @@ useHead({
   script: [
     {
       type: "application/ld+json",
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "Organization",
-
-        name: "PT. Nurhayati Indo Cemerlang",
-
-        url: "https://www.nurhayatiindocemerlang.com",
-
-        logo: "https://www.nurhayatiindocemerlang.com/main-logo.png",
-
-        description:
-          "Indonesian exporter of natural food products, spices, and processed food products.",
-
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Makassar",
-          addressRegion: "South Sulawesi",
-          addressCountry: "ID",
+      innerHTML: JSON.stringify([
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "PT. Nurhayati Indo Cemerlang",
+          url: "https://www.nurhayatiindocemerlang.com",
+          logo: "https://www.nurhayatiindocemerlang.com/main-logo.png",
+          description:
+            "Indonesian exporter of spices, natural food products, and processed food products.",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Makassar",
+            addressRegion: "South Sulawesi",
+            addressCountry: "ID",
+          },
+          areaServed: ["Southeast Asia", "Australia", "Europe"],
         },
-
-        areaServed: ["Southeast Asia", "Australia", "Europe"],
-      }),
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "PT. Nurhayati Indo Cemerlang",
+          alternateName: "PT NIC",
+          url: "https://www.nurhayatiindocemerlang.com",
+        },
+      ]),
     },
   ],
 });
