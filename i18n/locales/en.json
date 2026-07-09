@@ -16,6 +16,11 @@
     "service": "Service",
     "contact": "Contact"
   },
+  "whatsapp": {
+    "tooltip": "Chat with us on WhatsApp",
+    "generalMessage": "Hello PT. Nurhayati Indo Cemerlang team,\n\nI am interested in your Indonesian export products. Could you please share information about product availability, pricing, minimum order quantity, packaging, and shipping options?\n\nThank you.",
+    "productMessage": "Hello PT. Nurhayati Indo Cemerlang team,\n\nI am interested in {productName}. Could you please share the latest pricing, MOQ, packaging, specifications, and shipping options?\n\nThank you."
+  },
   "content": {
     "heroTitle": "Bringing Indonesia's Finest Natural Products to the Global Market",
     "heroDesc": "A trusted export partner based in Makassar & Maros, delivering premium Indonesian food products in large-scale shipments across Southeast Asia, Australia, and beyond.",

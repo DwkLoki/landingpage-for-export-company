@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n();
-
-const whatsappNumber = "6282289930399";
+const { buildWhatsAppUrl } = useWhatsApp();
 
 useHead({
   title: computed(() => t("meta.contactTitle")),
@@ -19,7 +18,7 @@ const form = reactive({
 });
 
 function onSubmit() {
-  const details = [
+  const fields: Array<[label: string, value: string]> = [
     [t("content.contact.draft.fullName"), form.fullName],
     [t("content.contact.draft.companyName"), form.companyName],
     [t("content.contact.draft.country"), form.country],
@@ -27,7 +26,9 @@ function onSubmit() {
     [t("content.contact.draft.phone"), form.phone],
     [t("content.contact.draft.productInterest"), form.productInterest],
     [t("content.contact.draft.orderVolume"), form.orderVolume],
-  ]
+  ];
+
+  const details = fields
     .filter(([, value]) => value.trim())
     .map(([label, value]) => `${label}: ${value.trim()}`);
 
@@ -40,9 +41,7 @@ function onSubmit() {
     form.message.trim(),
   ].join("\n");
 
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-
-  window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+  window.open(buildWhatsAppUrl(message), "_blank", "noopener,noreferrer");
 }
 </script>
 
@@ -252,7 +251,7 @@ function onSubmit() {
             <p class="flex items-start gap-2">
               <span aria-hidden="true">📞</span>
               <a
-                :href="`https://wa.me/${whatsappNumber}`"
+                :href="buildWhatsAppUrl()"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-amber-600 hover:underline"

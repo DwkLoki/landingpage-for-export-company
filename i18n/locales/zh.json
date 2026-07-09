@@ -16,6 +16,11 @@
     "service": "服务",
     "contact": "联系我们"
   },
+  "whatsapp": {
+    "tooltip": "通过 WhatsApp 联系我们",
+    "generalMessage": "您好，PT. Nurhayati Indo Cemerlang 团队：\n\n我对贵公司的印度尼西亚出口产品感兴趣。请提供有关产品供应情况、价格、最低订购量、包装和运输方式的信息。\n\n谢谢！",
+    "productMessage": "您好，PT. Nurhayati Indo Cemerlang 团队：\n\n我对{productName}感兴趣。请提供最新价格、最低订购量、包装、规格和运输方式的信息。\n\n谢谢！"
+  },
   "content": {
     "heroTitle": "将印尼优质天然产品带向全球市场",
     "heroDesc": "我们是一家总部位于马卡萨与马罗斯的专业出口合作伙伴，向东南亚、澳大利亚及全球市场供应高品质印尼食品，支持大规模批量出口。",

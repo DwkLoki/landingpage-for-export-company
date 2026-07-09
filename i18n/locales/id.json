@@ -16,6 +16,11 @@
     "service": "Layanan",
     "contact": "Kontak"
   },
+  "whatsapp": {
+    "tooltip": "Hubungi kami melalui WhatsApp",
+    "generalMessage": "Halo tim PT. Nurhayati Indo Cemerlang,\n\nSaya tertarik dengan produk ekspor Indonesia yang Anda tawarkan. Mohon informasinya mengenai ketersediaan produk, harga, jumlah pesanan minimum, kemasan, dan pilihan pengiriman.\n\nTerima kasih.",
+    "productMessage": "Halo tim PT. Nurhayati Indo Cemerlang,\n\nSaya tertarik dengan {productName}. Mohon informasinya mengenai harga terbaru, jumlah pesanan minimum, kemasan, spesifikasi, dan pilihan pengiriman.\n\nTerima kasih."
+  },
   "content": {
     "heroTitle": "Menghadirkan Produk Alami Terbaik Indonesia ke Pasar Global",
     "heroDesc": "Mitra ekspor terpercaya berbasis di Makassar & Maros, menghadirkan produk pangan premium Indonesia dalam skala besar ke Asia Tenggara, Australia, dan sekitarnya.",
