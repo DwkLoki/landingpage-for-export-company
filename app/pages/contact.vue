@@ -1,5 +1,7 @@
-<script setup>
+<script setup lang="ts">
 const { t } = useI18n();
+
+const whatsappNumber = "6282289930399";
 
 useHead({
   title: computed(() => t("meta.contactTitle")),
@@ -17,20 +19,40 @@ const form = reactive({
 });
 
 function onSubmit() {
-  // TODO: integrate with backend or email service
-  console.log("Inquiry submitted:", form);
-  alert("Thank you for your inquiry. We will get back to you soon.");
+  const details = [
+    [t("content.contact.draft.fullName"), form.fullName],
+    [t("content.contact.draft.companyName"), form.companyName],
+    [t("content.contact.draft.country"), form.country],
+    [t("content.contact.draft.email"), form.email],
+    [t("content.contact.draft.phone"), form.phone],
+    [t("content.contact.draft.productInterest"), form.productInterest],
+    [t("content.contact.draft.orderVolume"), form.orderVolume],
+  ]
+    .filter(([, value]) => value.trim())
+    .map(([label, value]) => `${label}: ${value.trim()}`);
+
+  const message = [
+    t("content.contact.draft.title"),
+    "",
+    ...details,
+    "",
+    `${t("content.contact.draft.message")}:`,
+    form.message.trim(),
+  ].join("\n");
+
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappUrl, "_blank", "noopener,noreferrer");
 }
 </script>
 
 <template>
   <div>
-    <!-- Page Header -->
     <section
       class="bg-gradient-to-br from-green-light/30 via-white to-stone-50 py-16 md:py-20"
     >
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-        <h1 class="text-3xl md:text-4xl font-bold text-green-dark">
+      <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+        <h1 class="text-3xl font-bold text-green-dark md:text-4xl">
           {{ $t("content.contact.title") }}
         </h1>
         <p class="mt-4 text-lg text-gray-600">
@@ -39,153 +61,207 @@ function onSubmit() {
       </div>
     </section>
 
-    <section class="py-12 md:py-16 bg-white">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 md:flex md:gap-16">
-        <!-- Contact Form -->
-        <!-- <div class="md:flex-1">
-                    <h2 class="text-xl font-bold text-gray-900 mb-6">
-                        Send Us Your Inquiry
-                    </h2>
-                    <form class="space-y-4" @submit.prevent="onSubmit">
-                        <div>
-                            <label
-                                for="fullName"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Full Name</label
-                            >
-                            <input
-                                id="fullName"
-                                v-model="form.fullName"
-                                type="text"
-                                required
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <div>
-                            <label
-                                for="companyName"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Company Name</label
-                            >
-                            <input
-                                id="companyName"
-                                v-model="form.companyName"
-                                type="text"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <div>
-                            <label
-                                for="country"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Country</label
-                            >
-                            <input
-                                id="country"
-                                v-model="form.country"
-                                type="text"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <div>
-                            <label
-                                for="email"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Email Address</label
-                            >
-                            <input
-                                id="email"
-                                v-model="form.email"
-                                type="email"
-                                required
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <div>
-                            <label
-                                for="phone"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Phone / WhatsApp</label
-                            >
-                            <input
-                                id="phone"
-                                v-model="form.phone"
-                                type="tel"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <div>
-                            <label
-                                for="productInterest"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Product of Interest</label
-                            >
-                            <input
-                                id="productInterest"
-                                v-model="form.productInterest"
-                                type="text"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <div>
-                            <label
-                                for="orderVolume"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Estimated Order Volume</label
-                            >
-                            <input
-                                id="orderVolume"
-                                v-model="form.orderVolume"
-                                type="text"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <div>
-                            <label
-                                for="message"
-                                class="block text-sm font-medium text-gray-700 mb-1"
-                                >Message</label
-                            >
-                            <textarea
-                                id="message"
-                                v-model="form.message"
-                                rows="4"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500"
-                            />
-                        </div>
-                        <button
-                            type="submit"
-                            class="w-full md:w-auto px-8 py-4 text-base font-semibold text-white bg-amber-600 hover:bg-amber-700 rounded-lg shadow-lg transition-colors"
-                        >
-                            Submit Inquiry
-                        </button>
-                    </form>
-                </div> -->
+    <section class="bg-white py-12 md:py-16">
+      <div
+        class="mx-auto grid max-w-5xl gap-12 px-4 sm:px-6 md:grid-cols-[minmax(0,1fr)_20rem] md:gap-16"
+      >
+        <div>
+          <h2 class="text-xl font-bold text-gray-900">
+            {{ $t("content.contact.form.title") }}
+          </h2>
+          <p class="mt-2 text-sm text-gray-500">
+            {{ $t("content.contact.form.requiredNote") }}
+          </p>
 
-        <!-- Direct Contact -->
-        <div class="md:mt-0 md:w-80 flex-shrink-0">
-          <h2 class="text-xl font-bold text-gray-900 mb-4">
+          <form class="mt-6 space-y-5" @submit.prevent="onSubmit">
+            <div class="grid gap-5 sm:grid-cols-2">
+              <div>
+                <label
+                  for="fullName"
+                  class="mb-1 block text-sm font-medium text-gray-700"
+                >
+                  {{ $t("content.contact.form.fullName.label") }}
+                  <span class="text-red-600" aria-hidden="true">*</span>
+                </label>
+                <input
+                  id="fullName"
+                  v-model="form.fullName"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  :placeholder="$t('content.contact.form.fullName.placeholder')"
+                  class="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="companyName"
+                  class="mb-1 block text-sm font-medium text-gray-700"
+                >
+                  {{ $t("content.contact.form.companyName.label") }}
+                </label>
+                <input
+                  id="companyName"
+                  v-model="form.companyName"
+                  type="text"
+                  autocomplete="organization"
+                  :placeholder="
+                    $t('content.contact.form.companyName.placeholder')
+                  "
+                  class="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="country"
+                  class="mb-1 block text-sm font-medium text-gray-700"
+                >
+                  {{ $t("content.contact.form.country.label") }}
+                </label>
+                <input
+                  id="country"
+                  v-model="form.country"
+                  type="text"
+                  autocomplete="country-name"
+                  :placeholder="$t('content.contact.form.country.placeholder')"
+                  class="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="email"
+                  class="mb-1 block text-sm font-medium text-gray-700"
+                >
+                  {{ $t("content.contact.form.email.label") }}
+                  <span class="text-red-600" aria-hidden="true">*</span>
+                </label>
+                <input
+                  id="email"
+                  v-model="form.email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  :placeholder="$t('content.contact.form.email.placeholder')"
+                  class="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="phone"
+                  class="mb-1 block text-sm font-medium text-gray-700"
+                >
+                  {{ $t("content.contact.form.phone.label") }}
+                </label>
+                <input
+                  id="phone"
+                  v-model="form.phone"
+                  type="tel"
+                  autocomplete="tel"
+                  :placeholder="$t('content.contact.form.phone.placeholder')"
+                  class="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="productInterest"
+                  class="mb-1 block text-sm font-medium text-gray-700"
+                >
+                  {{ $t("content.contact.form.productInterest.label") }}
+                </label>
+                <input
+                  id="productInterest"
+                  v-model="form.productInterest"
+                  type="text"
+                  :placeholder="
+                    $t('content.contact.form.productInterest.placeholder')
+                  "
+                  class="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label
+                for="orderVolume"
+                class="mb-1 block text-sm font-medium text-gray-700"
+              >
+                {{ $t("content.contact.form.orderVolume.label") }}
+              </label>
+              <input
+                id="orderVolume"
+                v-model="form.orderVolume"
+                type="text"
+                :placeholder="
+                  $t('content.contact.form.orderVolume.placeholder')
+                "
+                class="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+              />
+            </div>
+
+            <div>
+              <label
+                for="message"
+                class="mb-1 block text-sm font-medium text-gray-700"
+              >
+                {{ $t("content.contact.form.message.label") }}
+                <span class="text-red-600" aria-hidden="true">*</span>
+              </label>
+              <textarea
+                id="message"
+                v-model="form.message"
+                rows="5"
+                required
+                :placeholder="$t('content.contact.form.message.placeholder')"
+                class="w-full resize-y rounded-lg border border-gray-300 px-4 py-3 outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30"
+              />
+            </div>
+
+            <button
+              type="submit"
+              class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-green-dark px-8 py-3.5 text-base font-semibold text-white shadow-md transition hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-green-dark focus:ring-offset-2 active:translate-y-px sm:w-auto"
+            >
+              <LucideMessageCircle :size="20" aria-hidden="true" />
+              {{ $t("content.contact.form.submit") }}
+            </button>
+          </form>
+        </div>
+
+        <aside>
+          <h2 class="mb-4 text-xl font-bold text-gray-900">
             {{ $t("content.contact.directContact") }}
           </h2>
           <div class="space-y-3 text-gray-600">
             <p class="flex items-start gap-2">
-              <span>📍</span>
+              <span aria-hidden="true">📍</span>
               <span>Makassar City & Maros Regency, Indonesia</span>
             </p>
             <p class="flex items-start gap-2">
-              <span>📧</span>
+              <span aria-hidden="true">📧</span>
               <a
-                href="mailto:export@companyname.com"
-                class="text-amber-600 hover:underline"
-                >eksporcelebes89@gmail.com</a
+                href="mailto:eksporcelebes89@gmail.com"
+                class="break-all text-amber-600 hover:underline"
               >
+                eksporcelebes89@gmail.com
+              </a>
             </p>
             <p class="flex items-start gap-2">
-              <span>📞</span>
-              <span>+62822-8993-0399</span>
+              <span aria-hidden="true">📞</span>
+              <a
+                :href="`https://wa.me/${whatsappNumber}`"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-amber-600 hover:underline"
+              >
+                +62 822-8993-0399
+              </a>
             </p>
           </div>
-        </div>
+        </aside>
       </div>
     </section>
   </div>

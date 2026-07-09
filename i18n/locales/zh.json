@@ -413,7 +413,55 @@
     "contact": {
       "title": "携手共建全球合作伙伴关系",
       "desc": "欢迎联系我们洽谈价格、订单数量及出口安排。",
-      "directContact": "直接联系方式"
+      "directContact": "直接联系方式",
+      "form": {
+        "title": "发送您的询盘",
+        "requiredNote": "标有 * 的字段为必填项。",
+        "fullName": {
+          "label": "姓名",
+          "placeholder": "请输入您的姓名"
+        },
+        "companyName": {
+          "label": "公司名称",
+          "placeholder": "请输入您的公司名称"
+        },
+        "country": {
+          "label": "国家",
+          "placeholder": "请输入您的国家"
+        },
+        "email": {
+          "label": "电子邮箱",
+          "placeholder": "请输入您的商务邮箱"
+        },
+        "phone": {
+          "label": "电话 / WhatsApp",
+          "placeholder": "请包含国家或地区代码"
+        },
+        "productInterest": {
+          "label": "感兴趣的产品",
+          "placeholder": "您对哪种产品感兴趣？"
+        },
+        "orderVolume": {
+          "label": "预计订购量",
+          "placeholder": "例如：1 吨"
+        },
+        "message": {
+          "label": "留言",
+          "placeholder": "请告诉我们您的需求"
+        },
+        "submit": "发送至 WhatsApp"
+      },
+      "draft": {
+        "title": "新的出口询盘",
+        "fullName": "姓名",
+        "companyName": "公司",
+        "country": "国家",
+        "email": "电子邮箱",
+        "phone": "电话 / WhatsApp",
+        "productInterest": "产品",
+        "orderVolume": "预计数量",
+        "message": "留言"
+      }
     },
     "trust": {
       "title": "跨境信赖",

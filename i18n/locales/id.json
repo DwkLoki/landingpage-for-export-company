@@ -417,7 +417,55 @@
     "contact": {
       "title": "Mari Bangun Kemitraan Global",
       "desc": "Hubungi kami untuk mendiskusikan harga, kebutuhan volume, dan pengaturan ekspor.",
-      "directContact": "Kontak Langsung"
+      "directContact": "Kontak Langsung",
+      "form": {
+        "title": "Kirim Permintaan Anda",
+        "requiredNote": "Kolom bertanda * wajib diisi.",
+        "fullName": {
+          "label": "Nama Lengkap",
+          "placeholder": "Masukkan nama lengkap Anda"
+        },
+        "companyName": {
+          "label": "Nama Perusahaan",
+          "placeholder": "Masukkan nama perusahaan Anda"
+        },
+        "country": {
+          "label": "Negara",
+          "placeholder": "Masukkan negara Anda"
+        },
+        "email": {
+          "label": "Alamat Email",
+          "placeholder": "Masukkan email bisnis Anda"
+        },
+        "phone": {
+          "label": "Telepon / WhatsApp",
+          "placeholder": "Sertakan kode negara"
+        },
+        "productInterest": {
+          "label": "Produk yang Diminati",
+          "placeholder": "Produk apa yang Anda minati?"
+        },
+        "orderVolume": {
+          "label": "Perkiraan Volume Pesanan",
+          "placeholder": "Contoh: 1 ton"
+        },
+        "message": {
+          "label": "Pesan",
+          "placeholder": "Ceritakan kebutuhan Anda"
+        },
+        "submit": "Kirim ke WhatsApp"
+      },
+      "draft": {
+        "title": "Permintaan Ekspor Baru",
+        "fullName": "Nama",
+        "companyName": "Perusahaan",
+        "country": "Negara",
+        "email": "Email",
+        "phone": "Telepon / WhatsApp",
+        "productInterest": "Produk",
+        "orderVolume": "Perkiraan Volume",
+        "message": "Pesan"
+      }
     },
     "trust": {
       "title": "Tepercaya Lintas Batas",

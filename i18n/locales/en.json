@@ -417,7 +417,55 @@
     "contact": {
       "title": "Let's Build a Global Partnership",
       "desc": "Contact us today to discuss pricing, volume requirements, and export arrangements.",
-      "directContact": "Direct Contact"
+      "directContact": "Direct Contact",
+      "form": {
+        "title": "Send Us Your Inquiry",
+        "requiredNote": "Fields marked with * are required.",
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "Enter your full name"
+        },
+        "companyName": {
+          "label": "Company Name",
+          "placeholder": "Enter your company name"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "Enter your country"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Enter your business email"
+        },
+        "phone": {
+          "label": "Phone / WhatsApp",
+          "placeholder": "Include your country code"
+        },
+        "productInterest": {
+          "label": "Product of Interest",
+          "placeholder": "Which product are you interested in?"
+        },
+        "orderVolume": {
+          "label": "Estimated Order Volume",
+          "placeholder": "For example: 1 ton"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us about your requirements"
+        },
+        "submit": "Send to Whatsapp"
+      },
+      "draft": {
+        "title": "New Export Inquiry",
+        "fullName": "Name",
+        "companyName": "Company",
+        "country": "Country",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "productInterest": "Product",
+        "orderVolume": "Estimated Volume",
+        "message": "Message"
+      }
     },
     "trust": {
       "title": "Trusted Across Borders",
