@@ -62,7 +62,7 @@
         "benefits": "有助于支持免疫系统功能；作为均衡饮食的一部分有助于维持健康血糖水平；促进消化健康；支持神经系统功能；富含天然抗氧化物。",
         "uses": "饮料甜味剂（咖啡、茶、果汁）；烘焙及甜点配料；酱料与调味品的基础原料。",
         "legality": "按照印尼食品安全法规生产。获得清真认证（Halal），持有P-IRT许可，配备营养成分标签及零售条形码，支持国内与国际分销。",
-        "moq": "1000公斤",
+        "moq": "5000公斤",
         "packaging": "1000克",
         "paymentSystem": "信用证（L/C, Letter of Credit）"
       },
@@ -74,7 +74,7 @@
         "benefits": "高蛋白含量；富含Omega-3；保质期长；用途广泛；适合零售与餐饮行业。",
         "uses": "可作为米饭及粥类配料；面包与糕点馅料；即食零食；传统与现代菜肴配料；批量供应用于再包装。",
         "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。",
-        "moq": "1000公斤",
+        "moq": "5000公斤",
         "packaging": "1000克",
         "paymentSystem": "信用证（L/C, Letter of Credit）"
       },
@@ -86,7 +86,7 @@
         "benefits": "日常受欢迎零食；具有地方特色；餐食搭配佳品；适用于招待及活动场合；保质期长，便于携带。",
         "uses": "可作为独立零食；餐食搭配；零售与出口分销；支持定制包装与贴牌生产；适合商超及批发渠道。",
         "legality": "按照印尼食品安全法规生产。获得清真认证并符合印尼国家标准（SNI），持有P-IRT许可及零售条形码，支持国内与国际分销。",
-        "moq": "1000公斤",
+        "moq": "5000公斤",
         "packaging": "1000克",
         "paymentSystem": "信用证（L/C, Letter of Credit）"
       },
@@ -111,7 +111,7 @@
       "blackPepper": {
         "name": "黑胡椒",
         "description": "采用日晒整粒黑胡椒，来自印尼优质胡椒产区，按国际出口标准加工处理。",
-        "moq": "1000公斤",
+        "moq": "12000公斤",
         "packaging": "10、25、50公斤/袋",
         "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
@@ -146,7 +146,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000公斤"
+            "value": "12000公斤"
           },
           {
             "label": "加工周期",
@@ -161,7 +161,7 @@
       "whitePepper": {
         "name": "白胡椒",
         "description": "来自邦加岛与楠榜的优质白胡椒，经清洗与日晒处理，风味清爽锐利，品质均一。",
-        "moq": "1000公斤",
+        "moq": "12000公斤",
         "packaging": "10、25、50公斤/袋",
         "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
@@ -196,7 +196,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000公斤"
+            "value": "12000公斤"
           },
           {
             "label": "加工周期",
@@ -211,7 +211,7 @@
       "cloves": {
         "name": "丁香",
         "description": "来自马鲁古与苏拉威西的手工采摘干燥丁香花蕾，经日晒处理，保持浓郁香气与高含量精油。",
-        "moq": "1000公斤",
+        "moq": "12000公斤",
         "packaging": "10、25、50公斤/袋",
         "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
@@ -246,7 +246,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000公斤"
+            "value": "12000公斤"
           },
           {
             "label": "加工周期",
@@ -261,7 +261,7 @@
       "arecaNut": {
         "name": "槟榔",
         "description": "来自苏拉威西与苏门答腊的日晒槟榔果，按尺寸与品质分级，适用于工业及零售市场。",
-        "moq": "1000公斤",
+        "moq": "12000公斤",
         "packaging": "10、25、50公斤/袋",
         "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
@@ -296,7 +296,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000公斤"
+            "value": "12000公斤"
           },
           {
             "label": "加工周期",
@@ -311,7 +311,7 @@
       "turmeric": {
         "name": "姜黄",
         "description": "来自爪哇与苏拉威西的天然种植姜黄，色泽橙黄鲜艳，姜黄素含量高。",
-        "moq": "1000公斤",
+        "moq": "12000公斤",
         "packaging": "10、25、50公斤/袋",
         "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": [
@@ -346,7 +346,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000公斤"
+            "value": "12000公斤"
           },
           {
             "label": "加工周期",
@@ -361,7 +361,7 @@
       "nutmeg": {
         "name": "肉豆蔻",
         "description": "来自印尼的高品质肉豆蔻，以浓郁香气和风味著称。",
-        "moq": "1000公斤",
+        "moq": "12000公斤",
         "packaging": "10、25、50公斤/袋",
         "paymentSystem": "信用证（L/C, Letter of Credit）",
         "advantages": ["香气浓郁，风味突出", "高品质等级", "源自优质种植园"],
@@ -388,7 +388,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000公斤"
+            "value": "12000公斤"
           },
           {
             "label": "加工周期",

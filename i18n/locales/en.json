@@ -62,7 +62,7 @@
         "benefits": "Supports immune system function; Helps maintain healthy blood sugar levels when consumed as part of a balanced diet; Promotes digestive health; Supports normal nervous system function; Naturally rich in antioxidants",
         "uses": "Beverage manufacturing (coffee, tea, juice, and specialty drinks); Bakery and dessert production (ingredient and topping); Culinary applications, including sauces, marinades, and seasoning blends",
         "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing, complete with Nutrition Facts labeling and retail barcode registration to support domestic and international distribution.",
-        "moq": "1000 Kg",
+        "moq": "5000 Kg",
         "packaging": "1000 Grams",
         "paymentSystem": "L/C (Letter of Credit)"
       },
@@ -74,7 +74,7 @@
         "benefits": "High protein content; source of omega-3; long shelf life; versatile for meals and snacks; suitable for retail and food service.",
         "uses": "Topping for rice and porridge; filling for bread and pastries; ready-to-eat snack; ingredient for traditional and modern dishes; bulk supply for repackaging.",
         "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
-        "moq": "1000 Kg",
+        "moq": "5000 Kg",
         "packaging": "1000 Grams",
         "paymentSystem": "L/C (Letter of Credit)"
       },
@@ -86,7 +86,7 @@
         "benefits": "Everyday snack favorite; Authentic regional specialty; Versatile meal companion; Suitable for events and hospitality; Long-lasting and travel-friendly",
         "uses": "Standalone snack; accompaniment to meals; retail and bulk export; custom packaging and private label; convenience and grocery distribution.",
         "legality": "Produced in accordance with Indonesian food safety regulations. Certified Halal and compliant with national quality standards (SNI), equipped with Indonesian Home Industry Food Production Permit (P-IRT) licensing and retail barcode registration to support domestic and international distribution.",
-        "moq": "1000 Kg",
+        "moq": "5000 Kg",
         "packaging": "1000 Grams",
         "paymentSystem": "L/C (Letter of Credit)"
       },
@@ -111,7 +111,7 @@
       "blackPepper": {
         "name": "Black Pepper",
         "description": "Sun-dried whole black peppercorns sourced from Indonesia's premium pepper-growing regions, processed to meet international export standards.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Sack",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -146,7 +146,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Processing time",
@@ -161,7 +161,7 @@
       "whitePepper": {
         "name": "White Pepper",
         "description": "Premium white pepper from Bangka and Lampung, washed and sun-dried for clean, sharp flavor and uniform quality.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Sack",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -196,7 +196,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Processing time",
@@ -211,7 +211,7 @@
       "cloves": {
         "name": "Cloves",
         "description": "Hand-picked dried clove buds from Maluku and Sulawesi, sun-dried to retain their strong fragrance and high essential oil content.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Sack",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -246,7 +246,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Processing time",
@@ -261,7 +261,7 @@
       "arecaNut": {
         "name": "Areca Nut",
         "description": "Sun-dried areca nuts from Sulawesi and Sumatra, sorted for size and quality, suitable for industrial and retail markets.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Sack",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -296,7 +296,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Processing time",
@@ -311,7 +311,7 @@
       "turmeric": {
         "name": "Turmeric",
         "description": "Naturally cultivated turmeric from Java and Sulawesi, with vibrant orange color and high curcumin content.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Sack",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -346,7 +346,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Processing time",
@@ -361,7 +361,7 @@
       "nutmeg": {
         "name": "Nutmeg",
         "description": "High-quality nutmeg from Indonesia, known for its intense aroma and flavor.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Sack",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -392,7 +392,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Processing time",

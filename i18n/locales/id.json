@@ -62,7 +62,7 @@
         "benefits": "Mendukung sistem kekebalan tubuh; membantu menjaga kadar gula darah sebagai bagian dari pola makan seimbang; mendukung kesehatan pencernaan; mendukung fungsi sistem saraf; kaya akan antioksidan alami.",
         "uses": "Pemanis minuman (kopi, teh, jus); bahan dan topping produk bakery; campuran dasar saus dan bumbu masakan.",
         "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal, memiliki izin P-IRT, dilengkapi label Informasi Nilai Gizi dan barcode ritel untuk mendukung distribusi domestik dan internasional.",
-        "moq": "1000 Kg",
+        "moq": "5000 Kg",
         "packaging": "1000 Gram",
         "paymentSystem": "L/C (Letter of Credit)"
       },
@@ -74,7 +74,7 @@
         "benefits": "Tinggi protein; sumber omega-3; masa simpan panjang; serbaguna untuk makanan dan camilan; cocok untuk ritel dan layanan makanan.",
         "uses": "Topping nasi dan bubur; isian roti dan pastry; camilan siap saji; bahan masakan tradisional maupun modern; pasokan grosir untuk pengemasan ulang.",
         "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal dan memenuhi Standar Nasional Indonesia (SNI), dilengkapi izin P-IRT dan barcode ritel untuk mendukung distribusi domestik dan internasional.",
-        "moq": "1000 Kg",
+        "moq": "5000 Kg",
         "packaging": "1000 Gram",
         "paymentSystem": "L/C (Letter of Credit)"
       },
@@ -86,7 +86,7 @@
         "benefits": "Camilan favorit sehari-hari; oleh-oleh khas daerah; pendamping makanan; cocok untuk acara dan jamuan; tahan lama dan praktis dibawa bepergian.",
         "uses": "Camilan mandiri; pendamping hidangan; distribusi ritel dan ekspor; kemasan khusus dan private label; distribusi toko dan grosir.",
         "legality": "Diproduksi sesuai regulasi keamanan pangan Indonesia. Bersertifikat Halal dan memenuhi Standar Nasional Indonesia (SNI), dilengkapi izin P-IRT dan barcode ritel untuk mendukung distribusi domestik dan internasional.",
-        "moq": "1000 Kg",
+        "moq": "5000 Kg",
         "packaging": "1000 Gram",
         "paymentSystem": "L/C (Letter of Credit)"
       },
@@ -111,7 +111,7 @@
       "blackPepper": {
         "name": "Lada Hitam",
         "description": "Lada hitam utuh hasil pengeringan matahari dari sentra lada premium Indonesia, diproses sesuai standar ekspor internasional.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Karung",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -146,7 +146,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Waktu proses",
@@ -161,7 +161,7 @@
       "whitePepper": {
         "name": "Lada Putih",
         "description": "Lada putih premium dari Bangka dan Lampung, dicuci dan dijemur untuk menghasilkan rasa bersih dan kualitas yang seragam.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Karung",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -196,7 +196,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Waktu proses",
@@ -211,7 +211,7 @@
       "cloves": {
         "name": "Cengkeh",
         "description": "Bunga cengkeh kering pilihan tangan dari Maluku dan Sulawesi, dijemur untuk mempertahankan aroma kuat dan kandungan minyak atsiri tinggi.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Karung",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -246,7 +246,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Waktu proses",
@@ -261,7 +261,7 @@
       "arecaNut": {
         "name": "Pinang",
         "description": "Pinang hasil pengeringan matahari dari Sulawesi dan Sumatra, disortir berdasarkan ukuran dan kualitas, cocok untuk pasar industri maupun ritel.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Karung",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -296,7 +296,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Waktu proses",
@@ -311,7 +311,7 @@
       "turmeric": {
         "name": "Kunyit",
         "description": "Kunyit alami dari Jawa dan Sulawesi, dengan warna oranye cerah dan kandungan kurkumin tinggi.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Karung",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -346,7 +346,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Waktu proses",
@@ -361,7 +361,7 @@
       "nutmeg": {
         "name": "Pala",
         "description": "Pala berkualitas tinggi dari Indonesia, dikenal dengan aroma dan rasa yang kuat.",
-        "moq": "1000 Kg",
+        "moq": "12000 Kg",
         "packaging": "10, 25, 50 Kg/Karung",
         "paymentSystem": "L/C (Letter of Credit)",
         "advantages": [
@@ -392,7 +392,7 @@
           },
           {
             "label": "MOQ",
-            "value": "1000 Kg"
+            "value": "12000 Kg"
           },
           {
             "label": "Waktu proses",
