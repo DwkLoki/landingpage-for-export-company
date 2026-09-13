@@ -65,9 +65,9 @@ export default defineNuxtConfig({
     strategy: "no_prefix",
     defaultLocale: "en",
     locales: [
-      { code: "en", name: "EN", file: "en.json" },
-      { code: "id", name: "ID", file: "id.json" },
-      { code: "zh", name: "中文", file: "zh.json" },
+      { code: "en", name: "🏴󠁧󠁢󠁥󠁮󠁧󠁿EN", file: "en.json" },
+      { code: "id", name: "🇮🇩ID", file: "id.json" },
+      { code: "zh", name: "🇨🇳中文", file: "zh.json" },
     ],
     vueI18n: "./i18n/i18n.config.ts",
     // detectBrowserLanguage: {
