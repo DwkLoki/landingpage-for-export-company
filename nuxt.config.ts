@@ -56,6 +56,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Roboto: "100..900",
+      "Noto Sans Arabic": "400..900",
     },
     display: "swap",
     preconnect: true,
@@ -65,9 +66,34 @@ export default defineNuxtConfig({
     strategy: "no_prefix",
     defaultLocale: "en",
     locales: [
-      { code: "en", name: "🏴󠁧󠁢󠁥󠁮󠁧󠁿EN", file: "en.json" },
-      { code: "id", name: "🇮🇩ID", file: "id.json" },
-      { code: "zh", name: "🇨🇳中文", file: "zh.json" },
+      {
+        code: "en",
+        name: "🇬🇧 EN",
+        language: "en",
+        file: "en.json",
+        dir: "ltr",
+      },
+      {
+        code: "id",
+        name: "🇮🇩 ID",
+        language: "id",
+        file: "id.json",
+        dir: "ltr",
+      },
+      {
+        code: "zh",
+        name: "🇨🇳 中文",
+        language: "zh-CN",
+        file: "zh.json",
+        dir: "ltr",
+      },
+      {
+        code: "ar",
+        name: "🇸🇦 العربية",
+        language: "ar",
+        file: "ar.json",
+        dir: "rtl",
+      },
     ],
     vueI18n: "./i18n/i18n.config.ts",
     // detectBrowserLanguage: {

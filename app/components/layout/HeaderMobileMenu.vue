@@ -26,7 +26,10 @@
               :class="isProductExpanded ? 'rotate-180' : ''"
             />
           </button>
-          <div v-if="isProductExpanded" class="pl-4 flex flex-col">
+          <div
+            v-if="isProductExpanded"
+            class="pl-4 flex flex-col rtl:pl-0 rtl:pr-4"
+          >
             <NuxtLink
               to="/product/artisan-products"
               class="py-2 text-gray-600 hover:text-amber-600"
@@ -72,7 +75,7 @@
           <div class="relative">
             <select
               v-model="language"
-              class="w-full pr-8 py-2 pl-3 appearance-none bg-gray-light text-green-dark border border-green-dark rounded-md"
+              class="mobile-language-select w-full pr-8 py-2 pl-3 appearance-none bg-gray-light text-green-dark border border-green-dark rounded-md"
             >
               <option
                 v-for="item in locales"
@@ -85,7 +88,7 @@
 
             <LucideChevronDown
               :size="18"
-              class="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-green-dark"
+              class="mobile-language-chevron absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-green-dark"
             />
           </div>
         </div>

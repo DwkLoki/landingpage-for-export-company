@@ -29,7 +29,8 @@ useHead({
           to="/product/spices-commodities"
           class="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-green-dark hover:underline"
         >
-          ← {{ $t("content.product.backToCatalog") }}
+          <span class="rtl-flip" aria-hidden="true">←</span>
+          {{ $t("content.product.backToCatalog") }}
         </NuxtLink>
         <h1 class="text-3xl font-bold text-green-dark md:text-4xl">
           {{ product.name }}
@@ -90,9 +91,7 @@ useHead({
         </div>
 
         <!-- Specifications & Advantages -->
-        <div
-          class="mt-12 grid gap-x-12 gap-y-8 text-sm md:grid-cols-2"
-        >
+        <div class="mt-12 grid gap-x-12 gap-y-8 text-sm md:grid-cols-2">
           <div>
             <h2 class="mb-3 font-semibold text-gray-900">
               {{ $t("content.productRaw.specificationsLabel") }}
@@ -100,10 +99,7 @@ useHead({
             <dl
               class="grid grid-cols-[max-content_1fr] gap-x-3 gap-y-1.5 text-gray-600"
             >
-              <template
-                v-for="(spec, i) in product.specifications"
-                :key="i"
-              >
+              <template v-for="(spec, i) in product.specifications" :key="i">
                 <dt class="font-medium">{{ spec.label }}</dt>
                 <dd>: {{ spec.value }}</dd>
               </template>
@@ -114,7 +110,9 @@ useHead({
             <h2 class="mb-3 font-semibold text-gray-900">
               {{ $t("content.productRaw.advantagesLabel") }}
             </h2>
-            <ol class="list-decimal space-y-1.5 pl-5 text-gray-600">
+            <ol
+              class="list-decimal space-y-1.5 pl-5 text-gray-600 rtl:pl-0 rtl:pr-5"
+            >
               <li v-for="(adv, i) in product.advantages" :key="i">
                 {{ adv }}
               </li>

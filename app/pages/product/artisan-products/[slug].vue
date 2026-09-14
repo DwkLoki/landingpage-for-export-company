@@ -1,9 +1,4 @@
 <script setup lang="ts">
-import bpomLogo from "~/assets/images/bpom.png";
-import halalLogo from "~/assets/images/halal.svg";
-import pirtLogo from "~/assets/images/pirt.png";
-import sniLogo from "~/assets/images/sni.png";
-
 const route = useRoute();
 const { isValidSlug, getProduct } = useArtisanProducts();
 
@@ -34,7 +29,8 @@ useHead({
           to="/product/artisan-products"
           class="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-green-dark hover:underline"
         >
-          ← {{ $t("content.product.backToCatalog") }}
+          <span class="rtl-flip" aria-hidden="true">←</span>
+          {{ $t("content.product.backToCatalog") }}
         </NuxtLink>
         <h1 class="text-3xl font-bold text-green-dark md:text-4xl">
           {{ product.name }}
@@ -141,21 +137,12 @@ useHead({
           </p>
           <div class="flex flex-wrap items-center gap-8 md:gap-14">
             <img
-              :src="bpomLogo"
-              alt="BPOM"
+              v-for="certification in product.certifications"
+              :key="certification.name"
+              :src="certification.logo"
+              :alt="certification.name"
               class="h-12 object-contain md:h-14"
             />
-            <img
-              :src="halalLogo"
-              alt="Halal"
-              class="h-12 object-contain md:h-14"
-            />
-            <img
-              :src="pirtLogo"
-              alt="P-IRT"
-              class="h-12 object-contain md:h-14"
-            />
-            <img :src="sniLogo" alt="SNI" class="h-12 object-contain md:h-14" />
           </div>
         </div>
       </div>

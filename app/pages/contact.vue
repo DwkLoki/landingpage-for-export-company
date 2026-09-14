@@ -138,6 +138,7 @@ function onSubmit() {
                   <span class="text-red-600" aria-hidden="true">*</span>
                 </label>
                 <input
+                  dir="ltr"
                   id="email"
                   v-model="form.email"
                   type="email"
@@ -156,6 +157,7 @@ function onSubmit() {
                   {{ $t("content.contact.form.phone.label") }}
                 </label>
                 <input
+                  dir="ltr"
                   id="phone"
                   v-model="form.phone"
                   type="tel"
@@ -242,6 +244,7 @@ function onSubmit() {
             <p class="flex items-start gap-2">
               <span aria-hidden="true">📧</span>
               <a
+                dir="ltr"
                 href="mailto:eksporcelebes89@gmail.com"
                 class="break-all text-amber-600 hover:underline"
               >
@@ -251,6 +254,7 @@ function onSubmit() {
             <p class="flex items-start gap-2">
               <span aria-hidden="true">📞</span>
               <a
+                dir="ltr"
                 :href="buildWhatsAppUrl()"
                 target="_blank"
                 rel="noopener noreferrer"

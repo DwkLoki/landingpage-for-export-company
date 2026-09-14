@@ -1,6 +1,7 @@
 import {
   artisanProductSlugs,
   artisanProductsMeta,
+  type ArtisanProductCertification,
   type ArtisanProductSlug,
 } from "~/data/artisan-products";
 
@@ -18,6 +19,7 @@ export interface ArtisanProduct {
   moq: string;
   packaging: string;
   paymentSystem: string;
+  certifications: ArtisanProductCertification[];
 }
 
 export function useArtisanProducts() {
@@ -45,6 +47,7 @@ export function useArtisanProducts() {
       moq: t(`${prefix}.moq`),
       packaging: t(`${prefix}.packaging`),
       paymentSystem: t(`${prefix}.paymentSystem`),
+      certifications: meta.certifications,
     };
   }
 

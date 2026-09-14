@@ -1,7 +1,13 @@
 <script setup lang="ts">
 const { t } = useI18n();
+const i18nHead = useLocaleHead({
+  dir: true,
+  lang: true,
+  seo: false,
+});
 
-useHead({
+useHead(() => ({
+  htmlAttrs: i18nHead.value.htmlAttrs,
   titleTemplate: (title) =>
     title
       ? `${title} | PT. Nurhayati Indo Cemerlang`
@@ -37,7 +43,7 @@ useHead({
       ]),
     },
   ],
-});
+}));
 
 useSeoMeta({
   description: () => t("meta.description"),

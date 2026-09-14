@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    direction: ltr;
+  }
+
+  html[dir="rtl"] body {
+    direction: rtl;
+    text-align: right;
+    font-family: "Noto Sans Arabic", "Roboto", sans-serif;
+  }
+
+  html[dir="rtl"] input[type="email"],
+  html[dir="rtl"] input[type="tel"],
+  html[dir="rtl"] .dir-ltr {
+    direction: ltr;
+  }
+
+  html[dir="rtl"] .text-start {
+    text-align: start;
+  }
+
+  html[dir="rtl"] .text-end {
+    text-align: end;
+  }
+
+  html[dir="rtl"] .rtl-flip {
+    transform: scaleX(-1);
+  }
+
+  html[dir="rtl"] .language-select {
+    padding-right: 0.5rem;
+    padding-left: 2rem;
+  }
+
+  html[dir="rtl"] .language-chevron {
+    right: auto;
+    left: 0.25rem;
+  }
+
+  html[dir="rtl"] .mobile-language-select {
+    padding-right: 0.75rem;
+    padding-left: 2rem;
+  }
+
+  html[dir="rtl"] .mobile-language-chevron {
+    right: auto;
+    left: 0.75rem;
+  }
+}

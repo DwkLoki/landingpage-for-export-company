@@ -206,7 +206,7 @@ onMounted(() => {
         <!-- header right section -->
         <div class="relative hidden md:block">
           <select
-            class="pr-8 py-1 pl-2 appearance-none transition-colors"
+            class="language-select pr-8 py-1 pl-2 appearance-none transition-colors"
             :class="
               isHomePage && !isScrolledPastHero
                 ? 'bg-white/20 text-white border border-white/30 rounded-md'
@@ -222,7 +222,7 @@ onMounted(() => {
           </select>
           <LucideChevronDown
             :size="18"
-            class="absolute right-1 top-1/2 -translate-y-1/2 pointer-events-none"
+            class="language-chevron absolute right-1 top-1/2 -translate-y-1/2 pointer-events-none"
             :class="
               isHomePage && !isScrolledPastHero
                 ? 'text-white'
