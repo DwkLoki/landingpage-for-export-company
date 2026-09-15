@@ -33,6 +33,9 @@ useHead({
       <div
         class="relative z-10 mx-auto max-w-4xl px-4 pt-24 pb-16 text-center sm:px-6"
       >
+        <h1 class="text-2xl font-bold text-blue-900 mb-4">
+          PT. Nurhayati Indo Cemerlang
+        </h1>
         <h1
           class="text-3xl font-bold leading-tight tracking-tight text-white drop-shadow-sm sm:text-4xl md:text-5xl lg:text-6xl"
         >
